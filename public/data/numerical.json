@@ -9,7 +9,9 @@
       "₱12,000"
     ],
     "answer": "₱3,000",
-    "explanation": "20% of 15,000 is 0.20 * 15000 = 3,000."
+    "explanation": "20% of 15,000 is 0.20 * 15000 = 3,000.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_2",
@@ -21,7 +23,9 @@
       "26 km/h"
     ],
     "answer": "24 km/h",
-    "explanation": "Average speed for equal distances = 2xy/(x+y). (2 * 30 * 20) / (30 + 20) = 1200 / 50 = 24 km/h."
+    "explanation": "Average speed for equal distances = 2xy/(x+y). (2 * 30 * 20) / (30 + 20) = 1200 / 50 = 24 km/h.",
+    "formula": "Total distance ÷ total time. For equal distances at speeds a and b: average speed = 2ab/(a + b).",
+    "tip": "Never average the two speeds directly. The result is always closer to the slower speed because more time is spent at it."
   },
   {
     "id": "num_3",
@@ -33,7 +37,9 @@
       "Both B and C"
     ],
     "answer": "Both B and C",
-    "explanation": "LCM of 4 and 5 is 20. (15/20) + (8/20) = 23/20, which is also 1 3/20."
+    "explanation": "LCM of 4 and 5 is 20. (15/20) + (8/20) = 23/20, which is also 1 3/20.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_4",
@@ -45,7 +51,9 @@
       "30 days"
     ],
     "answer": "24 days",
-    "explanation": "A's rate = 1/20, B's rate = 1/30. Together in 7 days = 7 * (1/20 + 1/30) = 7 * (5/60) = 35/60 = 7/12. Remaining work = 5/12. C does 5/12 in 10 days. C's rate = (5/12) / 10 = 5/120 = 1/24. C takes 24 days."
+    "explanation": "A's rate = 1/20, B's rate = 1/30. Together in 7 days = 7 * (1/20 + 1/30) = 7 * (5/60) = 35/60 = 7/12. Remaining work = 5/12. C does 5/12 in 10 days. C's rate = (5/12) / 10 = 5/120 = 1/24. C takes 24 days.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_5",
@@ -57,7 +65,9 @@
       "30"
     ],
     "answer": "25",
-    "explanation": "Total parts = 3+5=8. 40 / 8 = 5 per part. Girls = 5 parts * 5 = 25."
+    "explanation": "Total parts = 3+5=8. 40 / 8 = 5 per part. Girls = 5 parts * 5 = 25.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_6",
@@ -69,7 +79,9 @@
       "73"
     ],
     "answer": "46",
-    "explanation": "Let number be 10x + y. x + y = 10. (10x + y) + 18 = 10y + x => 9y - 9x = 18 => y - x = 2. Solving x+y=10 and y-x=2 yields 2y = 12 => y=6, x=4. Number is 46."
+    "explanation": "Let number be 10x + y. x + y = 10. (10x + y) + 18 = 10y + x => 9y - 9x = 18 => y - x = 2. Solving x+y=10 and y-x=2 yields 2y = 12 => y=6, x=4. Number is 46.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_7",
@@ -81,7 +93,9 @@
       "9 days"
     ],
     "answer": "4 days",
-    "explanation": "Combined rate = 1/12 + 1/6 = 1/12 + 2/12 = 3/12 = 1/4. They finish in 4 days."
+    "explanation": "Combined rate = 1/12 + 1/6 = 1/12 + 2/12 = 3/12 = 1/4. They finish in 4 days.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_8",
@@ -93,7 +107,9 @@
       "8 liters"
     ],
     "answer": "5 liters",
-    "explanation": "Current water = 4L. Current milk = 36L. Let x be water added. (4+x)/(40+x) = 0.20 => 4+x = 8 + 0.2x => 0.8x = 4 => x = 5."
+    "explanation": "Current water = 4L. Current milk = 36L. Let x be water added. (4+x)/(40+x) = 0.20 => 4+x = 8 + 0.2x => 0.8x = 4 => x = 5.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
   },
   {
     "id": "num_9",
@@ -105,7 +121,9 @@
       "30"
     ],
     "answer": "26",
-    "explanation": "Sum = 130. Count = 5. Average = 130 / 5 = 26."
+    "explanation": "Sum = 130. Count = 5. Average = 130 / 5 = 26.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_10",
@@ -117,7 +135,9 @@
       "₱2,500"
     ],
     "answer": "₱2,000",
-    "explanation": "Let Cost = C. Marked Price = 1.4C. Selling Price = 0.75 * 1.4C = 1.05C. Profit = 0.05C. 0.05C = 100 => C = 2000."
+    "explanation": "Let Cost = C. Marked Price = 1.4C. Selling Price = 0.75 * 1.4C = 1.05C. Profit = 0.05C. 0.05C = 100 => C = 2000.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_11",
@@ -129,7 +149,9 @@
       "1/3"
     ],
     "answer": "3/8",
-    "explanation": "0.375 = 375/1000. Dividing both by 125 gives 3/8."
+    "explanation": "0.375 = 375/1000. Dividing both by 125 gives 3/8.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_12",
@@ -141,7 +163,9 @@
       "160m"
     ],
     "answer": "140m",
-    "explanation": "Relative speed train-man = 54 - 6 = 48 km/h = 48*(5/18) = 40/3 m/s. Train length = (40/3)*12 = 160m. Train speed = 54*(5/18) = 15 m/s. Train+Platform = 15*20 = 300m. Platform = 300 - 160 = 140m."
+    "explanation": "Relative speed train-man = 54 - 6 = 48 km/h = 48*(5/18) = 40/3 m/s. Train length = (40/3)*12 = 160m. Train speed = 54*(5/18) = 15 m/s. Train+Platform = 15*20 = 300m. Platform = 300 - 160 = 140m.",
+    "formula": "Time to pass an object = (train length + object length) ÷ relative speed. km/h → m/s: multiply by 5/18.",
+    "tip": "Same direction: subtract speeds. Opposite directions: add speeds. A pole or a man counts as length 0, a platform or bridge adds its length."
   },
   {
     "id": "num_13",
@@ -153,7 +177,9 @@
       "4 hours"
     ],
     "answer": "2.5 hours",
-    "explanation": "Time = Distance / Speed = 200 / 80 = 2.5 hours."
+    "explanation": "Time = Distance / Speed = 200 / 80 = 2.5 hours.",
+    "formula": "Distance = Speed × Time, so Speed = D/T and Time = D/S.",
+    "tip": "Keep units consistent (km with hours, m with seconds). In a race, 'A beats B by x m' means B has covered x m less when A finishes."
   },
   {
     "id": "num_14",
@@ -165,7 +191,9 @@
       "4.5%"
     ],
     "answer": "3.33%",
-    "explanation": "SI = (P*R*T)/100. Let T = R. P/9 = P*R²/100 => R² = 100/9 => R = 10/3 = 3.33%."
+    "explanation": "SI = (P*R*T)/100. Let T = R. P/9 = P*R²/100 => R² = 100/9 => R = 10/3 = 3.33%.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
   },
   {
     "id": "num_15",
@@ -177,7 +205,9 @@
       "44"
     ],
     "answer": "43",
-    "explanation": "x + (x+1) = 87 => 2x = 86 => x = 43."
+    "explanation": "x + (x+1) = 87 => 2x = 86 => x = 43.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_16",
@@ -189,7 +219,9 @@
       "800"
     ],
     "answer": "500",
-    "explanation": "Failed in at least one = 40 + 30 - 10 = 60%. Passed in both = 40%. 0.4x = 200 => x = 500."
+    "explanation": "Failed in at least one = 40 + 30 - 10 = 60%. Passed in both = 40%. 0.4x = 200 => x = 500.",
+    "formula": "|A ∪ B| = |A| + |B| − |A ∩ B|. Neither = Total − |A ∪ B|.",
+    "tip": "Add the two groups, then subtract the overlap once; otherwise the overlap is counted twice."
   },
   {
     "id": "num_17",
@@ -201,7 +233,9 @@
       "35%"
     ],
     "answer": "25%",
-    "explanation": "Markup = 100. Percentage = (100 / 400) * 100 = 25%."
+    "explanation": "Markup = 100. Percentage = (100 / 400) * 100 = 25%.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_18",
@@ -213,7 +247,9 @@
       "10 min 15 sec"
     ],
     "answer": "8 min 15 sec",
-    "explanation": "Work in 3 mins = 3*(1/12 + 1/15) = 3*(9/60) = 27/60 = 9/20. Remaining = 11/20. Time for B = (11/20) / (1/15) = 165/20 = 8.25 mins = 8 min 15 sec."
+    "explanation": "Work in 3 mins = 3*(1/12 + 1/15) = 3*(9/60) = 27/60 = 9/20. Remaining = 11/20. Time for B = (11/20) / (1/15) = 165/20 = 8.25 mins = 8 min 15 sec.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_19",
@@ -225,7 +261,9 @@
       "36"
     ],
     "answer": "30",
-    "explanation": "Differences: +4, +6, +8. Next difference is +10. 20 + 10 = 30."
+    "explanation": "Differences: +4, +6, +8. Next difference is +10. 20 + 10 = 30.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_20",
@@ -237,7 +275,9 @@
       "5 km/h"
     ],
     "answer": "3 km/h",
-    "explanation": "Let upstream speed = U, downstream = D. 15/U + 22/D = 5. 20/U + 27.5/D = 6.5. Solving: 1/U = x, 1/D = y. 15x + 22y = 5; 20x + 27.5y = 6.5. Multiply first by 4: 60x + 88y = 20. Second by 3: 60x + 82.5y = 19.5. 5.5y = 0.5 => y = 1/11 => D = 11. 15x + 2 = 5 => 15x = 3 => x = 1/5 => U = 5. Speed of stream = (11-5)/2 = 3 km/h."
+    "explanation": "Let upstream speed = U, downstream = D. 15/U + 22/D = 5. 20/U + 27.5/D = 6.5. Solving: 1/U = x, 1/D = y. 15x + 22y = 5; 20x + 27.5y = 6.5. Multiply first by 4: 60x + 88y = 20. Second by 3: 60x + 82.5y = 19.5. 5.5y = 0.5 => y = 1/11 => D = 11. 15x + 2 = 5 => 15x = 3 => x = 1/5 => U = 5. Speed of stream = (11-5)/2 = 3 km/h.",
+    "formula": "Downstream speed D = b + c; upstream speed U = b − c (b = boat speed, c = current). So b = (D + U)/2 and c = (D − U)/2.",
+    "tip": "Write time = distance ÷ speed for each trip. When two trips give two equations, let x = 1/(b + c) and y = 1/(b − c) to make them linear."
   },
   {
     "id": "num_21",
@@ -249,7 +289,9 @@
       "24"
     ],
     "answer": "15",
-    "explanation": "(24 / 4) * 2 + 3 = 6 * 2 + 3 = 12 + 3 = 15."
+    "explanation": "(24 / 4) * 2 + 3 = 6 * 2 + 3 = 12 + 3 = 15.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_22",
@@ -261,7 +303,9 @@
       "₱25,000"
     ],
     "answer": "₱15,000",
-    "explanation": "Ratio of investment = 40:60:80 = 2:3:4. Total parts = 9. B's share = (3/9) * 45,000 = 15,000."
+    "explanation": "Ratio of investment = 40:60:80 = 2:3:4. Total parts = 9. B's share = (3/9) * 45,000 = 15,000.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_23",
@@ -273,7 +317,9 @@
       "40m"
     ],
     "answer": "10m",
-    "explanation": "Perimeter = 2L + 2W. 60 = 40 + 2W. 20 = 2W => W = 10."
+    "explanation": "Perimeter = 2L + 2W. 60 = 40 + 2W. 20 = 2W => W = 10.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_24",
@@ -285,7 +331,9 @@
       "9"
     ],
     "answer": "7",
-    "explanation": "Unit digit of 341^72 is 1. For 2467^153, look at 7^153. Cyclicity of 7 is 4 (7, 9, 3, 1). 153 / 4 leaves remainder 1. So 7^1 = 7. Product = 7 * 1 = 7."
+    "explanation": "Unit digit of 341^72 is 1. For 2467^153, look at 7^153. Cyclicity of 7 is 4 (7, 9, 3, 1). 153 / 4 leaves remainder 1. So 7^1 = 7. Product = 7 * 1 = 7.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
   },
   {
     "id": "num_25",
@@ -297,7 +345,9 @@
       "80"
     ],
     "answer": "60",
-    "explanation": "0.40 * 150 = 60."
+    "explanation": "0.40 * 150 = 60.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_26",
@@ -309,7 +359,9 @@
       "55"
     ],
     "answer": "50",
-    "explanation": "Let M, D be present ages. M-10 = 4(D-10) => M - 4D = -30. M+10 = 2(D+10) => M - 2D = 10. Subtracting: -2D = -40 => D = 20. M - 40 = 10 => M = 50."
+    "explanation": "Let M, D be present ages. M-10 = 4(D-10) => M - 4D = -30. M+10 = 2(D+10) => M - 2D = 10. Subtracting: -2D = -40 => D = 20. M - 40 = 10 => M = 50.",
+    "formula": "Let current ages be x and y; each person's age n years ago/hence is (age ∓ n). Translate each statement into one equation, then solve the linear system.",
+    "tip": "Shift ALL ages by the same number of years. The age difference between two people never changes."
   },
   {
     "id": "num_27",
@@ -321,7 +373,9 @@
       "1/3"
     ],
     "answer": "3/5",
-    "explanation": "Rate is 1/5 per hour. In 3 hours, 3 * 1/5 = 3/5 is filled."
+    "explanation": "Rate is 1/5 per hour. In 3 hours, 3 * 1/5 = 3/5 is filled.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_28",
@@ -333,7 +387,9 @@
       "3100"
     ],
     "answer": "2700",
-    "explanation": "Total valid votes = 80% of 7500 = 6000. The other candidate got 45% of valid votes. 0.45 * 6000 = 2700."
+    "explanation": "Total valid votes = 80% of 7500 = 6000. The other candidate got 45% of valid votes. 0.45 * 6000 = 2700.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_29",
@@ -345,7 +401,9 @@
       "24"
     ],
     "answer": "12",
-    "explanation": "Factors of 36: 1,2,3,4,6,9,12,18,36. Factors of 48: 1,2,3,4,6,8,12,16,24,48. GCF is 12."
+    "explanation": "Factors of 36: 1,2,3,4,6,9,12,18,36. Factors of 48: 1,2,3,4,6,8,12,16,24,48. GCF is 12.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
   },
   {
     "id": "num_30",
@@ -357,7 +415,9 @@
       "15 km"
     ],
     "answer": "12 km",
-    "explanation": "D/(8-2) + D/(8+2) = 3.2 => D/6 + D/10 = 3.2 => (5D + 3D)/30 = 3.2 => 8D = 96 => D = 12 km."
+    "explanation": "D/(8-2) + D/(8+2) = 3.2 => D/6 + D/10 = 3.2 => (5D + 3D)/30 = 3.2 => 8D = 96 => D = 12 km.",
+    "formula": "Downstream speed D = b + c; upstream speed U = b − c (b = boat speed, c = current). So b = (D + U)/2 and c = (D − U)/2.",
+    "tip": "Write time = distance ÷ speed for each trip. When two trips give two equations, let x = 1/(b + c) and y = 1/(b − c) to make them linear."
   },
   {
     "id": "num_31",
@@ -369,7 +429,9 @@
       "15%"
     ],
     "answer": "10%",
-    "explanation": "Increase = 5. (5 / 50) * 100 = 10%."
+    "explanation": "Increase = 5. (5 / 50) * 100 = 10%.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
   },
   {
     "id": "num_32",
@@ -381,7 +443,9 @@
       "4"
     ],
     "answer": "3",
-    "explanation": "Powers of 2 mod 5: 2^1=2, 2^2=4, 2^3=3, 2^4=1. Pattern length is 4. 31 = 4*7 + 3. So 2^31 mod 5 = 2^3 mod 5 = 8 mod 5 = 3."
+    "explanation": "Powers of 2 mod 5: 2^1=2, 2^2=4, 2^3=3, 2^4=1. Pattern length is 4. 31 = 4*7 + 3. So 2^31 mod 5 = 2^3 mod 5 = 8 mod 5 = 3.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
   },
   {
     "id": "num_33",
@@ -393,7 +457,9 @@
       "100"
     ],
     "answer": "80",
-    "explanation": "Multiplying by 2 each time. 40 * 2 = 80."
+    "explanation": "Multiplying by 2 each time. 40 * 2 = 80.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_34",
@@ -405,7 +471,9 @@
       "9640"
     ],
     "answer": "8640",
-    "explanation": "Leak rate = -1/8. Tap + Leak = -1/12. Tap rate = -1/12 - (-1/8) = 1/8 - 1/12 = 1/24 per hour. So tap fills tank in 24 hours. Capacity = 24 hours * 60 mins * 6 liters = 8640 liters."
+    "explanation": "Leak rate = -1/8. Tap + Leak = -1/12. Tap rate = -1/12 - (-1/8) = 1/8 - 1/12 = 1/24 per hour. So tap fills tank in 24 hours. Capacity = 24 hours * 60 mins * 6 liters = 8640 liters.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_35",
@@ -417,7 +485,9 @@
       "-6"
     ],
     "answer": "2",
-    "explanation": "25 - 27 + 4 = -2 + 4 = 2."
+    "explanation": "25 - 27 + 4 = -2 + 4 = 2.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_36",
@@ -429,7 +499,9 @@
       "88 km/h"
     ],
     "answer": "84 km/h",
-    "explanation": "Let speeds be 5x, 9x, 4x. Average = (5x+9x+4x)/3 = 18x/3 = 6x = 72 => x=12. Speeds: Car=60, Train=108. Average of Car and Train = (60+108)/2 = 84 km/h."
+    "explanation": "Let speeds be 5x, 9x, 4x. Average = (5x+9x+4x)/3 = 18x/3 = 6x = 72 => x=12. Speeds: Car=60, Train=108. Average of Car and Train = (60+108)/2 = 84 km/h.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_37",
@@ -441,7 +513,9 @@
       "₱150"
     ],
     "answer": "₱144",
-    "explanation": "Cost per apple = 60 / 5 = 12. 12 * 12 = 144."
+    "explanation": "Cost per apple = 60 / 5 = 12. 12 * 12 = 144.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_38",
@@ -453,7 +527,9 @@
       "1.8"
     ],
     "answer": "1.6",
-    "explanation": "0.20 * 8 = 1.6 liters."
+    "explanation": "0.20 * 8 = 1.6 liters.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
   },
   {
     "id": "num_39",
@@ -465,7 +541,9 @@
       "72"
     ],
     "answer": "24",
-    "explanation": "Multiples of 12 are 12, 24. 24 is divisible by 6 and 8."
+    "explanation": "Multiples of 12 are 12, 24. 24 is divisible by 6 and 8.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
   },
   {
     "id": "num_40",
@@ -477,7 +555,9 @@
       "1:4"
     ],
     "answer": "1:2",
-    "explanation": "xy/100 = 100 => xy = 10000. yz/100 = 200 => yz = 20000. (xy)/(yz) = 10000/20000 => x/z = 1/2."
+    "explanation": "xy/100 = 100 => xy = 10000. yz/100 = 200 => yz = 20000. (xy)/(yz) = 10000/20000 => x/z = 1/2.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_41",
@@ -489,7 +569,9 @@
       "20 seconds"
     ],
     "answer": "10 seconds",
-    "explanation": "Speed in m/s = 36 * (5/18) = 10 m/s. Time = Distance / Speed = 100 / 10 = 10 seconds."
+    "explanation": "Speed in m/s = 36 * (5/18) = 10 m/s. Time = Distance / Speed = 100 / 10 = 10 seconds.",
+    "formula": "Time to pass an object = (train length + object length) ÷ relative speed. km/h → m/s: multiply by 5/18.",
+    "tip": "Same direction: subtract speeds. Opposite directions: add speeds. A pole or a man counts as length 0, a platform or bridge adds its length."
   },
   {
     "id": "num_42",
@@ -501,7 +583,9 @@
       "3/4"
     ],
     "answer": "5/6",
-    "explanation": "P(A) = 4/5, P(B) = 3/4, P(C) = 2/3. Prob(0 hits) = 1/5 * 1/4 * 1/3 = 1/60. Prob(exactly 1 hit) = (4/5*1/4*1/3) + (1/5*3/4*1/3) + (1/5*1/4*2/3) = 4/60 + 3/60 + 2/60 = 9/60. P(at least 2) = 1 - (1/60 + 9/60) = 1 - 10/60 = 50/60 = 5/6."
+    "explanation": "P(A) = 4/5, P(B) = 3/4, P(C) = 2/3. Prob(0 hits) = 1/5 * 1/4 * 1/3 = 1/60. Prob(exactly 1 hit) = (4/5*1/4*1/3) + (1/5*3/4*1/3) + (1/5*1/4*2/3) = 4/60 + 3/60 + 2/60 = 9/60. P(at least 2) = 1 - (1/60 + 9/60) = 1 - 10/60 = 50/60 = 5/6.",
+    "formula": "P(event) = favorable ÷ total outcomes. Independent events: P(A and B) = P(A)·P(B). P(A or B) = P(A) + P(B) − P(A and B). P(not A) = 1 − P(A).",
+    "tip": "Without replacement the total shrinks after every draw. 'At least one' is easiest as 1 − P(none). Two dice have 36 outcomes."
   },
   {
     "id": "num_43",
@@ -513,7 +597,9 @@
       "54"
     ],
     "answer": "27",
-    "explanation": "Let number be x. x/3 = 18 => x = 54. 1/2 of 54 is 27."
+    "explanation": "Let number be x. x/3 = 18 => x = 54. 1/2 of 54 is 27.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_44",
@@ -525,7 +611,9 @@
       "24 years"
     ],
     "answer": "12 years",
-    "explanation": "2^1 = 4 years. 8 = 2^3. Thus, 3 * 4 = 12 years."
+    "explanation": "2^1 = 4 years. 8 = 2^3. Thus, 3 * 4 = 12 years.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
   },
   {
     "id": "num_45",
@@ -537,7 +625,9 @@
       "55 kg"
     ],
     "answer": "53 kg",
-    "explanation": "Total weight = 3 * 50 = 150. 150 - (45 + 52) = 150 - 97 = 53 kg."
+    "explanation": "Total weight = 3 * 50 = 150. 150 - (45 + 52) = 150 - 97 = 53 kg.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_46",
@@ -549,7 +639,9 @@
       "16 seconds"
     ],
     "answer": "14.4 seconds",
-    "explanation": "Let length be L. Speed1 = L/18, Speed2 = L/12. Time to cross each other = 2L / (L/18 + L/12) = 2L / (5L/36) = 72/5 = 14.4 seconds."
+    "explanation": "Let length be L. Speed1 = L/18, Speed2 = L/12. Time to cross each other = 2L / (L/18 + L/12) = 2L / (5L/36) = 72/5 = 14.4 seconds.",
+    "formula": "Time to pass an object = (train length + object length) ÷ relative speed. km/h → m/s: multiply by 5/18.",
+    "tip": "Same direction: subtract speeds. Opposite directions: add speeds. A pole or a man counts as length 0, a platform or bridge adds its length."
   },
   {
     "id": "num_47",
@@ -561,7 +653,9 @@
       "11/4"
     ],
     "answer": "13/4",
-    "explanation": "(3 * 4 + 1) / 4 = 13/4."
+    "explanation": "(3 * 4 + 1) / 4 = 13/4.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_48",
@@ -573,7 +667,9 @@
       "128"
     ],
     "answer": "64",
-    "explanation": "Volume of large sphere / Volume of small sphere = (R/r)³ = (8/2)³ = 4³ = 64."
+    "explanation": "Volume of large sphere / Volume of small sphere = (R/r)³ = (8/2)³ = 4³ = 64.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_49",
@@ -585,7 +681,9 @@
       "42"
     ],
     "answer": "36",
-    "explanation": "Perfect squares in descending order: 10², 9², 8², 7², 6² = 36."
+    "explanation": "Perfect squares in descending order: 10², 9², 8², 7², 6² = 36.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_50",
@@ -597,7 +695,9 @@
       "4.5 hours"
     ],
     "answer": "3 hours",
-    "explanation": "LCM of 9, 12, 15 is 180 minutes. 180 minutes = 3 hours."
+    "explanation": "LCM of 9, 12, 15 is 180 minutes. 180 minutes = 3 hours.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
   },
   {
     "id": "num_51",
@@ -609,7 +709,9 @@
       "₱550"
     ],
     "answer": "₱500",
-    "explanation": "Sale price is 70% of original. 0.70x = 350. x = 350 / 0.70 = 500."
+    "explanation": "Sale price is 70% of original. 0.70x = 350. x = 350 / 0.70 = 500.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_52",
@@ -621,7 +723,9 @@
       "2 AM"
     ],
     "answer": "11 PM",
-    "explanation": "Time from 5 AM 1st day to 10 PM 4th day is 89 hours. The clock loses 16 min in 24 hrs. This means 23 hrs 44 min (23 11/15 hrs = 356/15 hrs) of this clock = 24 hrs true. True time = (24 * 15 / 356) * 89 = 90 hours. 90 hours from 5 AM 1st day is 11 PM 4th day."
+    "explanation": "Time from 5 AM 1st day to 10 PM 4th day is 89 hours. The clock loses 16 min in 24 hrs. This means 23 hrs 44 min (23 11/15 hrs = 356/15 hrs) of this clock = 24 hrs true. True time = (24 * 15 / 356) * 89 = 90 hours. 90 hours from 5 AM 1st day is 11 PM 4th day.",
+    "formula": "Hour hand moves 0.5° per minute; minute hand moves 6° per minute. A clock that loses/gains time runs at a fixed fraction of true time.",
+    "tip": "Set a proportion: (clock time shown) ÷ (true time) is constant. Convert everything to minutes before solving."
   },
   {
     "id": "num_53",
@@ -633,7 +737,9 @@
       "8"
     ],
     "answer": "7",
-    "explanation": "4y = 35 - 7 = 28. y = 28 / 4 = 7."
+    "explanation": "4y = 35 - 7 = 28. y = 28 / 4 = 7.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_54",
@@ -645,7 +751,9 @@
       "3696 kg"
     ],
     "answer": "3.696 kg",
-    "explanation": "External radius R = 4. Internal radius r = 3. Volume = πh(R²-r²) = (22/7)*21*(16-9) = 66 * 7 = 462 cm³. Weight = 462 * 8 = 3696 g = 3.696 kg."
+    "explanation": "External radius R = 4. Internal radius r = 3. Volume = πh(R²-r²) = (22/7)*21*(16-9) = 66 * 7 = 462 cm³. Weight = 462 * 8 = 3696 g = 3.696 kg.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_55",
@@ -657,7 +765,9 @@
       "2:4:5"
     ],
     "answer": "8:12:15",
-    "explanation": "Make B the same. A:B = 8:12 (multiplied by 4). B:C = 12:15 (multiplied by 3). A:B:C = 8:12:15."
+    "explanation": "Make B the same. A:B = 8:12 (multiplied by 4). B:C = 12:15 (multiplied by 3). A:B:C = 8:12:15.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_56",
@@ -669,7 +779,9 @@
       "₱1,100"
     ],
     "answer": "₱1,020",
-    "explanation": "Discount = 0.15 * 1200 = 180. Sale price = 1200 - 180 = 1020."
+    "explanation": "Discount = 0.15 * 1200 = 180. Sale price = 1200 - 180 = 1020.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_57",
@@ -681,7 +793,9 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "Ratio is 2/3. (2/3) = x/9. x = 6."
+    "explanation": "Ratio is 2/3. (2/3) = x/9. x = 6.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_58",
@@ -693,7 +807,9 @@
       "15 km/h"
     ],
     "answer": "15 km/h",
-    "explanation": "Let boat speed = B. D = (B + 3) * 1. D = (B - 3) * 1.5. Thus B + 3 = 1.5B - 4.5. 0.5B = 7.5. B = 15."
+    "explanation": "Let boat speed = B. D = (B + 3) * 1. D = (B - 3) * 1.5. Thus B + 3 = 1.5B - 4.5. 0.5B = 7.5. B = 15.",
+    "formula": "Downstream speed D = b + c; upstream speed U = b − c (b = boat speed, c = current). So b = (D + U)/2 and c = (D − U)/2.",
+    "tip": "Write time = distance ÷ speed for each trip. When two trips give two equations, let x = 1/(b + c) and y = 1/(b − c) to make them linear."
   },
   {
     "id": "num_59",
@@ -705,7 +821,9 @@
       "25"
     ],
     "answer": "19.5",
-    "explanation": "Sort: 9, 14, 18, 21, 25, 30. Middle two are 18 and 21. Average is (18+21)/2 = 19.5."
+    "explanation": "Sort: 9, 14, 18, 21, 25, 30. Middle two are 18 and 21. Average is (18+21)/2 = 19.5.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_60",
@@ -717,7 +835,9 @@
       "5 days"
     ],
     "answer": "3 days",
-    "explanation": "A takes 40 hours total. B takes 60 hours total. Together: 1/40 + 1/60 = 5/120 = 1/24. They need 24 hours together. At 8 hours a day, 24 / 8 = 3 days."
+    "explanation": "A takes 40 hours total. B takes 60 hours total. Together: 1/40 + 1/60 = 5/120 = 1/24. They need 24 hours together. At 8 hours a day, 24 / 8 = 3 days.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_61",
@@ -729,7 +849,9 @@
       "30"
     ],
     "answer": "10",
-    "explanation": "M = 3S. M+10 = 2(S+10). 3S+10 = 2S+20. S = 10."
+    "explanation": "M = 3S. M+10 = 2(S+10). 3S+10 = 2S+20. S = 10.",
+    "formula": "Let current ages be x and y; each person's age n years ago/hence is (age ∓ n). Translate each statement into one equation, then solve the linear system.",
+    "tip": "Shift ALL ages by the same number of years. The age difference between two people never changes."
   },
   {
     "id": "num_62",
@@ -741,7 +863,9 @@
       "25 liters"
     ],
     "answer": "10 liters",
-    "explanation": "Current water = 30L. Wine = 120L. We want wine to be 75%. 120 = 0.75 * Total => Total = 160L. Added water = 160 - 150 = 10 liters."
+    "explanation": "Current water = 30L. Wine = 120L. We want wine to be 75%. 120 = 0.75 * Total => Total = 160L. Added water = 160 - 150 = 10 liters.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
   },
   {
     "id": "num_63",
@@ -753,7 +877,9 @@
       "24"
     ],
     "answer": "20",
-    "explanation": "Inverse proportion: M1*D1 = M2*D2. 15*8 = M2*6. 120 = 6*M2. M2 = 20."
+    "explanation": "Inverse proportion: M1*D1 = M2*D2. 15*8 = M2*6. 120 = 6*M2. M2 = 20.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_64",
@@ -765,7 +891,9 @@
       "7m"
     ],
     "answer": "6m",
-    "explanation": "When A runs 100, B runs 90, C runs 87. Ratio of B:C is 90:87. If B runs 180, C runs (87/90)*180 = 174. B beats C by 180 - 174 = 6m."
+    "explanation": "When A runs 100, B runs 90, C runs 87. Ratio of B:C is 90:87. If B runs 180, C runs (87/90)*180 = 174. B beats C by 180 - 174 = 6m.",
+    "formula": "Distance = Speed × Time, so Speed = D/T and Time = D/S.",
+    "tip": "Keep units consistent (km with hours, m with seconds). In a race, 'A beats B by x m' means B has covered x m less when A finishes."
   },
   {
     "id": "num_65",
@@ -777,7 +905,9 @@
       "15/8"
     ],
     "answer": "6/5",
-    "explanation": "(4/5) * (3/2) = 12/10 = 6/5."
+    "explanation": "(4/5) * (3/2) = 12/10 = 6/5.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_66",
@@ -789,7 +919,9 @@
       "1/4"
     ],
     "answer": "7/20",
-    "explanation": "Contradict = (A true, B false) or (A false, B true). P = (4/5 * 1/4) + (1/5 * 3/4) = 4/20 + 3/20 = 7/20."
+    "explanation": "Contradict = (A true, B false) or (A false, B true). P = (4/5 * 1/4) + (1/5 * 3/4) = 4/20 + 3/20 = 7/20.",
+    "formula": "P(event) = favorable ÷ total outcomes. Independent events: P(A and B) = P(A)·P(B). P(A or B) = P(A) + P(B) − P(A and B). P(not A) = 1 − P(A).",
+    "tip": "Without replacement the total shrinks after every draw. 'At least one' is easiest as 1 − P(none). Two dice have 36 outcomes."
   },
   {
     "id": "num_67",
@@ -801,7 +933,9 @@
       "1/12"
     ],
     "answer": "1/8",
-    "explanation": "12.5% = 12.5/100 = 125/1000 = 1/8."
+    "explanation": "12.5% = 12.5/100 = 125/1000 = 1/8.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_68",
@@ -813,7 +947,9 @@
       "3"
     ],
     "answer": "2",
-    "explanation": "Amount = 34347. 34347 / 30000 = 1.1449. (1 + 0.07)^n = 1.07^n. 1.07^2 = 1.1449. So n = 2."
+    "explanation": "Amount = 34347. 34347 / 30000 = 1.1449. (1 + 0.07)^n = 1.07^n. 1.07^2 = 1.1449. So n = 2.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
   },
   {
     "id": "num_69",
@@ -825,7 +961,9 @@
       "350 km"
     ],
     "answer": "250 km",
-    "explanation": "150/15 = 10 km per liter. 10 * 25 = 250 km."
+    "explanation": "150/15 = 10 km per liter. 10 * 25 = 250 km.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_70",
@@ -837,7 +975,9 @@
       "130 cm³"
     ],
     "answer": "90 cm³",
-    "explanation": "Side of cube = 7. Radius of cone base = 3.5. Height of cone = 7. Volume = (1/3) * π * r² * h = (1/3) * (22/7) * 12.25 * 7 = 89.83 ≈ 90 cm³."
+    "explanation": "Side of cube = 7. Radius of cone base = 3.5. Height of cone = 7. Volume = (1/3) * π * r² * h = (1/3) * (22/7) * 12.25 * 7 = 89.83 ≈ 90 cm³.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_71",
@@ -849,7 +989,9 @@
       "314 cm²"
     ],
     "answer": "154 cm²",
-    "explanation": "Area = πr² = (22/7) * 7 * 7 = 154."
+    "explanation": "Area = πr² = (22/7) * 7 * 7 = 154.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_72",
@@ -861,7 +1003,9 @@
       "₱18.50"
     ],
     "answer": "₱17.40",
-    "explanation": "Total cost = (80 * 13.5) + (120 * 16) = 1080 + 1920 = 3000. Total kg = 200. Cost per kg = 3000/200 = 15. To gain 16%, selling price = 15 * 1.16 = 17.40."
+    "explanation": "Total cost = (80 * 13.5) + (120 * 16) = 1080 + 1920 = 3000. Total kg = 200. Cost per kg = 3000/200 = 15. To gain 16%, selling price = 15 * 1.16 = 17.40.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
   },
   {
     "id": "num_73",
@@ -873,7 +1017,9 @@
       "60%"
     ],
     "answer": "40%",
-    "explanation": "Total = 50. (20 / 50) * 100 = 40%."
+    "explanation": "Total = 50. (20 / 50) * 100 = 40%.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_74",
@@ -885,7 +1031,9 @@
       "13"
     ],
     "answer": "4",
-    "explanation": "Differences: 91-43 = 48, 183-91 = 92, 183-43 = 140. HCF of 48, 92, 140 is 4."
+    "explanation": "Differences: 91-43 = 48, 183-91 = 92, 183-43 = 140. HCF of 48, 92, 140 is 4.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
   },
   {
     "id": "num_75",
@@ -897,7 +1045,9 @@
       "31"
     ],
     "answer": "29",
-    "explanation": "Fibonacci-style sequence. 7+11 = 18. 11+18 = 29."
+    "explanation": "Fibonacci-style sequence. 7+11 = 18. 11+18 = 29.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_76",
@@ -909,7 +1059,9 @@
       "3/7"
     ],
     "answer": "4/7",
-    "explanation": "Total balls = 14. White balls = 8. P(White) = 8/14 = 4/7."
+    "explanation": "Total balls = 14. White balls = 8. P(White) = 8/14 = 4/7.",
+    "formula": "P(event) = favorable ÷ total outcomes. Independent events: P(A and B) = P(A)·P(B). P(A or B) = P(A) + P(B) − P(A and B). P(not A) = 1 − P(A).",
+    "tip": "Without replacement the total shrinks after every draw. 'At least one' is easiest as 1 − P(none). Two dice have 36 outcomes."
   },
   {
     "id": "num_77",
@@ -921,7 +1073,9 @@
       "47"
     ],
     "answer": "11",
-    "explanation": "18 - 4(3) + 5 = 18 - 12 + 5 = 6 + 5 = 11."
+    "explanation": "18 - 4(3) + 5 = 18 - 12 + 5 = 6 + 5 = 11.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_78",
@@ -933,7 +1087,9 @@
       "60"
     ],
     "answer": "40",
-    "explanation": "1/25 = T/1000. T = 1000 / 25 = 40."
+    "explanation": "1/25 = T/1000. T = 1000 / 25 = 40.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_79",
@@ -945,7 +1101,9 @@
       "144 cm²"
     ],
     "answer": "81 cm²",
-    "explanation": "Side = 36 / 4 = 9. Area = 9 * 9 = 81."
+    "explanation": "Side = 36 / 4 = 9. Area = 9 * 9 = 81.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_80",
@@ -957,7 +1115,9 @@
       "16000"
     ],
     "answer": "8000",
-    "explanation": "10 cm = 100 mm. Volume ratio = (100 / 5)³ = 20³ = 8000."
+    "explanation": "10 cm = 100 mm. Volume ratio = (100 / 5)³ = 20³ = 8000.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_81",
@@ -969,7 +1129,9 @@
       "₱350"
     ],
     "answer": "₱300",
-    "explanation": "1 kg = 1000g, which is two 500g packs. 150 * 2 = 300."
+    "explanation": "1 kg = 1000g, which is two 500g packs. 150 * 2 = 300.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_82",
@@ -981,7 +1143,9 @@
       "74"
     ],
     "answer": "74",
-    "explanation": "Differences: +2, +4, +8, +16. Next difference is +32. 42 + 32 = 74."
+    "explanation": "Differences: +2, +4, +8, +16. Next difference is +32. 42 + 32 = 74.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_83",
@@ -993,7 +1157,9 @@
       "9.75"
     ],
     "answer": "8.75",
-    "explanation": "12.5 - 3.75 = 8.75."
+    "explanation": "12.5 - 3.75 = 8.75.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_84",
@@ -1005,7 +1171,9 @@
       "₱2,200"
     ],
     "answer": "₱1,980",
-    "explanation": "Total earnings = 600 * 22 = 13,200. Savings = 0.15 * 13200 = 1,980."
+    "explanation": "Total earnings = 600 * 22 = 13,200. Savings = 0.15 * 13200 = 1,980.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_85",
@@ -1017,7 +1185,9 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "3x + 5 = 14 => 3x = 9 => x = 3."
+    "explanation": "3x + 5 = 14 => 3x = 9 => x = 3.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_86",
@@ -1029,7 +1199,9 @@
       "₱700"
     ],
     "answer": "₱698",
-    "explanation": "SI for 1 year = 854 - 815 = 39. SI for 3 years = 39 * 3 = 117. Principal = 815 - 117 = 698."
+    "explanation": "SI for 1 year = 854 - 815 = 39. SI for 3 years = 39 * 3 = 117. Principal = 815 - 117 = 698.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
   },
   {
     "id": "num_87",
@@ -1041,7 +1213,9 @@
       "110"
     ],
     "answer": "90",
-    "explanation": "1.5 * 60 = 90."
+    "explanation": "1.5 * 60 = 90.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_88",
@@ -1053,7 +1227,9 @@
       "285"
     ],
     "answer": "285",
-    "explanation": "Month beginning with Sunday has 5 Sundays and 25 other days. Average = (5*510 + 25*240) / 30 = (2550 + 6000) / 30 = 8550 / 30 = 285."
+    "explanation": "Month beginning with Sunday has 5 Sundays and 25 other days. Average = (5*510 + 25*240) / 30 = (2550 + 6000) / 30 = 8550 / 30 = 285.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_89",
@@ -1065,7 +1241,9 @@
       "160"
     ],
     "answer": "100",
-    "explanation": "Monday: 60 pages. Tuesday: 80 pages. Total read = 140. Left = 240 - 140 = 100."
+    "explanation": "Monday: 60 pages. Tuesday: 80 pages. Total read = 140. Left = 240 - 140 = 100.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_90",
@@ -1077,7 +1255,9 @@
       "6"
     ],
     "answer": "5",
-    "explanation": "(a+b)² = a² + b² + 2ab = 117 + 108 = 225 => a+b = 15. (a-b)² = a² + b² - 2ab = 117 - 108 = 9 => a-b = 3. Ratio = 15 / 3 = 5."
+    "explanation": "(a+b)² = a² + b² + 2ab = 117 + 108 = 225 => a+b = 15. (a-b)² = a² + b² - 2ab = 117 - 108 = 9 => a-b = 3. Ratio = 15 / 3 = 5.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_91",
@@ -1089,7 +1269,9 @@
       "14"
     ],
     "answer": "10",
-    "explanation": "c² = 6² + 8² = 36 + 64 = 100. c = 10."
+    "explanation": "c² = 6² + 8² = 36 + 64 = 100. c = 10.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_92",
@@ -1101,7 +1283,9 @@
       "55"
     ],
     "answer": "33",
-    "explanation": "(3x - 9) / (5x - 9) = 12 / 23 => 69x - 207 = 60x - 108 => 9x = 99 => x = 11. Smaller number = 3 * 11 = 33."
+    "explanation": "(3x - 9) / (5x - 9) = 12 / 23 => 69x - 207 = 60x - 108 => 9x = 99 => x = 11. Smaller number = 3 * 11 = 33.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_93",
@@ -1113,7 +1297,9 @@
       "60"
     ],
     "answer": "48",
-    "explanation": "1 day = 24 hours. 2 * 24 = 48 minutes."
+    "explanation": "1 day = 24 hours. 2 * 24 = 48 minutes.",
+    "formula": "Hour hand moves 0.5° per minute; minute hand moves 6° per minute. A clock that loses/gains time runs at a fixed fraction of true time.",
+    "tip": "Set a proportion: (clock time shown) ÷ (true time) is constant. Convert everything to minutes before solving."
   },
   {
     "id": "num_94",
@@ -1125,7 +1311,9 @@
       "27"
     ],
     "answer": "21",
-    "explanation": "36 - 18 + 3 = 18 + 3 = 21."
+    "explanation": "36 - 18 + 3 = 18 + 3 = 21.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_95",
@@ -1137,7 +1325,9 @@
       "216"
     ],
     "answer": "125",
-    "explanation": "Cubes of integers: 1³, 2³, 3³, 4³, 5³ = 125."
+    "explanation": "Cubes of integers: 1³, 2³, 3³, 4³, 5³ = 125.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_96",
@@ -1149,7 +1339,9 @@
       "307200"
     ],
     "answer": "153600",
-    "explanation": "Distance = Perimeter = 12 * (8/60) = 1.6 km = 1600 m. 2(3x + 2x) = 1600 => 10x = 1600 => x = 160. Length = 480, Breadth = 320. Area = 480 * 320 = 153600 sq. m."
+    "explanation": "Distance = Perimeter = 12 * (8/60) = 1.6 km = 1600 m. 2(3x + 2x) = 1600 => 10x = 1600 => x = 160. Length = 480, Breadth = 320. Area = 480 * 320 = 153600 sq. m.",
+    "formula": "Distance = Speed × Time, so Speed = D/T and Time = D/S.",
+    "tip": "Keep units consistent (km with hours, m with seconds). In a race, 'A beats B by x m' means B has covered x m less when A finishes."
   },
   {
     "id": "num_97",
@@ -1161,7 +1353,9 @@
       "40.0"
     ],
     "answer": "0.4",
-    "explanation": "40 / 100 = 0.4."
+    "explanation": "40 / 100 = 0.4.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_98",
@@ -1173,7 +1367,9 @@
       "90"
     ],
     "answer": "90",
-    "explanation": "Let number of each be x. x + 5x + 10x = 480 => 16x = 480 => x = 30. Total notes = 3x = 90."
+    "explanation": "Let number of each be x. x + 5x + 10x = 480 => 16x = 480 => x = 30. Total notes = 3x = 90.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_99",
@@ -1185,7 +1381,9 @@
       "360°"
     ],
     "answer": "180°",
-    "explanation": "The interior angles of any planar triangle always add up to 180 degrees."
+    "explanation": "The interior angles of any planar triangle always add up to 180 degrees.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_100",
@@ -1197,7 +1395,9 @@
       "120"
     ],
     "answer": "100",
-    "explanation": "A - 10 = B + 10 => A - B = 20. A + 20 = 2(B - 20) => A + 20 = 2B - 40 => 2B - A = 60. From first, B = A - 20. 2(A - 20) - A = 60 => 2A - 40 - A = 60 => A = 100."
+    "explanation": "A - 10 = B + 10 => A - B = 20. A + 20 = 2(B - 20) => A + 20 = 2B - 40 => 2B - A = 60. From first, B = A - 20. 2(A - 20) - A = 60 => 2A - 40 - A = 60 => A = 100.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_101",
@@ -1209,7 +1409,9 @@
       "12% increase"
     ],
     "answer": "8% increase",
-    "explanation": "Let Original Area = L * W = 100. New Area = (1.20 * L) * (0.90 * W) = 1.08 * LW. 1.08 represents an 8% increase."
+    "explanation": "Let Original Area = L * W = 100. New Area = (1.20 * L) * (0.90 * W) = 1.08 * LW. 1.08 represents an 8% increase.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
   },
   {
     "id": "num_102",
@@ -1221,7 +1423,9 @@
       "0.80"
     ],
     "answer": "0.64",
-    "explanation": "0.125 = 1/8. (1/8 * 3.2) = 0.4. 5/8 = 0.625. 0.4 / 0.625 = 400/625 = 16/25 = 0.64."
+    "explanation": "0.125 = 1/8. (1/8 * 3.2) = 0.4. 5/8 = 0.625. 0.4 / 0.625 = 400/625 = 16/25 = 0.64.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_103",
@@ -1233,7 +1437,9 @@
       "360 km"
     ],
     "answer": "360 km",
-    "explanation": "First train has a 120 km head start. Relative speed = 90 - 60 = 30 km/h. Time to catch up = 120 / 30 = 4 hours. Distance = 90 km/h * 4 hours = 360 km."
+    "explanation": "First train has a 120 km head start. Relative speed = 90 - 60 = 30 km/h. Time to catch up = 120 / 30 = 4 hours. Distance = 90 km/h * 4 hours = 360 km.",
+    "formula": "Time to pass an object = (train length + object length) ÷ relative speed. km/h → m/s: multiply by 5/18.",
+    "tip": "Same direction: subtract speeds. Opposite directions: add speeds. A pole or a man counts as length 0, a platform or bridge adds its length."
   },
   {
     "id": "num_104",
@@ -1245,7 +1451,9 @@
       "900"
     ],
     "answer": "820",
-    "explanation": "Sum = n/2 * (2a + (n-1)d), where n=20, a=3, d=4. Sum = 10 * (6 + (19)4) = 10 * (6 + 76) = 10 * 82 = 820."
+    "explanation": "Sum = n/2 * (2a + (n-1)d), where n=20, a=3, d=4. Sum = 10 * (6 + (19)4) = 10 * (6 + 76) = 10 * 82 = 820.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_105",
@@ -1257,7 +1465,9 @@
       "10/33"
     ],
     "answer": "5/33",
-    "explanation": "P(1st Red) = 5/12. P(2nd Red) = 4/11. P(Both Red) = (5/12) * (4/11) = 20/132 = 5/33."
+    "explanation": "P(1st Red) = 5/12. P(2nd Red) = 4/11. P(Both Red) = (5/12) * (4/11) = 20/132 = 5/33.",
+    "formula": "P(event) = favorable ÷ total outcomes. Independent events: P(A and B) = P(A)·P(B). P(A or B) = P(A) + P(B) − P(A and B). P(not A) = 1 − P(A).",
+    "tip": "Without replacement the total shrinks after every draw. 'At least one' is easiest as 1 − P(none). Two dice have 36 outcomes."
   },
   {
     "id": "num_106",
@@ -1269,7 +1479,9 @@
       "15%"
     ],
     "answer": "19%",
-    "explanation": "Let cost = 100. Marked price = 140. Selling price after discount = 140 - (0.15 * 140) = 140 - 21 = 119. Profit = 119 - 100 = 19%."
+    "explanation": "Let cost = 100. Marked price = 140. Selling price after discount = 140 - (0.15 * 140) = 140 - 21 = 119. Profit = 119 - 100 = 19%.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_107",
@@ -1281,7 +1493,9 @@
       "P10,000"
     ],
     "answer": "P12,800",
-    "explanation": "Let their shares be 3x, 5x, 8x. R's share - P's share = 8x - 3x = 5x. We know 5x = 4,000, so x = 800. Total amount = 3x + 5x + 8x = 16x. 16 * 800 = 12,800."
+    "explanation": "Let their shares be 3x, 5x, 8x. R's share - P's share = 8x - 3x = 5x. We know 5x = 4,000, so x = 800. Total amount = 3x + 5x + 8x = 16x. 16 * 800 = 12,800.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_108",
@@ -1293,7 +1507,9 @@
       "P4,500"
     ],
     "answer": "P4,200",
-    "explanation": "Amount = P(1 + r/100)^n = 20000(1.10)^2 = 20000(1.21) = 24200. Compound Interest = 24200 - 20000 = P4,200."
+    "explanation": "Amount = P(1 + r/100)^n = 20000(1.10)^2 = 20000(1.21) = 24200. Compound Interest = 24200 - 20000 = P4,200.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
   },
   {
     "id": "num_109",
@@ -1305,7 +1521,9 @@
       "124"
     ],
     "answer": "34",
-    "explanation": "(x - y)^2 = x^2 - 2xy + y^2. So, 8^2 = x^2 + y^2 - 2(-15). 64 = x^2 + y^2 + 30. x^2 + y^2 = 34."
+    "explanation": "(x - y)^2 = x^2 - 2xy + y^2. So, 8^2 = x^2 + y^2 - 2(-15). 64 = x^2 + y^2 + 30. x^2 + y^2 = 34.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_110",
@@ -1317,7 +1535,9 @@
       "10 km/h"
     ],
     "answer": "5 km/h",
-    "explanation": "Let speed of stream = s. Time up = Distance / (15 - s). Time down = Distance / (15 + s). Given Time up = 2 * Time down, so 1/(15 - s) = 2/(15 + s). 15 + s = 30 - 2s -> 3s = 15 -> s = 5."
+    "explanation": "Let speed of stream = s. Time up = Distance / (15 - s). Time down = Distance / (15 + s). Given Time up = 2 * Time down, so 1/(15 - s) = 2/(15 + s). 15 + s = 30 - 2s -> 3s = 15 -> s = 5.",
+    "formula": "Downstream speed D = b + c; upstream speed U = b − c (b = boat speed, c = current). So b = (D + U)/2 and c = (D − U)/2.",
+    "tip": "Write time = distance ÷ speed for each trip. When two trips give two equations, let x = 1/(b + c) and y = 1/(b − c) to make them linear."
   },
   {
     "id": "num_111",
@@ -1329,7 +1549,9 @@
       "79"
     ],
     "answer": "78",
-    "explanation": "Total score of boys = 20 * 75 = 1500. Total score of girls = 30 * 80 = 2400. Total score = 3900. Total students = 50. Average = 3900 / 50 = 78."
+    "explanation": "Total score of boys = 20 * 75 = 1500. Total score of girls = 30 * 80 = 2400. Total score = 3900. Total students = 50. Average = 3900 / 50 = 78.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_112",
@@ -1341,7 +1563,9 @@
       "16.67%"
     ],
     "answer": "20%",
-    "explanation": "Reduction % = [R / (100 + R)] * 100 = [25 / 125] * 100 = (1/5) * 100 = 20%."
+    "explanation": "Reduction % = [R / (100 + R)] * 100 = [25 / 125] * 100 = (1/5) * 100 = 20%.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
   },
   {
     "id": "num_113",
@@ -1353,7 +1577,9 @@
       "₱4,000"
     ],
     "answer": "₱3,600",
-    "explanation": "Let Cost Price = CP. CP x 0.80 = 2400. CP = 3000. For a 20% profit: 3000 x 1.20 = 3600."
+    "explanation": "Let Cost Price = CP. CP x 0.80 = 2400. CP = 3000. For a 20% profit: 3000 x 1.20 = 3600.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_114",
@@ -1365,7 +1591,9 @@
       "40 days"
     ],
     "answer": "30 days",
-    "explanation": "Rate of A+B = 1/12. Rate of A = 1/20. Rate of B = 1/12 - 1/20 = 5/60 - 3/60 = 2/60 = 1/30. B takes 30 days."
+    "explanation": "Rate of A+B = 1/12. Rate of A = 1/20. Rate of B = 1/12 - 1/20 = 5/60 - 3/60 = 2/60 = 1/30. B takes 30 days.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_115",
@@ -1377,7 +1605,9 @@
       "40 liters"
     ],
     "answer": "25 liters",
-    "explanation": "Let total volume be V. Initial milk = 5/8 V. After replacing 16L with water, Milk = 5/8(V - 16). New ratio milk is 3/8 V. 5/8(V - 16) = 3/8 V -> 5V - 80 = 3V -> 2V = 80 -> V = 40L. Initial milk = 5/8(40) = 25 liters."
+    "explanation": "Let total volume be V. Initial milk = 5/8 V. After replacing 16L with water, Milk = 5/8(V - 16). New ratio milk is 3/8 V. 5/8(V - 16) = 3/8 V -> 5V - 80 = 3V -> 2V = 80 -> V = 40L. Initial milk = 5/8(40) = 25 liters.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
   },
   {
     "id": "num_116",
@@ -1389,7 +1619,9 @@
       "30 seconds"
     ],
     "answer": "20 seconds",
-    "explanation": "Total distance = 150m + 250m = 400m. Speed = 72 km/h = 72 x (5/18) m/s = 20 m/s. Time = Distance / Speed = 400 / 20 = 20 seconds."
+    "explanation": "Total distance = 150m + 250m = 400m. Speed = 72 km/h = 72 x (5/18) m/s = 20 m/s. Time = Distance / Speed = 400 / 20 = 20 seconds.",
+    "formula": "Time to pass an object = (train length + object length) ÷ relative speed. km/h → m/s: multiply by 5/18.",
+    "tip": "Same direction: subtract speeds. Opposite directions: add speeds. A pole or a man counts as length 0, a platform or bridge adds its length."
   },
   {
     "id": "num_117",
@@ -1401,7 +1633,9 @@
       "42"
     ],
     "answer": "40",
-    "explanation": "Let mother's age = M, daughter's age = D. M + D = 50. Five years ago: M - 5 = 7(D - 5). Substitute M = 50 - D: 45 - D = 7D - 35. 8D = 80, D = 10. M = 40."
+    "explanation": "Let mother's age = M, daughter's age = D. M + D = 50. Five years ago: M - 5 = 7(D - 5). Substitute M = 50 - D: 45 - D = 7D - 35. 8D = 80, D = 10. M = 40.",
+    "formula": "Let current ages be x and y; each person's age n years ago/hence is (age ∓ n). Translate each statement into one equation, then solve the linear system.",
+    "tip": "Shift ALL ages by the same number of years. The age difference between two people never changes."
   },
   {
     "id": "num_118",
@@ -1413,7 +1647,9 @@
       "20%"
     ],
     "answer": "17%",
-    "explanation": "Let Cost Price = 100. Marked Price = 130. Discount = 10% of 130 = 13. Selling Price = 130 - 13 = 117. Profit = 117 - 100 = 17%."
+    "explanation": "Let Cost Price = 100. Marked Price = 130. Discount = 10% of 130 = 13. Selling Price = 130 - 13 = 117. Profit = 117 - 100 = 17%.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_119",
@@ -1425,7 +1661,9 @@
       "18 days"
     ],
     "answer": "16 days",
-    "explanation": "This is an inverse proportion. 8 * 10 = 5 * d => 80 = 5d => d = 16."
+    "explanation": "This is an inverse proportion. 8 * 10 = 5 * d => 80 = 5d => d = 16.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_120",
@@ -1437,7 +1675,9 @@
       "43,000"
     ],
     "answer": "40,000",
-    "explanation": "P(1 + r/100)^2 = 44100. P(1.05)^2 = 44100. P(1.1025) = 44100. P = 44100 / 1.1025 = 40,000."
+    "explanation": "P(1 + r/100)^2 = 44100. P(1.05)^2 = 44100. P(1.1025) = 44100. P = 44100 / 1.1025 = 40,000.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
   },
   {
     "id": "num_121",
@@ -1449,7 +1689,9 @@
       "20"
     ],
     "answer": "5",
-    "explanation": "Work = Men x Days = 15 x 24 = 360 man-days. Let total men for 18 days be M. M x 18 = 360 -> M = 20. Extra men required = 20 - 15 = 5."
+    "explanation": "Work = Men x Days = 15 x 24 = 360 man-days. Let total men for 18 days be M. M x 18 = 360 -> M = 20. Extra men required = 20 - 15 = 5.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_122",
@@ -1461,7 +1703,9 @@
       "38.5 km/h"
     ],
     "answer": "34.28 km/h",
-    "explanation": "Average speed for equal distances = (2xy) / (x + y) = (2 * 30 * 40) / (30 + 40) = 2400 / 70 = 34.28 km/h."
+    "explanation": "Average speed for equal distances = (2xy) / (x + y) = (2 * 30 * 40) / (30 + 40) = 2400 / 70 = 34.28 km/h.",
+    "formula": "Total distance ÷ total time. For equal distances at speeds a and b: average speed = 2ab/(a + b).",
+    "tip": "Never average the two speeds directly. The result is always closer to the slower speed because more time is spent at it."
   },
   {
     "id": "num_123",
@@ -1473,7 +1717,9 @@
       "9 cm"
     ],
     "answer": "6 cm",
-    "explanation": "Volume of new cube = 3^3 + 4^3 + 5^3 = 27 + 64 + 125 = 216. Edge = CubeRoot(216) = 6 cm."
+    "explanation": "Volume of new cube = 3^3 + 4^3 + 5^3 = 27 + 64 + 125 = 216. Edge = CubeRoot(216) = 6 cm.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_124",
@@ -1485,7 +1731,9 @@
       "58 kg"
     ],
     "answer": "56 kg",
-    "explanation": "Girls = 0.40 * 60 = 24. Boys = 36. Total weight = (24 * 50) + (36 * 60) = 1200 + 2160 = 3360. Average = 3360 / 60 = 56 kg."
+    "explanation": "Girls = 0.40 * 60 = 24. Boys = 36. Total weight = (24 * 50) + (36 * 60) = 1200 + 2160 = 3360. Average = 3360 / 60 = 56 kg.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_125",
@@ -1497,7 +1745,9 @@
       "24 years"
     ],
     "answer": "12 years",
-    "explanation": "P(1+r)^4 = 2P -> (1+r)^4 = 2. We want P(1+r)^t = 8P -> (1+r)^t = 2^3. Substituting: ((1+r)^4)^3 = 2^3 -> (1+r)^12 = 8. So t = 12 years."
+    "explanation": "P(1+r)^4 = 2P -> (1+r)^4 = 2. We want P(1+r)^t = 8P -> (1+r)^t = 2^3. Substituting: ((1+r)^4)^3 = 2^3 -> (1+r)^12 = 8. So t = 12 years.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
   },
   {
     "id": "num_126",
@@ -1509,7 +1759,9 @@
       "1/12"
     ],
     "answer": "1/9",
-    "explanation": "Favorable outcomes for 9: (3,6), (4,5), (5,4), (6,3). That is 4 outcomes. Total possible outcomes = 36. Probability = 4/36 = 1/9."
+    "explanation": "Favorable outcomes for 9: (3,6), (4,5), (5,4), (6,3). That is 4 outcomes. Total possible outcomes = 36. Probability = 4/36 = 1/9.",
+    "formula": "P(event) = favorable ÷ total outcomes. Independent events: P(A and B) = P(A)·P(B). P(A or B) = P(A) + P(B) − P(A and B). P(not A) = 1 − P(A).",
+    "tip": "Without replacement the total shrinks after every draw. 'At least one' is easiest as 1 − P(none). Two dice have 36 outcomes."
   },
   {
     "id": "num_127",
@@ -1521,7 +1773,9 @@
       "225%"
     ],
     "answer": "125%",
-    "explanation": "Let original radius = 10, Area = 100π. New radius = 15, New Area = 225π. Increase = (225π - 100π) / 100π = 125%."
+    "explanation": "Let original radius = 10, Area = 100π. New radius = 15, New Area = 225π. Increase = (225π - 100π) / 100π = 125%.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
   },
   {
     "id": "num_128",
@@ -1533,7 +1787,9 @@
       "128"
     ],
     "answer": "16",
-    "explanation": "Convert to base 2. 4^3 = (2^2)^3 = 2^6. 8^2 = (2^3)^2 = 2^6. Numerator = 2^12. Denominator = 16^2 = (2^4)^2 = 2^8. Result = 2^12 / 2^8 = 2^4 = 16."
+    "explanation": "Convert to base 2. 4^3 = (2^2)^3 = 2^6. 8^2 = (2^3)^2 = 2^6. Numerator = 2^12. Denominator = 16^2 = (2^4)^2 = 2^8. Result = 2^12 / 2^8 = 2^4 = 16.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_129",
@@ -1545,7 +1801,9 @@
       "20% loss"
     ],
     "answer": "50% gain",
-    "explanation": "Cost price of 1 banana = 10/6 = ₱1.67. Selling price of 1 banana = 10/4 = ₱2.50. Profit = 2.50 - 1.67 = 0.833. Profit % = (0.833 / 1.67) * 100 = 50%."
+    "explanation": "Cost price of 1 banana = 10/6 = ₱1.67. Selling price of 1 banana = 10/4 = ₱2.50. Profit = 2.50 - 1.67 = 0.833. Profit % = (0.833 / 1.67) * 100 = 50%.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_130",
@@ -1557,7 +1815,9 @@
       "25 mins"
     ],
     "answer": "12 mins",
-    "explanation": "Combined rate = 1/20 + 1/30 = 3/60 + 2/60 = 5/60 = 1/12. Time = 12 minutes."
+    "explanation": "Combined rate = 1/20 + 1/30 = 3/60 + 2/60 = 5/60 = 1/12. Time = 12 minutes.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_131",
@@ -1569,7 +1829,9 @@
       "1024"
     ],
     "answer": "39366",
-    "explanation": "This is a geometric progression with a = 2, r = 3. 10th term = a * r^(n-1) = 2 * 3^9 = 2 * 19683 = 39366."
+    "explanation": "This is a geometric progression with a = 2, r = 3. 10th term = a * r^(n-1) = 2 * 3^9 = 2 * 19683 = 39366.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_132",
@@ -1581,7 +1843,9 @@
       "725"
     ],
     "answer": "713",
-    "explanation": "The middle number is the average, so the numbers are 23, 25, 27, 29, 31. Product of first and last = 23 * 31 = 713."
+    "explanation": "The middle number is the average, so the numbers are 23, 25, 27, 29, 31. Product of first and last = 23 * 31 = 713.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_133",
@@ -1593,7 +1857,9 @@
       "₱8,000"
     ],
     "answer": "₱6,000",
-    "explanation": "Formula for 2 years difference: D = P(r/100)^2. 15 = P(5/100)^2 = P(1/400). P = 15 * 400 = 6000."
+    "explanation": "Formula for 2 years difference: D = P(r/100)^2. 15 = P(5/100)^2 = P(1/400). P = 15 * 400 = 6000.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
   },
   {
     "id": "num_134",
@@ -1605,7 +1871,9 @@
       "6 liters"
     ],
     "answer": "5 liters",
-    "explanation": "Initial water = 4L, Milk = 36L. Let x be added water. (4 + x) / (40 + x) = 20 / 100 = 1/5. 20 + 5x = 40 + x. 4x = 20. x = 5 liters."
+    "explanation": "Initial water = 4L, Milk = 36L. Let x be added water. (4 + x) / (40 + x) = 20 / 100 = 1/5. 20 + 5x = 40 + x. 4x = 20. x = 5 liters.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
   },
   {
     "id": "num_135",
@@ -1617,7 +1885,9 @@
       "8 seconds"
     ],
     "answer": "6.6 seconds",
-    "explanation": "Relative speed = 50 + 4 = 54 km/h = 54 * 5/18 = 15 m/s. Distance = 100m. Time = 100 / 15 = 6.66 seconds. Round to 6.6 or 6.67."
+    "explanation": "Relative speed = 50 + 4 = 54 km/h = 54 * 5/18 = 15 m/s. Distance = 100m. Time = 100 / 15 = 6.66 seconds. Round to 6.6 or 6.67.",
+    "formula": "Time to pass an object = (train length + object length) ÷ relative speed. km/h → m/s: multiply by 5/18.",
+    "tip": "Same direction: subtract speeds. Opposite directions: add speeds. A pole or a man counts as length 0, a platform or bridge adds its length."
   },
   {
     "id": "num_136",
@@ -1629,7 +1899,9 @@
       "36%"
     ],
     "answer": "26%",
-    "explanation": "Let total = 100. Males = 60, Females = 40. Male engineers = 30% of 60 = 18. Female engineers = 20% of 40 = 8. Total engineers = 18 + 8 = 26%."
+    "explanation": "Let total = 100. Males = 60, Females = 40. Male engineers = 30% of 60 = 18. Female engineers = 20% of 40 = 8. Total engineers = 18 + 8 = 26%.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_137",
@@ -1641,7 +1913,9 @@
       "240"
     ],
     "answer": "60",
-    "explanation": "The smallest number divisible by 12, 15, and 20 is 60."
+    "explanation": "The smallest number divisible by 12, 15, and 20 is 60.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
   },
   {
     "id": "num_138",
@@ -1653,7 +1927,9 @@
       "100 cm²"
     ],
     "answer": "50 cm²",
-    "explanation": "Area of a square = (d^2) / 2 = (10^2) / 2 = 100 / 2 = 50 cm²."
+    "explanation": "Area of a square = (d^2) / 2 = (10^2) / 2 = 100 / 2 = 50 cm².",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_139",
@@ -1665,7 +1941,9 @@
       "8% decrease"
     ],
     "answer": "4% decrease",
-    "explanation": "Net change = +20 - 20 + (20)(-20)/100 = -4%."
+    "explanation": "Net change = +20 - 20 + (20)(-20)/100 = -4%.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
   },
   {
     "id": "num_140",
@@ -1677,7 +1955,9 @@
       "45"
     ],
     "answer": "33",
-    "explanation": "Let numbers be 3x and 5x. (3x - 9) / (5x - 9) = 12 / 23. 69x - 207 = 60x - 108. 9x = 99 -> x = 11. Smaller number = 3(11) = 33."
+    "explanation": "Let numbers be 3x and 5x. (3x - 9) / (5x - 9) = 12 / 23. 69x - 207 = 60x - 108. 9x = 99 -> x = 11. Smaller number = 3(11) = 33.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_141",
@@ -1689,7 +1969,9 @@
       "3:2:1"
     ],
     "answer": "6:3:1",
-    "explanation": "Let C = 1. Then B = 3. A = 2(3) = 6. Ratio is 6:3:1."
+    "explanation": "Let C = 1. Then B = 3. A = 2(3) = 6. Ratio is 6:3:1.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_142",
@@ -1701,7 +1983,9 @@
       "14 km/h"
     ],
     "answer": "10 km/h",
-    "explanation": "Let upstream speed = U, downstream = D. 24/U + 28/D = 6. 30/U + 21/D = 6.5. Solving gives U = 6, D = 14. Speed of boat = (U + D)/2 = 20/2 = 10 km/h."
+    "explanation": "Let upstream speed = U, downstream = D. 24/U + 28/D = 6. 30/U + 21/D = 6.5. Solving gives U = 6, D = 14. Speed of boat = (U + D)/2 = 20/2 = 10 km/h.",
+    "formula": "Downstream speed D = b + c; upstream speed U = b − c (b = boat speed, c = current). So b = (D + U)/2 and c = (D − U)/2.",
+    "tip": "Write time = distance ÷ speed for each trip. When two trips give two equations, let x = 1/(b + c) and y = 1/(b − c) to make them linear."
   },
   {
     "id": "num_143",
@@ -1713,7 +1997,9 @@
       "2% loss"
     ],
     "answer": "1% loss",
-    "explanation": "When selling two items at the same price with equal profit/loss %, there is always a loss: (x^2)/100 % = 10^2 / 100 = 1% loss."
+    "explanation": "When selling two items at the same price with equal profit/loss %, there is always a loss: (x^2)/100 % = 10^2 / 100 = 1% loss.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_144",
@@ -1725,7 +2011,9 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "2^y * (2 - 1) = 16. 2^y = 16. 2^y = 2^4, so y = 4."
+    "explanation": "2^y * (2 - 1) = 16. 2^y = 16. 2^y = 2^4, so y = 4.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_145",
@@ -1737,7 +2025,9 @@
       "28"
     ],
     "answer": "26",
-    "explanation": "Let hens = h, cows = c. h + c = 48. 2h + 4c = 140. Multiply first by 2: 2h + 2c = 96. Subtract from second: 2c = 44 -> c = 22. Hens = 48 - 22 = 26."
+    "explanation": "Let hens = h, cows = c. h + c = 48. 2h + 4c = 140. Multiply first by 2: 2h + 2c = 96. Subtract from second: 2c = 44 -> c = 22. Hens = 48 - 22 = 26.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_146",
@@ -1749,7 +2039,9 @@
       "160°"
     ],
     "answer": "155°",
-    "explanation": "The hour hand turns 360° in 12 hours (720 minutes). In 1 minute it turns 0.5°. From 12:00 to 5:10 is 310 minutes. 310 * 0.5° = 155°."
+    "explanation": "The hour hand turns 360° in 12 hours (720 minutes). In 1 minute it turns 0.5°. From 12:00 to 5:10 is 310 minutes. 310 * 0.5° = 155°.",
+    "formula": "Hour hand moves 0.5° per minute; minute hand moves 6° per minute. A clock that loses/gains time runs at a fixed fraction of true time.",
+    "tip": "Set a proportion: (clock time shown) ÷ (true time) is constant. Convert everything to minutes before solving."
   },
   {
     "id": "num_147",
@@ -1761,7 +2053,9 @@
       "₱1,202"
     ],
     "answer": "₱1,190",
-    "explanation": "Loss = 15% of 1400 = 210. Selling price = 1400 - 210 = 1,190."
+    "explanation": "Loss = 15% of 1400 = 210. Selling price = 1400 - 210 = 1,190.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_148",
@@ -1773,7 +2067,9 @@
       "4:5"
     ],
     "answer": "2:3",
-    "explanation": "Using alligation: Cost of dearer (7.20) - Mean (6.30) = 0.90. Mean (6.30) - Cost of cheaper (5.70) = 0.60. Ratio = 0.60 : 0.90 = 2:3."
+    "explanation": "Using alligation: Cost of dearer (7.20) - Mean (6.30) = 0.90. Mean (6.30) - Cost of cheaper (5.70) = 0.60. Ratio = 0.60 : 0.90 = 2:3.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
   },
   {
     "id": "num_149",
@@ -1785,7 +2081,9 @@
       "97"
     ],
     "answer": "95",
-    "explanation": "The pattern involves multiplying the previous number by 2 and adding 1. (2 x 2) + 1 = 5. (5 x 2) + 1 = 11. (23 x 2) + 1 = 47. Therefore, (47 x 2) + 1 = 95."
+    "explanation": "The pattern involves multiplying the previous number by 2 and adding 1. (2 x 2) + 1 = 5. (5 x 2) + 1 = 11. (23 x 2) + 1 = 47. Therefore, (47 x 2) + 1 = 95.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_150",
@@ -1797,7 +2095,9 @@
       "16"
     ],
     "answer": "12",
-    "explanation": "Let daughter's age = D, father's age = F. F = 3D. In 12 years: F + 12 = 2(D + 12). Substitute F: 3D + 12 = 2D + 24. D = 12."
+    "explanation": "Let daughter's age = D, father's age = F. F = 3D. In 12 years: F + 12 = 2(D + 12). Substitute F: 3D + 12 = 2D + 24. D = 12.",
+    "formula": "Let current ages be x and y; each person's age n years ago/hence is (age ∓ n). Translate each statement into one equation, then solve the linear system.",
+    "tip": "Shift ALL ages by the same number of years. The age difference between two people never changes."
   },
   {
     "id": "num_151",
@@ -1809,7 +2109,9 @@
       "25 days"
     ],
     "answer": "6 days",
-    "explanation": "A's rate = 1/10. B's rate = 1/15. Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. It takes 6 days together."
+    "explanation": "A's rate = 1/10. B's rate = 1/15. Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. It takes 6 days together.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_152",
@@ -1821,7 +2123,9 @@
       "96"
     ],
     "answer": "64",
-    "explanation": "(3/4) * (1/2) * x = 24. (3/8) * x = 24. x = (24 * 8) / 3 = 192 / 3 = 64."
+    "explanation": "(3/4) * (1/2) * x = 24. (3/8) * x = 24. x = (24 * 8) / 3 = 192 / 3 = 64.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_153",
@@ -1833,7 +2137,9 @@
       "100"
     ],
     "answer": "1",
-    "explanation": "0.05 * 0.4 = 0.020. Then, 0.02 / 0.02 = 1."
+    "explanation": "0.05 * 0.4 = 0.020. Then, 0.02 / 0.02 = 1.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_154",
@@ -1845,7 +2151,9 @@
       "₱750"
     ],
     "answer": "₱600",
-    "explanation": "Let original price = P. 0.25 * P = 150. P = 150 / 0.25 = 600."
+    "explanation": "Let original price = P. 0.25 * P = 150. P = 150 / 0.25 = 600.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_155",
@@ -1857,7 +2165,9 @@
       "25"
     ],
     "answer": "20",
-    "explanation": "Total ratio units = 4 + 5 = 9. Value of 1 unit = 36 / 9 = 4. Number of girls = 5 units * 4 = 20."
+    "explanation": "Total ratio units = 4 + 5 = 9. Value of 1 unit = 36 / 9 = 4. Number of girls = 5 units * 4 = 20.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_156",
@@ -1869,7 +2179,9 @@
       "95"
     ],
     "answer": "85",
-    "explanation": "Total sum = 85 * 4 = 340. Sum of three = 80 + 90 + 85 = 255. Fourth score = 340 - 255 = 85."
+    "explanation": "Total sum = 85 * 4 = 340. Sum of three = 80 + 90 + 85 = 255. Fourth score = 340 - 255 = 85.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_157",
@@ -1881,7 +2193,9 @@
       "18"
     ],
     "answer": "21",
-    "explanation": "First Multiplication and Division: 12 + 12 - 3. Then Addition and Subtraction: 24 - 3 = 21."
+    "explanation": "First Multiplication and Division: 12 + 12 - 3. Then Addition and Subtraction: 24 - 3 = 21.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_158",
@@ -1893,7 +2207,9 @@
       "₱250"
     ],
     "answer": "₱225",
-    "explanation": "Cost per pen = 120 / 8 = ₱15. Cost for 15 pens = 15 * 15 = ₱225."
+    "explanation": "Cost per pen = 120 / 8 = ₱15. Cost for 15 pens = 15 * 15 = ₱225.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_159",
@@ -1905,7 +2221,9 @@
       "18%"
     ],
     "answer": "16%",
-    "explanation": "Salt in first = 0.10 * 20 = 2L. Salt in second = 0.20 * 30 = 6L. Total salt = 8L. Total volume = 50L. Percentage = (8 / 50) * 100 = 16%."
+    "explanation": "Salt in first = 0.10 * 20 = 2L. Salt in second = 0.20 * 30 = 6L. Total salt = 8L. Total volume = 50L. Percentage = (8 / 50) * 100 = 16%.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
   },
   {
     "id": "num_160",
@@ -1917,7 +2235,9 @@
       "36"
     ],
     "answer": "32",
-    "explanation": "Area = L * W. Since L = 3W, 3W * W = 48. 3W² = 48, W² = 16, W = 4. Length = 12. Perimeter = 2(L + W) = 2(12 + 4) = 32."
+    "explanation": "Area = L * W. Since L = 3W, 3W * W = 48. 3W² = 48, W² = 16, W = 4. Length = 12. Perimeter = 2(L + W) = 2(12 + 4) = 32.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_161",
@@ -1929,7 +2249,9 @@
       "65 km/h"
     ],
     "answer": "60 km/h",
-    "explanation": "Speed = Distance / Time = 150 / 2.5 = 60 km/h."
+    "explanation": "Speed = Distance / Time = 150 / 2.5 = 60 km/h.",
+    "formula": "Total distance ÷ total time. For equal distances at speeds a and b: average speed = 2ab/(a + b).",
+    "tip": "Never average the two speeds directly. The result is always closer to the slower speed because more time is spent at it."
   },
   {
     "id": "num_162",
@@ -1941,7 +2263,9 @@
       "30"
     ],
     "answer": "26",
-    "explanation": "For an odd number of consecutive integers, the average is the middle number. So the numbers are 22, 24, 26. The largest is 26."
+    "explanation": "For an odd number of consecutive integers, the average is the middle number. So the numbers are 22, 24, 26. The largest is 26.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   },
   {
     "id": "num_163",
@@ -1953,7 +2277,9 @@
       "36"
     ],
     "answer": "18",
-    "explanation": "30% of 400 = 120. 15% of 120 = 0.15 * 120 = 18. Alternatively: 0.15 * 0.30 * 400 = 18."
+    "explanation": "30% of 400 = 120. 15% of 120 = 0.15 * 120 = 18. Alternatively: 0.15 * 0.30 * 400 = 18.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
   },
   {
     "id": "num_164",
@@ -1965,7 +2291,9 @@
       "144"
     ],
     "answer": "72",
-    "explanation": "Multiples of 18 are 18, 36, 54, 72. 72 is divisible by both 8 (8x9) and 12 (12x6). Thus, LCM is 72."
+    "explanation": "Multiples of 18 are 18, 36, 54, 72. 72 is divisible by both 8 (8x9) and 12 (12x6). Thus, LCM is 72.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
   },
   {
     "id": "num_165",
@@ -1977,7 +2305,9 @@
       "-6"
     ],
     "answer": "-5",
-    "explanation": "The differences are decreasing by 1 each time: -1, -2, -3, -4. The next difference is -5. So, 0 - 5 = -5."
+    "explanation": "The differences are decreasing by 1 each time: -1, -2, -3, -4. The next difference is -5. So, 0 - 5 = -5.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
   },
   {
     "id": "num_166",
@@ -1989,7 +2319,9 @@
       "60 liters"
     ],
     "answer": "40 liters",
-    "explanation": "Let capacity = C. (5/8)C - (1/4)C = 15. Convert 1/4 to 2/8. (3/8)C = 15. C = (15 * 8) / 3 = 40."
+    "explanation": "Let capacity = C. (5/8)C - (1/4)C = 15. Convert 1/4 to 2/8. (3/8)C = 15. C = (15 * 8) / 3 = 40.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_167",
@@ -2001,7 +2333,9 @@
       "₱960"
     ],
     "answer": "₱864",
-    "explanation": "Markup: 800 * 1.20 = 960. Discount: 960 * 0.90 = 864."
+    "explanation": "Markup: 800 * 1.20 = 960. Discount: 960 * 0.90 = 864.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
   },
   {
     "id": "num_168",
@@ -2013,7 +2347,9 @@
       "20"
     ],
     "answer": "15",
-    "explanation": "A + B = 40. Five years ago: (A - 5) = 1/2 * (B - 5). Substitute B = 40 - A: A - 5 = 1/2 * (35 - A). 2A - 10 = 35 - A. 3A = 45. A = 15."
+    "explanation": "A + B = 40. Five years ago: (A - 5) = 1/2 * (B - 5). Substitute B = 40 - A: A - 5 = 1/2 * (35 - A). 2A - 10 = 35 - A. 3A = 45. A = 15.",
+    "formula": "Let current ages be x and y; each person's age n years ago/hence is (age ∓ n). Translate each statement into one equation, then solve the linear system.",
+    "tip": "Shift ALL ages by the same number of years. The age difference between two people never changes."
   },
   {
     "id": "num_169",
@@ -2025,7 +2361,9 @@
       "16 days"
     ],
     "answer": "6 days",
-    "explanation": "Combined rate = 1/4. X's rate = 1/12. Y's rate = 1/4 - 1/12 = 3/12 - 1/12 = 2/12 = 1/6. Therefore, Y takes 6 days."
+    "explanation": "Combined rate = 1/4. X's rate = 1/12. Y's rate = 1/4 - 1/12 = 3/12 - 1/12 = 2/12 = 1/6. Therefore, Y takes 6 days.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
   },
   {
     "id": "num_170",
@@ -2037,7 +2375,9 @@
       "400π"
     ],
     "answer": "100π",
-    "explanation": "Circumference = 2πr = 20π, so r = 10. Area = πr² = π(10²) = 100π."
+    "explanation": "Circumference = 2πr = 20π, so r = 10. Area = πr² = π(10²) = 100π.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
   },
   {
     "id": "num_171",
@@ -2049,7 +2389,9 @@
       "0.825"
     ],
     "answer": "0.625",
-    "explanation": "5 divided by 8 is 0.625. Alternatively, multiply numerator and denominator by 125 to get 625/1000 = 0.625."
+    "explanation": "5 divided by 8 is 0.625. Alternatively, multiply numerator and denominator by 125 to get 625/1000 = 0.625.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   },
   {
     "id": "num_172",
@@ -2061,7 +2403,9 @@
       "185 km"
     ],
     "answer": "175 km",
-    "explanation": "Set up a proportion: 1 / 50 = 3.5 / X. X = 3.5 * 50 = 175 km."
+    "explanation": "Set up a proportion: 1 / 50 = 3.5 / X. X = 3.5 * 50 = 175 km.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
   },
   {
     "id": "num_173",
@@ -2073,7 +2417,9 @@
       "15"
     ],
     "answer": "11",
-    "explanation": "Let the numbers be x and x+2. x(x+2) = 143. The square root of 143 is close to 12. 11 * 13 = 143. The smaller number is 11."
+    "explanation": "Let the numbers be x and x+2. x(x+2) = 143. The square root of 143 is close to 12. 11 * 13 = 143. The smaller number is 11.",
+    "formula": "Isolate the unknown: do the same operation to both sides. Useful identities: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², a² − b² = (a + b)(a − b).",
+    "tip": "Assign one variable to the smallest unknown and express the rest in terms of it. Plug an answer choice back in to check."
   },
   {
     "id": "num_174",
@@ -2085,7 +2431,9 @@
       "25%"
     ],
     "answer": "20%",
-    "explanation": "Increase = 60 - 50 = 10. Percentage increase = (Increase / Original) * 100 = (10 / 50) * 100 = 20%."
+    "explanation": "Increase = 60 - 50 = 10. Percentage increase = (Increase / Original) * 100 = (10 / 50) * 100 = 20%.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
   },
   {
     "id": "num_175",
@@ -2097,6 +2445,8 @@
       "70 kg"
     ],
     "answer": "67 kg",
-    "explanation": "Total weight of students = 10 * 45 = 450. Total weight with teacher = 11 * 47 = 517. Teacher's weight = 517 - 450 = 67 kg."
+    "explanation": "Total weight of students = 10 * 45 = 450. Total weight with teacher = 11 * 47 = 517. Teacher's weight = 517 - 450 = 67 kg.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
   }
 ]
