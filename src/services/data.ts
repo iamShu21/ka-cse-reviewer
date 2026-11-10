@@ -63,7 +63,7 @@ export async function loadCategoryQuestions(
 }
 
 /**
- * Load all five question categories for the mock exam, in parallel.
+ * Load the four Professional-level categories for the mock exam, in parallel.
  * Returns them tagged with their category.
  * @param basePath - Prefix before 'data/', e.g. '../' for pages/, '' for root.
  */
@@ -72,7 +72,6 @@ export async function loadAllExamQuestions(basePath = '../'): Promise<ExamQuesti
     'Numerical',
     'Verbal',
     'Analytical',
-    'Clerical',
     'General Information',
   ];
 

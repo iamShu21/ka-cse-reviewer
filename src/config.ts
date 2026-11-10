@@ -10,16 +10,11 @@ export const LIMITS = {
   QUIZ_LIMIT: 25,
   /** Exam timer in seconds: 3 hours 10 minutes = 11400s */
   TIME_LIMIT: 11400,
-  /** Number of Numerical questions selected for the exam */
-  EXAM_NUMERICAL: 45,
-  /** Number of Verbal questions selected for the exam */
-  EXAM_VERBAL: 45,
-  /** Number of Analytical questions selected for the exam */
-  EXAM_ANALYTICAL: 45,
-  /** Number of Clerical questions selected for the exam */
-  EXAM_CLERICAL: 15,
-  /** Number of General Information questions selected for the exam */
-  EXAM_GEN_INFO: 20,
+  /** Professional-level mix of the 170-item exam: 30% verbal, 35% analytical, 30% numerical, 5% general info */
+  EXAM_NUMERICAL: 51,
+  EXAM_VERBAL: 51,
+  EXAM_ANALYTICAL: 60,
+  EXAM_GEN_INFO: 8,
   /** Number of vocabulary quiz questions per session */
   VOCAB_QUIZ_LIMIT: 15,
   /** Passing percentage threshold for mock exam */
