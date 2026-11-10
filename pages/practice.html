@@ -2,7 +2,8 @@
 <html lang="en" class="h-full bg-slate-50">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0f766e">
     <title>Practice Quiz - CSE Reviewer</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -11,44 +12,44 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
                     },
                     colors: {
                         blue: {
-                            50: '#faf5ff',
-                            100: '#f3e8ff',
-                            200: '#e9d5ff',
-                            300: '#d8b4fe',
-                            400: '#c084fc',
-                            500: '#a855f7',
-                            600: '#9333ea',
-                            700: '#7e22ce',
-                            800: '#6b21a8',
-                            900: '#581c87'
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a'
                         },
                         indigo: {
-                            50: '#f5f3ff',
-                            100: '#ede9fe',
-                            200: '#ddd6fe',
-                            300: '#c7d2fe',
-                            400: '#a5b4fc',
-                            500: '#818cf8',
-                            600: '#6366f1',
-                            700: '#4f46e5',
-                            800: '#4338ca',
-                            900: '#3730a3'
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a'
                         },
                         violet: {
-                            50: '#fdf4ff',
-                            100: '#fae8ff',
-                            200: '#f5d0fe',
-                            300: '#f0abfc',
-                            400: '#e879f9',
-                            500: '#d946ef',
-                            600: '#c026d3',
-                            700: '#a21caf',
-                            800: '#86198f',
-                            900: '#701a75'
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a'
                         }
                     }
                 }
@@ -105,27 +106,27 @@
             
             <!-- Left Sidebar Category Selector & Desktop Explanation Box -->
             <div class="lg:col-span-1 space-y-6">
-                <div class="space-y-2">
-                    <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-3 pl-2">Select Quiz Category</span>
+                <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-3 lg:pl-2">Choose a section</span>
+                <div class="flex lg:flex-col gap-2 overflow-x-auto lg:overflow-visible -mx-4 px-4 lg:mx-0 lg:px-0 pb-1">
                     
-                    <button data-category="Numerical" class="category-tab w-full text-left px-4 py-3 rounded-xl border border-blue-200 bg-blue-50/50 text-blue-700 font-semibold flex justify-between items-center transition-all shadow-sm">
+                    <button data-category="Numerical" class="category-tab shrink-0 lg:w-full text-left px-4 py-2.5 lg:py-3 rounded-full lg:rounded-xl border flex items-center gap-2 lg:justify-between text-sm transition-all whitespace-nowrap border-slate-900 bg-slate-900 text-white font-semibold">
                         <span>Numerical Ability</span>
-                        <span class="text-xs bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded-md"><p></p> Qs</span>
+                        <span class="hidden lg:inline-block text-xs bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded-md"><p></p> Qs</span>
                     </button>
                     
-                    <button data-category="Verbal" class="category-tab w-full text-left px-4 py-3 rounded-xl border border-slate-100 hover:bg-slate-50 text-slate-600 font-medium flex justify-between items-center transition-all">
+                    <button data-category="Verbal" class="category-tab shrink-0 lg:w-full text-left px-4 py-2.5 lg:py-3 rounded-full lg:rounded-xl border flex items-center gap-2 lg:justify-between text-sm transition-all whitespace-nowrap border-slate-200 bg-white text-slate-600 font-medium hover:border-slate-400">
                         <span>Verbal Ability</span>
-                        <span class="text-xs bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded-md"><p></p> Qs</span>
+                        <span class="hidden lg:inline-block text-xs bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded-md"><p></p> Qs</span>
                     </button>
                     
-                    <button data-category="Analytical" class="category-tab w-full text-left px-4 py-3 rounded-xl border border-slate-100 hover:bg-slate-50 text-slate-600 font-medium flex justify-between items-center transition-all">
+                    <button data-category="Analytical" class="category-tab shrink-0 lg:w-full text-left px-4 py-2.5 lg:py-3 rounded-full lg:rounded-xl border flex items-center gap-2 lg:justify-between text-sm transition-all whitespace-nowrap border-slate-200 bg-white text-slate-600 font-medium hover:border-slate-400">
                         <span>Analytical Ability</span>
-                        <span class="text-xs bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded-md"><p></p> Qs</span>
+                        <span class="hidden lg:inline-block text-xs bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded-md"><p></p> Qs</span>
                     </button>
                     
-                    <button data-category="General Information" class="category-tab w-full text-left px-4 py-3 rounded-xl border border-slate-100 hover:bg-slate-50 text-slate-600 font-medium flex justify-between items-center transition-all">
+                    <button data-category="General Information" class="category-tab shrink-0 lg:w-full text-left px-4 py-2.5 lg:py-3 rounded-full lg:rounded-xl border flex items-center gap-2 lg:justify-between text-sm transition-all whitespace-nowrap border-slate-200 bg-white text-slate-600 font-medium hover:border-slate-400">
                         <span>General Information</span>
-                        <span class="text-xs bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded-md"><p></p> Qs</span>
+                        <span class="hidden lg:inline-block text-xs bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded-md"><p></p> Qs</span>
                     </button>
                 </div>
 

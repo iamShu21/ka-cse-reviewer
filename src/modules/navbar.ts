@@ -5,6 +5,39 @@ export function isRootDirectory(): boolean {
   return window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
 }
 
+interface NavItem {
+  id: string;
+  label: string;
+  short: string;
+  href: string;
+  icon: string;
+  bottom: boolean;
+}
+
+const ICONS = {
+  home: '<path stroke-linecap="round" stroke-linejoin="round" d="M3 10.5L12 3l9 7.5M5.25 9.75V20a.75.75 0 00.75.75h3.75v-5.25h4.5v5.25H18a.75.75 0 00.75-.75V9.75"/>',
+  practice: '<path stroke-linecap="round" stroke-linejoin="round" d="M13 2.5L4.5 13.5H11l-1 8 8.5-11H12l1-8z"/>',
+  exam: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.5V12l3.5 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>',
+  formulas: '<path stroke-linecap="round" stroke-linejoin="round" d="M17.5 5.5h-11l5.25 6.5-5.25 6.5h11"/>',
+  vocabulary: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.25v13m0-13C10.8 5.45 9.25 5 7.5 5S4.2 5.45 3 6.25v13C4.2 18.45 5.75 18 7.5 18s3.3.45 4.5 1.25m0-13C13.2 5.45 14.75 5 16.5 5s3.3.45 4.5 1.25v13c-1.2-.8-2.75-1.25-4.5-1.25s-3.3.45-4.5 1.25"/>',
+  dashboard: '<path stroke-linecap="round" stroke-linejoin="round" d="M4 20V10m6 10V4m6 16v-7m4 7H2"/>',
+};
+
+function navItems(basePath: string, pagesPath: string): NavItem[] {
+  return [
+    { id: 'home', label: 'Home', short: 'Home', href: `${basePath}index.html`, icon: ICONS.home, bottom: true },
+    { id: 'practice', label: 'Practice', short: 'Practice', href: `${pagesPath}practice.html`, icon: ICONS.practice, bottom: true },
+    { id: 'exam', label: 'Mock Exam', short: 'Exam', href: `${pagesPath}exam.html`, icon: ICONS.exam, bottom: true },
+    { id: 'formulas', label: 'Formulas', short: 'Formulas', href: `${pagesPath}formulas.html`, icon: ICONS.formulas, bottom: true },
+    { id: 'vocabulary', label: 'Vocabulary', short: 'Words', href: `${pagesPath}vocabulary.html`, icon: ICONS.vocabulary, bottom: true },
+    { id: 'dashboard', label: 'Results', short: 'Results', href: `${pagesPath}dashboard.html`, icon: ICONS.dashboard, bottom: false },
+  ];
+}
+
+function svg(icon: string, cls: string): string {
+  return `<svg class="${cls}" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">${icon}</svg>`;
+}
+
 export function renderNavbar(): void {
   const placeholder = getElement('navbar-placeholder');
   if (!placeholder) return;
@@ -21,61 +54,62 @@ export function renderNavbar(): void {
   else if (path.includes('vocabulary.html') || path.includes('vocab-quiz.html')) activePage = 'vocabulary';
   else if (path.includes('formulas.html')) activePage = 'formulas';
   else if (path.includes('dashboard.html')) activePage = 'dashboard';
+  else if (path.includes('about.html')) activePage = 'about';
+
+  const items = navItems(basePath, pagesPath);
+  const resultsItem = items.find((i) => i.id === 'dashboard')!;
+
+  const desktopLinks = items
+    .map(
+      (i) =>
+        `<a href="${i.href}" data-page="${i.id}" class="px-3.5 py-2 rounded-lg text-sm font-medium transition-colors ${
+          activePage === i.id ? 'bg-slate-900 text-white' : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
+        }">${i.label}</a>`
+    )
+    .join('');
 
   const navbarHTML = `
-    <nav class="bg-white border-b border-slate-200 sticky top-0 z-50 select-none">
-        <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex items-center">
-                    <!-- Logo / Brand -->
-                    <a href="${basePath}index.html" class="flex items-center space-x-2 sm:space-x-3 text-blue-600 font-extrabold text-xl sm:text-2xl tracking-tight">
-                        <img src="${basePath}img/logo.png" alt="CSE Reviewer Logo" class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl shadow-sm object-cover border border-slate-100">
-                        <span class="hover:text-blue-700 transition-colors">Ka-CSE Reviewer</span>
-                    </a>
-                    
-                    <!-- Navigation Links -->
-                    <div class="hidden md:flex space-x-8 ml-10 h-full">
-                        <a href="${basePath}index.html" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors h-full ${activePage === 'home' ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'}" data-page="home">Home</a>
-                        <a href="${pagesPath}practice.html" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors h-full ${activePage === 'practice' ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'}" data-page="practice">Practice Quiz</a>
-                        <a href="${pagesPath}exam.html" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors h-full ${activePage === 'exam' ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'}" data-page="exam">Exam Simulation</a>
-                        <a href="${pagesPath}vocabulary.html" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors h-full ${activePage === 'vocabulary' ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'}" data-page="vocabulary">Vocabulary Digest</a>
-                        <a href="${pagesPath}formulas.html" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors h-full ${activePage === 'formulas' ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'}" data-page="formulas">Formulas</a>
-                        <a href="${pagesPath}dashboard.html" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors h-full ${activePage === 'dashboard' ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'}" data-page="dashboard">Results</a>
-                    </div>
-                </div>
-                
-                <!-- Mobile Menu Trigger -->
-                <div class="flex items-center space-x-2 sm:space-x-4">
-                    <button id="mobile-menu-toggle" class="md:hidden p-1.5 text-slate-600 hover:text-slate-800 focus:outline-none cursor-pointer">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Mobile Dropdown Menu -->
-        <div id="mobile-menu" class="hidden md:hidden border-b border-slate-200 bg-slate-50 px-4 pt-2 pb-4 space-y-1">
-            <a href="${basePath}index.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'home' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="home">Home</a>
-            <a href="${pagesPath}practice.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'practice' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="practice">Practice Quiz</a>
-            <a href="${pagesPath}exam.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'exam' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="exam">Exam Simulation</a>
-            <a href="${pagesPath}vocabulary.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'vocabulary' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="vocabulary">Vocabulary Digest</a>
-            <a href="${pagesPath}formulas.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'formulas' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="formulas">Formulas</a>
-            <a href="${pagesPath}dashboard.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'dashboard' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="dashboard">Results</a>
+    <nav class="bg-white/90 backdrop-blur border-b border-slate-200 select-none">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+            <a href="${basePath}index.html" class="flex items-center gap-2.5 font-extrabold text-slate-900 tracking-tight">
+                <img src="${basePath}img/logo.png" alt="" class="w-8 h-8 rounded-lg object-cover border border-slate-200">
+                <span class="text-base">Ka-CSE <span class="text-blue-700">Reviewer</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">${desktopLinks}</div>
+            <a href="${resultsItem.href}" data-page="dashboard" aria-label="Results" class="md:hidden p-2 -mr-2 rounded-lg ${
+              activePage === 'dashboard' ? 'text-blue-700' : 'text-slate-500'
+            }">${svg(resultsItem.icon, 'w-6 h-6')}</a>
         </div>
     </nav>
   `;
 
-  placeholder.className = "sticky top-0 z-50";
+  placeholder.className = 'sticky top-0 z-50';
   placeholder.innerHTML = navbarHTML;
 
-  const mobileBtn = getElement('mobile-menu-toggle');
-  const mobileMenu = getElement('mobile-menu');
-  if (mobileBtn && mobileMenu) {
-    mobileBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-    });
+  // Phone bottom tab bar (hidden on the exam page so the simulation stays distraction-free)
+  document.getElementById('bottom-nav')?.remove();
+  document.body.classList.remove('pb-24', 'md:pb-0');
+  if (activePage !== 'exam') {
+    const bottom = document.createElement('nav');
+    bottom.id = 'bottom-nav';
+    bottom.setAttribute('aria-label', 'Primary');
+    bottom.className =
+      'md:hidden fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur border-t border-slate-200 select-none';
+    bottom.style.paddingBottom = 'env(safe-area-inset-bottom)';
+    bottom.innerHTML = `<div class="grid grid-cols-5 h-16">${items
+      .filter((i) => i.bottom)
+      .map(
+        (i) => `
+        <a href="${i.href}" data-page="${i.id}" class="flex flex-col items-center justify-center gap-1 text-[11px] font-semibold transition-colors ${
+          activePage === i.id ? 'text-blue-700' : 'text-slate-400 hover:text-slate-600'
+        }">
+          ${svg(i.icon, 'w-6 h-6')}
+          <span>${i.short}</span>
+        </a>`
+      )
+      .join('')}</div>`;
+    document.body.appendChild(bottom);
+    document.body.classList.add('pb-24', 'md:pb-0');
   }
 }
 

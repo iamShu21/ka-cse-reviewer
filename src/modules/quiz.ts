@@ -88,26 +88,29 @@ function enableInteraction(): void {
 // Choice Rendering
 // ---------------------------------------------------------------------------
 
-const CHOICE_DEFAULT_CLASS =
-  'w-full text-left p-3 rounded-xl border border-slate-200 hover:border-blue-400 hover:bg-slate-50/50 flex items-center space-x-2.5 transition-all duration-200 group focus:outline-none focus:ring-2 focus:ring-blue-100';
-const BADGE_DEFAULT_CLASS =
-  'w-7 h-7 rounded-full bg-slate-100 group-hover:bg-blue-100 group-hover:text-blue-600 text-slate-500 flex items-center justify-center font-bold text-xs transition-colors border border-slate-200 select-none';
-const CHOICE_SELECTED_CLASS =
-  'w-full text-left p-3 rounded-xl border-2 border-blue-500 bg-blue-50/30 flex items-center space-x-2.5 transition-all duration-200 group focus:outline-none focus:ring-2 focus:ring-blue-200';
-const BADGE_SELECTED_CLASS =
-  'w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs transition-colors border border-blue-600 select-none';
-const CHOICE_CORRECT_CLASS =
-  'w-full text-left p-3 rounded-xl border-2 border-blue-500 bg-blue-50/30 flex items-center space-x-2.5 transition-all duration-200 focus:outline-none';
-const BADGE_CORRECT_CLASS =
-  'w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs border border-blue-600 select-none';
-const CHOICE_WRONG_CLASS =
-  'w-full text-left p-3 rounded-xl border-2 border-rose-300 bg-rose-50/20 flex items-center space-x-2.5 transition-all duration-200 focus:outline-none';
-const BADGE_WRONG_CLASS =
-  'w-7 h-7 rounded-full bg-rose-500 text-white flex items-center justify-center font-bold text-xs border border-rose-500 select-none';
-const CHOICE_MUTED_CLASS =
-  'w-full text-left p-3 rounded-xl border border-slate-100 flex items-center space-x-2.5 opacity-60 cursor-not-allowed focus:outline-none';
-const BADGE_MUTED_CLASS =
-  'w-7 h-7 rounded-full bg-slate-50 text-slate-400 flex items-center justify-center font-bold text-xs border border-slate-200 select-none';
+const CHOICE_BASE = 'w-full text-left px-4 py-3.5 rounded-2xl flex items-center gap-3 transition-all duration-150 focus:outline-none';
+const CHOICE_DEFAULT_CLASS = `${CHOICE_BASE} border border-slate-200 bg-white hover:border-slate-400 group focus:ring-2 focus:ring-slate-200`;
+const BADGE_BASE = 'w-8 h-8 shrink-0 rounded-lg flex items-center justify-center font-bold text-xs select-none transition-colors';
+const BADGE_DEFAULT_CLASS = `${BADGE_BASE} bg-slate-100 text-slate-500 group-hover:bg-slate-200`;
+const CHOICE_SELECTED_CLASS = `${CHOICE_BASE} border-2 border-slate-900 bg-slate-50 group focus:ring-2 focus:ring-slate-200`;
+const BADGE_SELECTED_CLASS = `${BADGE_BASE} bg-slate-900 text-white`;
+const CHOICE_CORRECT_CLASS = `${CHOICE_BASE} border-2 border-emerald-500 bg-emerald-50`;
+const BADGE_CORRECT_CLASS = `${BADGE_BASE} bg-emerald-500 text-white`;
+const CHOICE_WRONG_CLASS = `${CHOICE_BASE} border-2 border-rose-400 bg-rose-50`;
+const BADGE_WRONG_CLASS = `${BADGE_BASE} bg-rose-500 text-white`;
+const CHOICE_MUTED_CLASS = `${CHOICE_BASE} border border-slate-100 opacity-60 cursor-not-allowed`;
+const BADGE_MUTED_CLASS = `${BADGE_BASE} bg-slate-50 text-slate-400`;
+
+const TAB_BASE =
+  'category-tab shrink-0 lg:w-full text-left px-4 py-2.5 lg:py-3 rounded-full lg:rounded-xl border flex items-center gap-2 lg:justify-between text-sm transition-all whitespace-nowrap';
+const TAB_ACTIVE = `${TAB_BASE} border-slate-900 bg-slate-900 text-white font-semibold`;
+const TAB_IDLE = `${TAB_BASE} border-slate-200 bg-white text-slate-600 font-medium hover:border-slate-400`;
+
+function setActiveTab(tabs: NodeListOf<HTMLButtonElement>, cat: string | null): void {
+  tabs.forEach((t) => {
+    t.className = t.getAttribute('data-category') === cat ? TAB_ACTIVE : TAB_IDLE;
+  });
+}
 
 function choiceLetterHTML(index: number, badgeClass: string): string {
   return `<span class="${badgeClass}">${String.fromCharCode(65 + index)}</span>`;
@@ -499,12 +502,7 @@ export function initPracticePage(): void {
       enableInteraction();
 
       // Update tab styles
-      tabs.forEach((t) => {
-        t.className =
-          'category-tab w-full text-left px-4 py-3 rounded-xl border border-slate-100 hover:bg-slate-50 text-slate-600 font-medium flex justify-between items-center transition-all';
-      });
-      (e.currentTarget as HTMLButtonElement).className =
-        'category-tab w-full text-left px-4 py-3 rounded-xl border border-blue-200 bg-blue-50/50 text-blue-700 font-semibold flex justify-between items-center transition-all shadow-sm';
+      setActiveTab(tabs, cat);
 
       startCategory(cat);
 
@@ -536,17 +534,15 @@ export function initPracticePage(): void {
     if (startOverBtn) startOverBtn.onclick = () => startOver();
 
     // Highlight saved category tab
-    tabs.forEach((t) => {
-      const cat = t.getAttribute('data-category');
-      t.className =
-        cat === savedState.category
-          ? 'category-tab w-full text-left px-4 py-3 rounded-xl border border-blue-200 bg-blue-50/50 text-blue-700 font-semibold flex justify-between items-center transition-all shadow-sm'
-          : 'category-tab w-full text-left px-4 py-3 rounded-xl border border-slate-100 hover:bg-slate-50 text-slate-600 font-medium flex justify-between items-center transition-all';
-    });
+    setActiveTab(tabs, savedState.category);
 
     disableInteraction();
   } else {
-    startCategory('Numerical');
+    const requested = new URLSearchParams(window.location.search).get('category');
+    const valid: Category[] = ['Numerical', 'Verbal', 'Analytical', 'General Information'];
+    const initial = valid.find((c) => c === requested) ?? 'Numerical';
+    setActiveTab(tabs, initial);
+    startCategory(initial);
   }
 
   // Action button handler
