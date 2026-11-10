@@ -1798,5 +1798,746 @@
     ],
     "answer": "49",
     "explanation": "The code is the sum of alphabetical positions: R(18)+E(5)+D(4) = 27. B(2)+L(12)+U(21)+E(5) = 40. G(7)+R(18)+E(5)+E(5)+N(14) = 49."
+  },
+  {
+    "id": "anal_151",
+    "question": "In a row of students, Ben is 14th from the left and 19th from the right. How many students are in the row?",
+    "choices": [
+      "31",
+      "34",
+      "33",
+      "32"
+    ],
+    "answer": "32",
+    "explanation": "Total = 14 + 19 − 1 = 32 (Ben is counted from both ends, so subtract 1).",
+    "tip": "Total in a line = (position from left) + (position from right) − 1. Position from the other end = total − position + 1."
+  },
+  {
+    "id": "anal_152",
+    "question": "Jose ranked 11th from the top in a class of 40. What is his rank from the bottom?",
+    "choices": [
+      "30",
+      "28",
+      "31",
+      "29"
+    ],
+    "answer": "30",
+    "explanation": "From the bottom = 40 − 11 + 1 = 30.",
+    "tip": "Total in a line = (position from left) + (position from right) − 1. Position from the other end = total − position + 1."
+  },
+  {
+    "id": "anal_153",
+    "question": "Maria is 6th from the top and 22nd from the bottom in a class. How many students are in the class?",
+    "choices": [
+      "27",
+      "28",
+      "26",
+      "29"
+    ],
+    "answer": "27",
+    "explanation": "Total = 6 + 22 − 1 = 27.",
+    "tip": "Total in a line = (position from left) + (position from right) − 1. Position from the other end = total − position + 1."
+  },
+  {
+    "id": "anal_154",
+    "question": "Rico is 9th from the left in a line. After moving 4 places to the right he becomes 20th from the right end. How many people are in the line?",
+    "choices": [
+      "30",
+      "33",
+      "32",
+      "31"
+    ],
+    "answer": "32",
+    "explanation": "New position from left = 9 + 4 = 13. Total = 13 + 20 − 1 = 32.",
+    "tip": "Total in a line = (position from left) + (position from right) − 1. Position from the other end = total − position + 1."
+  },
+  {
+    "id": "anal_155",
+    "question": "In a queue, Lea is 7th from the front and Tom is 19th from the front. How many people are between them?",
+    "choices": [
+      "10",
+      "13",
+      "12",
+      "11"
+    ],
+    "answer": "11",
+    "explanation": "People between = 19 − 7 − 1 = 11.",
+    "tip": "People between two positions = (larger − smaller) − 1."
+  },
+  {
+    "id": "anal_156",
+    "question": "In a line of 35 people, Dina is 12th from the left. What is her position from the right?",
+    "choices": [
+      "25",
+      "23",
+      "24",
+      "22"
+    ],
+    "answer": "24",
+    "explanation": "From the right = 35 − 12 + 1 = 24.",
+    "tip": "Total in a line = (position from left) + (position from right) − 1. Position from the other end = total − position + 1."
+  },
+  {
+    "id": "anal_157",
+    "question": "A man walks 6 m east, turns left and walks 8 m. How far is that person from the starting point?",
+    "choices": [
+      "15 m",
+      "12 m",
+      "10 m",
+      "8 m"
+    ],
+    "answer": "10 m",
+    "explanation": "Path: east 6 m → north 8 m. Net displacement x = 6, y = 8, so distance = √(6² + 8²) = 10 m.",
+    "tip": "Draw it on a grid (N up, E right) and use the Pythagorean theorem: 3-4-5, 5-12-13, 6-8-10 and 8-15-17 are the common triples. Opposite legs cancel."
+  },
+  {
+    "id": "anal_158",
+    "question": "A girl walks 9 m north, turns right and walks 12 m. How far is that person from the starting point?",
+    "choices": [
+      "15 m",
+      "20 m",
+      "17 m",
+      "13 m"
+    ],
+    "answer": "15 m",
+    "explanation": "Path: north 9 m → east 12 m. Net displacement x = 12, y = 9, so distance = √(12² + 9²) = 15 m.",
+    "tip": "Draw it on a grid (N up, E right) and use the Pythagorean theorem: 3-4-5, 5-12-13, 6-8-10 and 8-15-17 are the common triples. Opposite legs cancel."
+  },
+  {
+    "id": "anal_159",
+    "question": "A messenger goes 5 km south, turns left and goes 12 km. How far is that person from the starting point?",
+    "choices": [
+      "15 km",
+      "13 km",
+      "11 km",
+      "18 km"
+    ],
+    "answer": "13 km",
+    "explanation": "Path: south 5 km → east 12 km. Net displacement x = 12, y = -5, so distance = √(12² + 5²) = 13 km.",
+    "tip": "Draw it on a grid (N up, E right) and use the Pythagorean theorem: 3-4-5, 5-12-13, 6-8-10 and 8-15-17 are the common triples. Opposite legs cancel."
+  },
+  {
+    "id": "anal_160",
+    "question": "A driver goes 8 m east, turns right and goes 6 m, then turns right again and goes 16 m. How far is that person from the starting point?",
+    "choices": [
+      "15 m",
+      "12 m",
+      "10 m",
+      "8 m"
+    ],
+    "answer": "10 m",
+    "explanation": "Path: east 8 m → south 6 m → west 16 m. Net displacement x = -8, y = -6, so distance = √(8² + 6²) = 10 m.",
+    "tip": "Draw it on a grid (N up, E right) and use the Pythagorean theorem: 3-4-5, 5-12-13, 6-8-10 and 8-15-17 are the common triples. Opposite legs cancel."
+  },
+  {
+    "id": "anal_161",
+    "question": "A boy walks 10 m west, turns right and walks 7 m, then turns right again and walks 10 m. In which direction is he from his starting point?",
+    "choices": [
+      "West",
+      "North",
+      "South",
+      "East"
+    ],
+    "answer": "North",
+    "explanation": "Path: west 10, north 7, east 10. West and east cancel, leaving 7 m north of the start.",
+    "tip": "Draw it on a grid (N up, E right) and use the Pythagorean theorem: 3-4-5, 5-12-13, 6-8-10 and 8-15-17 are the common triples. Opposite legs cancel."
+  },
+  {
+    "id": "anal_162",
+    "question": "Ana walks 12 m north, turns left and walks 5 m, then turns left again and walks 12 m. In which direction is she from her starting point?",
+    "choices": [
+      "South",
+      "East",
+      "West",
+      "North"
+    ],
+    "answer": "West",
+    "explanation": "Path: north 12, west 5, south 12. North and south cancel, leaving 5 m west of the start.",
+    "tip": "Draw it on a grid (N up, E right) and use the Pythagorean theorem: 3-4-5, 5-12-13, 6-8-10 and 8-15-17 are the common triples. Opposite legs cancel."
+  },
+  {
+    "id": "anal_163",
+    "question": "In a certain code, CABLE is written as ECDNG. How is FRIEND written in that code?",
+    "choices": [
+      "HTKGPF",
+      "DNEIRF",
+      "GSJFOE",
+      "IULHQG"
+    ],
+    "answer": "HTKGPF",
+    "explanation": "Each letter moves 2 places forward (C→E, A→C, B→D, L→N, E→G). FRIEND → HTKGPF.",
+    "tip": "Compare each letter of the example with its code to find the rule (shift, reversal, swap or alternating shift), then apply it to the new word. Letters shift by their alphabet positions: A=1 … Z=26."
+  },
+  {
+    "id": "anal_164",
+    "question": "If SOLVE is coded as EVLOS, how is PLANET coded?",
+    "choices": [
+      "TEPLAN",
+      "PLANTE",
+      "QMBOFU",
+      "TENALP"
+    ],
+    "answer": "TENALP",
+    "explanation": "The word is written in reverse. PLANET reversed is TENALP.",
+    "tip": "Compare each letter of the example with its code to find the rule (shift, reversal, swap or alternating shift), then apply it to the new word. Letters shift by their alphabet positions: A=1 … Z=26."
+  },
+  {
+    "id": "anal_165",
+    "question": "In a code, BRAVE is written as CQBUF. How is CLOUD written in that code?",
+    "choices": [
+      "BKNTC",
+      "BMNVC",
+      "DMPVE",
+      "DKPTE"
+    ],
+    "answer": "DKPTE",
+    "explanation": "Letters alternate +1, −1, +1, −1… (B+1=C, R−1=Q, A+1=B, V−1=U, E+1=F). CLOUD → DKPTE.",
+    "tip": "Compare each letter of the example with its code to find the rule (shift, reversal, swap or alternating shift), then apply it to the new word. Letters shift by their alphabet positions: A=1 … Z=26."
+  },
+  {
+    "id": "anal_166",
+    "question": "If PLAN is coded as LPNA, how is WORK coded?",
+    "choices": [
+      "OWKR",
+      "KROW",
+      "XPSL",
+      "WROK"
+    ],
+    "answer": "OWKR",
+    "explanation": "Letters are swapped in adjacent pairs (P↔L, A↔N). WORK → OW, KR = OWKR.",
+    "tip": "Compare each letter of the example with its code to find the rule (shift, reversal, swap or alternating shift), then apply it to the new word. Letters shift by their alphabet positions: A=1 … Z=26."
+  },
+  {
+    "id": "anal_167",
+    "question": "In a code, MARCH is written as JXOZE. How is APRIL written in that code?",
+    "choices": [
+      "XMOFI",
+      "DSULO",
+      "YNPGJ",
+      "LIRPA"
+    ],
+    "answer": "XMOFI",
+    "explanation": "Each letter moves 3 places backward (M→J, A→X, R→O, C→Z, H→E). APRIL → XMOFI.",
+    "tip": "Compare each letter of the example with its code to find the rule (shift, reversal, swap or alternating shift), then apply it to the new word. Letters shift by their alphabet positions: A=1 … Z=26."
+  },
+  {
+    "id": "anal_168",
+    "question": "Complete the series: A, C, F, J, ?",
+    "choices": [
+      "P",
+      "Q",
+      "N",
+      "O"
+    ],
+    "answer": "O",
+    "explanation": "Gaps between letters: +2, +3, +4 — the gap keeps changing by 1, so the next gap is +5. Answer: O.",
+    "tip": "Write the alphabet positions (A=1 … Z=26) and look at the gaps between letters; here the gaps grow by 1 each time."
+  },
+  {
+    "id": "anal_169",
+    "question": "Complete the series: Z, X, U, Q, ?",
+    "choices": [
+      "N",
+      "K",
+      "L",
+      "M"
+    ],
+    "answer": "L",
+    "explanation": "Gaps between letters: -2, -3, -4 — the gap keeps changing by 1, so the next gap is -5. Answer: L.",
+    "tip": "Write the alphabet positions (A=1 … Z=26) and look at the gaps between letters; here the gaps grow by 1 each time."
+  },
+  {
+    "id": "anal_170",
+    "question": "Complete the series: B, E, I, N, ?",
+    "choices": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ],
+    "answer": "T",
+    "explanation": "Gaps between letters: +3, +4, +5 — the gap keeps changing by 1, so the next gap is +6. Answer: T.",
+    "tip": "Write the alphabet positions (A=1 … Z=26) and look at the gaps between letters; here the gaps grow by 1 each time."
+  },
+  {
+    "id": "anal_171",
+    "question": "Complete the series: D, E, G, J, ?",
+    "choices": [
+      "O",
+      "M",
+      "N",
+      "P"
+    ],
+    "answer": "N",
+    "explanation": "Gaps between letters: +1, +2, +3 — the gap keeps changing by 1, so the next gap is +4. Answer: N.",
+    "tip": "Write the alphabet positions (A=1 … Z=26) and look at the gaps between letters; here the gaps grow by 1 each time."
+  },
+  {
+    "id": "anal_172",
+    "question": "Find the missing number: 2 : 8, 3 : 27, 4 : ?",
+    "choices": [
+      "64",
+      "16",
+      "48",
+      "32"
+    ],
+    "answer": "64",
+    "explanation": "Each number is cubed: 2³ = 8, 3³ = 27, 4³ = 64.",
+    "tip": "Test the same operation on each given pair (square, cube, n² + 1, n(n + 1)…) before applying it to the last number."
+  },
+  {
+    "id": "anal_173",
+    "question": "Find the missing number: 3 : 10, 4 : 17, 5 : ?",
+    "choices": [
+      "26",
+      "25",
+      "30",
+      "24"
+    ],
+    "answer": "26",
+    "explanation": "Rule n² + 1: 3² + 1 = 10, 4² + 1 = 17, 5² + 1 = 26.",
+    "tip": "Test the same operation on each given pair (square, cube, n² + 1, n(n + 1)…) before applying it to the last number."
+  },
+  {
+    "id": "anal_174",
+    "question": "Find the missing number: 2 : 6, 3 : 12, 4 : ?",
+    "choices": [
+      "20",
+      "16",
+      "18",
+      "24"
+    ],
+    "answer": "20",
+    "explanation": "Rule n(n + 1): 2×3 = 6, 3×4 = 12, 4×5 = 20.",
+    "tip": "Test the same operation on each given pair (square, cube, n² + 1, n(n + 1)…) before applying it to the last number."
+  },
+  {
+    "id": "anal_175",
+    "question": "Find the missing number: 5 : 24, 6 : 35, 7 : ?",
+    "choices": [
+      "42",
+      "48",
+      "49",
+      "47"
+    ],
+    "answer": "48",
+    "explanation": "Rule n² − 1: 5² − 1 = 24, 6² − 1 = 35, 7² − 1 = 48.",
+    "tip": "Test the same operation on each given pair (square, cube, n² + 1, n(n + 1)…) before applying it to the last number."
+  },
+  {
+    "id": "anal_176",
+    "question": "Statements: All doctors are nurses. Some nurses are teachers. Conclusions: I. Some doctors are teachers. II. Some teachers are nurses.",
+    "choices": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Only conclusion II follows",
+    "explanation": "Draw each statement as a circle diagram, then test every conclusion against all possible diagrams. Conclusion I does not necessarily follow; Conclusion II must be true.",
+    "tip": "'All' statements prove nothing about 'some' unless a 'some' statement is given; 'Some' statements are reversible (Some A are B ⇒ Some B are A), 'All' statements are not."
+  },
+  {
+    "id": "anal_177",
+    "question": "Statements: Some pens are pencils. All pencils are erasers. Conclusions: I. Some pens are erasers. II. No pens are erasers.",
+    "choices": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Only conclusion I follows",
+    "explanation": "Draw each statement as a circle diagram, then test every conclusion against all possible diagrams. Conclusion I must be true; Conclusion II does not necessarily follow.",
+    "tip": "'All' statements prove nothing about 'some' unless a 'some' statement is given; 'Some' statements are reversible (Some A are B ⇒ Some B are A), 'All' statements are not."
+  },
+  {
+    "id": "anal_178",
+    "question": "Statements: Some books are pages. All pages are sheets. Conclusions: I. Some books are sheets. II. Some sheets are books.",
+    "choices": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Both I and II follow",
+    "explanation": "Draw each statement as a circle diagram, then test every conclusion against all possible diagrams. Conclusion I must be true; Conclusion II must be true.",
+    "tip": "'All' statements prove nothing about 'some' unless a 'some' statement is given; 'Some' statements are reversible (Some A are B ⇒ Some B are A), 'All' statements are not."
+  },
+  {
+    "id": "anal_179",
+    "question": "Statements: No birds are fish. Some fish are animals. Conclusions: I. No birds are animals. II. Some animals are not birds.",
+    "choices": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Only conclusion II follows",
+    "explanation": "Draw each statement as a circle diagram, then test every conclusion against all possible diagrams. Conclusion I does not necessarily follow; Conclusion II must be true.",
+    "tip": "'All' statements prove nothing about 'some' unless a 'some' statement is given; 'Some' statements are reversible (Some A are B ⇒ Some B are A), 'All' statements are not."
+  },
+  {
+    "id": "anal_180",
+    "question": "Statements: Some chairs are tables. No tables are desks. Conclusions: I. Some chairs are desks. II. All chairs are tables.",
+    "choices": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Neither I nor II follows",
+    "explanation": "Draw each statement as a circle diagram, then test every conclusion against all possible diagrams. Conclusion I does not necessarily follow; Conclusion II does not necessarily follow.",
+    "tip": "'All' statements prove nothing about 'some' unless a 'some' statement is given; 'Some' statements are reversible (Some A are B ⇒ Some B are A), 'All' statements are not."
+  },
+  {
+    "id": "anal_181",
+    "question": "Statements: All clerks are managers. No managers are workers. Conclusions: I. No clerks are workers. II. Some workers are clerks.",
+    "choices": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Only conclusion I follows",
+    "explanation": "Draw each statement as a circle diagram, then test every conclusion against all possible diagrams. Conclusion I must be true; Conclusion II does not necessarily follow.",
+    "tip": "'All' statements prove nothing about 'some' unless a 'some' statement is given; 'Some' statements are reversible (Some A are B ⇒ Some B are A), 'All' statements are not."
+  },
+  {
+    "id": "anal_182",
+    "question": "Statements: All cats are pets. Some dogs are cats. Conclusions: I. Some dogs are pets. II. All dogs are cats.",
+    "choices": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Only conclusion I follows",
+    "explanation": "Draw each statement as a circle diagram, then test every conclusion against all possible diagrams. Conclusion I must be true; Conclusion II does not necessarily follow.",
+    "tip": "'All' statements prove nothing about 'some' unless a 'some' statement is given; 'Some' statements are reversible (Some A are B ⇒ Some B are A), 'All' statements are not."
+  },
+  {
+    "id": "anal_183",
+    "question": "Statements: All books are pages. Some books are covers. Conclusions: I. Some pages are covers. II. All covers are pages.",
+    "choices": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Only conclusion I follows",
+    "explanation": "Draw each statement as a circle diagram, then test every conclusion against all possible diagrams. Conclusion I must be true; Conclusion II does not necessarily follow.",
+    "tip": "'All' statements prove nothing about 'some' unless a 'some' statement is given; 'Some' statements are reversible (Some A are B ⇒ Some B are A), 'All' statements are not."
+  },
+  {
+    "id": "anal_184",
+    "question": "Five friends — Ana, Ben, Cora, Dan, Eli — sit in a row facing north (positions 1 to 5, left to right). Ana and Ben do not sit next to each other. Cora sits immediately to the right of Ana. Eli sits somewhere to the left of Dan. Cora and Eli sit next to each other. Who sits in the middle?",
+    "choices": [
+      "Ben",
+      "Cora",
+      "Ana",
+      "Eli"
+    ],
+    "answer": "Eli",
+    "explanation": "Combining all clues leaves arrangements that all agree on this seat: 1: Ana, 2: Cora, 3: Eli, 4: Ben, 5: Dan. So the answer is Eli.",
+    "tip": "Place the most restrictive clue first (fixed ends or 'next to'), then add the others and eliminate; draw 5 boxes and fill them in."
+  },
+  {
+    "id": "anal_185",
+    "question": "Five friends — Ana, Ben, Cora, Dan, Eli — sit in a row facing north (positions 1 to 5, left to right). Eli sits immediately to the right of Cora. Ben sits immediately to the right of Ana. Ben and Dan do not sit next to each other. Ben sits somewhere to the left of Dan. Who sits at the extreme right?",
+    "choices": [
+      "Dan",
+      "Eli",
+      "Ana",
+      "Ben"
+    ],
+    "answer": "Dan",
+    "explanation": "Combining all clues leaves only one arrangement: 1: Ana, 2: Ben, 3: Cora, 4: Eli, 5: Dan. So the answer is Dan.",
+    "tip": "Place the most restrictive clue first (fixed ends or 'next to'), then add the others and eliminate; draw 5 boxes and fill them in."
+  },
+  {
+    "id": "anal_186",
+    "question": "Five friends — Ana, Ben, Cora, Dan, Eli — sit in a row facing north (positions 1 to 5, left to right). Eli sits somewhere to the left of Ben. Cora sits immediately to the right of Dan. Ana sits at the extreme right. Dan sits in the middle. Who sits at the extreme left?",
+    "choices": [
+      "Dan",
+      "Eli",
+      "Cora",
+      "Ben"
+    ],
+    "answer": "Eli",
+    "explanation": "Combining all clues leaves only one arrangement: 1: Eli, 2: Ben, 3: Dan, 4: Cora, 5: Ana. So the answer is Eli.",
+    "tip": "Place the most restrictive clue first (fixed ends or 'next to'), then add the others and eliminate; draw 5 boxes and fill them in."
+  },
+  {
+    "id": "anal_187",
+    "question": "Five friends — Ana, Ben, Cora, Dan, Eli — sit in a row facing north (positions 1 to 5, left to right). Dan sits somewhere to the left of Eli. Ben sits at the extreme left. Ana sits immediately to the right of Dan. Ana sits somewhere to the left of Cora. Who sits second from the left?",
+    "choices": [
+      "Eli",
+      "Ben",
+      "Cora",
+      "Dan"
+    ],
+    "answer": "Dan",
+    "explanation": "Combining all clues leaves arrangements that all agree on this seat: 1: Ben, 2: Dan, 3: Ana, 4: Cora, 5: Eli. So the answer is Dan.",
+    "tip": "Place the most restrictive clue first (fixed ends or 'next to'), then add the others and eliminate; draw 5 boxes and fill them in."
+  },
+  {
+    "id": "anal_188",
+    "question": "Pointing to a man, Ana said, \"He is the son of my mother's only brother.\" How is the man related to Ana?",
+    "choices": [
+      "Uncle",
+      "Brother",
+      "Cousin",
+      "Nephew"
+    ],
+    "answer": "Cousin",
+    "explanation": "Ana's mother's brother is Ana's maternal uncle; his son is Ana's cousin.",
+    "tip": "Draw a family tree: use circles for females and squares for males, then trace the line from one person to the other."
+  },
+  {
+    "id": "anal_189",
+    "question": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+    "choices": [
+      "Niece",
+      "Daughter",
+      "Granddaughter",
+      "Grandmother"
+    ],
+    "answer": "Granddaughter",
+    "explanation": "A and B are children of C. D is C's father, so D is A's grandfather and A is D's granddaughter.",
+    "tip": "Draw a family tree: use circles for females and squares for males, then trace the line from one person to the other."
+  },
+  {
+    "id": "anal_190",
+    "question": "P is the brother of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+    "choices": [
+      "Brother",
+      "Uncle",
+      "Father",
+      "Cousin"
+    ],
+    "answer": "Uncle",
+    "explanation": "P, Q and R are siblings. R is S's father, so P is S's father's brother, i.e. S's uncle.",
+    "tip": "Draw a family tree: use circles for females and squares for males, then trace the line from one person to the other."
+  },
+  {
+    "id": "anal_191",
+    "question": "Jun told Liza, \"Your mother is the sister of my father.\" How is Jun's father related to Liza's mother?",
+    "choices": [
+      "Brother",
+      "Husband",
+      "Uncle",
+      "Cousin"
+    ],
+    "answer": "Brother",
+    "explanation": "Liza's mother is Jun's father's sister, so Jun's father is her brother.",
+    "tip": "Draw a family tree: use circles for females and squares for males, then trace the line from one person to the other."
+  },
+  {
+    "id": "anal_192",
+    "question": "Statement: Many students in a barangay drop out because the nearest high school is 6 km away. Courses of action: I. The local government should build a high school in the barangay. II. Students should be forced by law to walk to the distant school.",
+    "choices": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Only I follows",
+    "explanation": "Building a nearby school removes the cause (distance). Forcing students to walk does not solve the problem and is harsh.",
+    "tip": "A good course of action tackles the root cause directly, is practical and is not extreme or unrelated to the problem."
+  },
+  {
+    "id": "anal_193",
+    "question": "Statement: Dengue cases have risen sharply this rainy season. Courses of action: I. The health office should intensify clean-up drives against mosquito breeding sites. II. All residents should be ordered to leave the affected area.",
+    "choices": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Only I follows",
+    "explanation": "Clean-up drives attack the cause. Evacuating everyone is extreme and impractical.",
+    "tip": "A good course of action tackles the root cause directly, is practical and is not extreme or unrelated to the problem."
+  },
+  {
+    "id": "anal_194",
+    "question": "Statement: A bridge connecting two towns was damaged by a flood. Courses of action: I. The government should repair the bridge as soon as possible. II. An alternative ferry service should be provided in the meantime.",
+    "choices": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "answer": "Both I and II follow",
+    "explanation": "Repair is the permanent fix and a temporary ferry keeps people connected meanwhile; both are practical.",
+    "tip": "A good course of action tackles the root cause directly, is practical and is not extreme or unrelated to the problem."
+  },
+  {
+    "id": "anal_195",
+    "question": "Statement: The agency announced: \"Submit your documents online to avoid long lines.\" Assumptions: I. Applicants have access to the internet. II. Online submission will reduce the lines.",
+    "choices": [
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither I nor II is implicit"
+    ],
+    "answer": "Both I and II are implicit",
+    "explanation": "The advice only makes sense if applicants can go online (I) and if online filing really shortens the lines (II).",
+    "tip": "An assumption is something taken for granted that the statement needs in order to make sense; test it by asking 'if this were false, would the statement still make sense?'"
+  },
+  {
+    "id": "anal_196",
+    "question": "Statement: A sign on a gate reads: \"Beware of dog.\" Assumptions: I. People will read and heed the sign. II. All dogs are harmless.",
+    "choices": [
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither I nor II is implicit"
+    ],
+    "answer": "Only I is implicit",
+    "explanation": "The sign assumes people will read and heed it. It suggests the dog may be dangerous, so II is the opposite of what the sign assumes.",
+    "tip": "An assumption is something taken for granted that the statement needs in order to make sense; test it by asking 'if this were false, would the statement still make sense?'"
+  },
+  {
+    "id": "anal_197",
+    "question": "Statement: The mayor said, \"Plastic bags will be banned in the city starting next month to reduce waste.\" Assumptions: I. Alternatives to plastic bags are available. II. All residents already recycle.",
+    "choices": [
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither I nor II is implicit"
+    ],
+    "answer": "Only I is implicit",
+    "explanation": "A ban is workable only if substitutes exist. Nothing in the statement requires that everyone recycles.",
+    "tip": "An assumption is something taken for granted that the statement needs in order to make sense; test it by asking 'if this were false, would the statement still make sense?'"
+  },
+  {
+    "id": "anal_198",
+    "question": "All employees who completed the training received a certificate. Rosa received a certificate. Which statement is definitely true?",
+    "choices": [
+      "Rosa did not complete the training",
+      "It cannot be determined whether Rosa completed the training",
+      "Rosa is not an employee",
+      "Rosa completed the training"
+    ],
+    "answer": "It cannot be determined whether Rosa completed the training",
+    "explanation": "The rule is 'training ⇒ certificate'. Having the certificate does not prove she trained, since others may also receive certificates (affirming the consequent is invalid).",
+    "tip": "'If P then Q' lets you conclude Q from P, or 'not P' from 'not Q' (contrapositive) — but nothing from Q alone or from 'not P'."
+  },
+  {
+    "id": "anal_199",
+    "question": "If it rains, the game is cancelled. The game was not cancelled. Therefore:",
+    "choices": [
+      "The game was postponed",
+      "It rained",
+      "It may or may not have rained",
+      "It did not rain"
+    ],
+    "answer": "It did not rain",
+    "explanation": "Contrapositive: not cancelled ⇒ not raining.",
+    "tip": "From 'If P then Q' you may conclude: P ⇒ Q, and not-Q ⇒ not-P. You may NOT conclude P from Q."
+  },
+  {
+    "id": "anal_200",
+    "question": "If a candidate passes the exam, they are eligible for the interview. Mia is not eligible for the interview. Therefore:",
+    "choices": [
+      "Mia passed the exam",
+      "Mia may have passed the exam",
+      "Mia did not take the exam",
+      "Mia did not pass the exam"
+    ],
+    "answer": "Mia did not pass the exam",
+    "explanation": "Contrapositive: not eligible ⇒ did not pass.",
+    "tip": "From 'If P then Q' you may conclude: P ⇒ Q, and not-Q ⇒ not-P. You may NOT conclude P from Q."
+  },
+  {
+    "id": "anal_201",
+    "question": "Only employees with a valid ID may enter the building. Carlo entered the building. Therefore:",
+    "choices": [
+      "All employees with IDs entered",
+      "Carlo has no valid ID",
+      "Carlo has a valid ID",
+      "Carlo is not an employee"
+    ],
+    "answer": "Carlo has a valid ID",
+    "explanation": "'Only X may enter' means entering ⇒ having X. Carlo entered, so he has a valid ID.",
+    "tip": "'Only A are B' means every B is an A (B ⇒ A), not the other way round."
+  },
+  {
+    "id": "anal_202",
+    "question": "All members of the club are voters. Some voters are teachers. Which must be true?",
+    "choices": [
+      "Some teachers are voters",
+      "Some members are teachers",
+      "All teachers are members",
+      "No member is a teacher"
+    ],
+    "answer": "Some teachers are voters",
+    "explanation": "'Some voters are teachers' reverses to 'Some teachers are voters'. Nothing links members to teachers.",
+    "tip": "From 'If P then Q' you may conclude: P ⇒ Q, and not-Q ⇒ not-P. You may NOT conclude P from Q."
+  },
+  {
+    "id": "anal_203",
+    "question": "Either Ben or Cara won the raffle, but not both. Ben did not win. Therefore:",
+    "choices": [
+      "Neither won the raffle",
+      "Ben won the raffle",
+      "Cara won the raffle",
+      "Both won the raffle"
+    ],
+    "answer": "Cara won the raffle",
+    "explanation": "Exactly one of them won; it was not Ben, so it was Cara.",
+    "tip": "'Either … or, but not both' means exactly one is true."
+  },
+  {
+    "id": "anal_204",
+    "question": "Doctor : Hospital :: Teacher : ?",
+    "choices": [
+      "Student",
+      "School",
+      "Book",
+      "Chalk"
+    ],
+    "answer": "School",
+    "explanation": "A doctor works in a hospital; a teacher works in a school (worker : workplace).",
+    "tip": "Name the relationship (tool–job, place–worker, part–whole) in the first pair, then apply it to the second. For odd-one-out, find the category that three share."
+  },
+  {
+    "id": "anal_205",
+    "question": "Pen : Write :: Knife : ?",
+    "choices": [
+      "Fork",
+      "Cut",
+      "Kitchen",
+      "Sharp"
+    ],
+    "answer": "Cut",
+    "explanation": "A pen is used to write; a knife is used to cut (tool : function).",
+    "tip": "Name the relationship (tool–job, place–worker, part–whole) in the first pair, then apply it to the second. For odd-one-out, find the category that three share."
+  },
+  {
+    "id": "anal_206",
+    "question": "Which is the odd one out: Mango, Banana, Carrot, Papaya?",
+    "choices": [
+      "Papaya",
+      "Mango",
+      "Carrot",
+      "Banana"
+    ],
+    "answer": "Carrot",
+    "explanation": "Mango, banana and papaya are fruits; a carrot is a vegetable.",
+    "tip": "Name the relationship (tool–job, place–worker, part–whole) in the first pair, then apply it to the second. For odd-one-out, find the category that three share."
+  },
+  {
+    "id": "anal_207",
+    "question": "Which is the odd one out: Square, Triangle, Cube, Circle?",
+    "choices": [
+      "Triangle",
+      "Circle",
+      "Cube",
+      "Square"
+    ],
+    "answer": "Cube",
+    "explanation": "Square, triangle and circle are flat (2-D) shapes; a cube is a 3-D solid.",
+    "tip": "Name the relationship (tool–job, place–worker, part–whole) in the first pair, then apply it to the second. For odd-one-out, find the category that three share."
   }
 ]
