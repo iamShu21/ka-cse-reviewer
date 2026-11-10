@@ -2448,5 +2448,929 @@
     "explanation": "Total weight of students = 10 * 45 = 450. Total weight with teacher = 11 * 47 = 517. Teacher's weight = 517 - 450 = 67 kg.",
     "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
     "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
+  },
+  {
+    "id": "num_176",
+    "question": "What is 15% of 240?",
+    "choices": [
+      "40",
+      "44",
+      "36",
+      "32"
+    ],
+    "answer": "36",
+    "explanation": "15% of 240 = (15/100) × 240 = 36.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
+  },
+  {
+    "id": "num_177",
+    "question": "What is 35% of 600?",
+    "choices": [
+      "210",
+      "252",
+      "231",
+      "189"
+    ],
+    "answer": "210",
+    "explanation": "35% of 600 = (35/100) × 600 = 210.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
+  },
+  {
+    "id": "num_178",
+    "question": "What is 12.5% of 320?",
+    "choices": [
+      "44",
+      "48",
+      "40",
+      "36"
+    ],
+    "answer": "40",
+    "explanation": "12.5% of 320 = (12.5/100) × 320 = 40.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
+  },
+  {
+    "id": "num_179",
+    "question": "What is 45% of 260?",
+    "choices": [
+      "141",
+      "117",
+      "129",
+      "105"
+    ],
+    "answer": "117",
+    "explanation": "45% of 260 = (45/100) × 260 = 117.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
+  },
+  {
+    "id": "num_180",
+    "question": "A student answered 36 items correctly out of 45. What is the percentage score?",
+    "choices": [
+      "80%",
+      "90%",
+      "85%",
+      "75%"
+    ],
+    "answer": "80%",
+    "explanation": "Percentage = (36 ÷ 45) × 100 = 0.8 × 100 = 80%.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
+  },
+  {
+    "id": "num_181",
+    "question": "If 30% of a number is 54, what is the number?",
+    "choices": [
+      "198",
+      "162",
+      "216",
+      "180"
+    ],
+    "answer": "180",
+    "explanation": "Let the number be x. 0.30x = 54, so x = 54 ÷ 0.30 = 180.",
+    "formula": "x% of y = (x/100) × y. Percentage = (part ÷ whole) × 100. 'Percent of a percent' multiplies: 15% of 30% = 0.15 × 0.30.",
+    "tip": "Convert to decimals (÷100) first. 10% of a number is just a decimal shift, so build 15% = 10% + 5%."
+  },
+  {
+    "id": "num_182",
+    "question": "The price of an item changed from ₱80 to ₱100. What is the percent increase?",
+    "choices": [
+      "23%",
+      "25%",
+      "27%",
+      "29%"
+    ],
+    "answer": "25%",
+    "explanation": "% change = (new − old) ÷ old × 100 = (100 − 80) ÷ 80 × 100 = 25%, a 25% increase.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
+  },
+  {
+    "id": "num_183",
+    "question": "The price of an item changed from ₱250 to ₱200. What is the percent decrease?",
+    "choices": [
+      "18%",
+      "20%",
+      "22%",
+      "24%"
+    ],
+    "answer": "20%",
+    "explanation": "% change = (new − old) ÷ old × 100 = (200 − 250) ÷ 250 × 100 = -20%, a 20% decrease.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
+  },
+  {
+    "id": "num_184",
+    "question": "The price of an item changed from ₱60 to ₱81. What is the percent increase?",
+    "choices": [
+      "31%",
+      "43%",
+      "35%",
+      "39%"
+    ],
+    "answer": "35%",
+    "explanation": "% change = (new − old) ÷ old × 100 = (81 − 60) ÷ 60 × 100 = 35%, a 35% increase.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
+  },
+  {
+    "id": "num_185",
+    "question": "The price of an item changed from ₱400 to ₱340. What is the percent decrease?",
+    "choices": [
+      "19%",
+      "15%",
+      "13%",
+      "17%"
+    ],
+    "answer": "15%",
+    "explanation": "% change = (new − old) ÷ old × 100 = (340 − 400) ÷ 400 × 100 = -15%, a 15% decrease.",
+    "formula": "% change = (new − old) ÷ old × 100. Successive changes of a% and b%: net = a + b + ab/100 %. To undo a +x% rise, reduce by x/(100 + x).",
+    "tip": "The base is always the OLD value. A rise then an equal fall never returns to the start (+20% then −20% = −4%)."
+  },
+  {
+    "id": "num_186",
+    "question": "A jacket priced at ₱2,500 is sold at 20% off. How much will a customer pay?",
+    "choices": [
+      "₱2,000",
+      "₱2,200",
+      "₱2,400",
+      "₱1,800"
+    ],
+    "answer": "₱2,000",
+    "explanation": "Sale price = ₱2,500 × (1 − 0.2) = ₱2,000.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
+  },
+  {
+    "id": "num_187",
+    "question": "A jacket priced at ₱1,800 is sold at 15% off. How much will a customer pay?",
+    "choices": [
+      "₱1,530",
+      "₱1,683",
+      "₱1,836",
+      "₱1,377"
+    ],
+    "answer": "₱1,530",
+    "explanation": "Sale price = ₱1,800 × (1 − 0.15) = ₱1,530.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
+  },
+  {
+    "id": "num_188",
+    "question": "A jacket priced at ₱3,600 is sold at 25% off. How much will a customer pay?",
+    "choices": [
+      "₱2,430",
+      "₱3,240",
+      "₱2,970",
+      "₱2,700"
+    ],
+    "answer": "₱2,700",
+    "explanation": "Sale price = ₱3,600 × (1 − 0.25) = ₱2,700.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
+  },
+  {
+    "id": "num_189",
+    "question": "A TV priced at ₱5,000 is given successive discounts of 20% and 10%. What is the final price?",
+    "choices": [
+      "₱3,600",
+      "₱3,500",
+      "₱3,750",
+      "₱3,000"
+    ],
+    "answer": "₱3,600",
+    "explanation": "Final price = 5,000 × 0.80 × 0.90 = ₱3,600. (It is not 30% off, which would be ₱3,500.)",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
+  },
+  {
+    "id": "num_190",
+    "question": "A store buys a bag for ₱800 and sells it at a 25% profit. What is the selling price?",
+    "choices": [
+      "₱1,200",
+      "₱900",
+      "₱1,000",
+      "₱1,100"
+    ],
+    "answer": "₱1,000",
+    "explanation": "Selling price = 800 × 1.25 = ₱1,000.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
+  },
+  {
+    "id": "num_191",
+    "question": "An appliance bought for ₱1,250 is sold at a loss of 12%. What is the selling price?",
+    "choices": [
+      "₱1,210",
+      "₱1,100",
+      "₱1,320",
+      "₱990"
+    ],
+    "answer": "₱1,100",
+    "explanation": "Selling price = 1,250 × (1 − 0.12) = 1,250 × 0.88 = ₱1,100.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
+  },
+  {
+    "id": "num_192",
+    "question": "A phone was sold for ₱1,680 at a 20% profit. What was its cost price?",
+    "choices": [
+      "₱1,540",
+      "₱1,260",
+      "₱1,680",
+      "₱1,400"
+    ],
+    "answer": "₱1,400",
+    "explanation": "Selling price = cost × 1.20, so cost = 1,680 ÷ 1.20 = ₱1,400.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
+  },
+  {
+    "id": "num_193",
+    "question": "A watch was sold for ₱920 at an 8% loss. What was its cost price?",
+    "choices": [
+      "₱900",
+      "₱1,100",
+      "₱1,000",
+      "₱1,200"
+    ],
+    "answer": "₱1,000",
+    "explanation": "Selling price = cost × 0.92, so cost = 920 ÷ 0.92 = ₱1,000.",
+    "formula": "Selling price = Cost × (1 ± profit%). Discounted price = Marked price × (1 − d%). Profit % = (profit ÷ cost) × 100.",
+    "tip": "Markup and discount are NOT additive; multiply the factors (e.g. ×1.40 × 0.75 = ×1.05). Profit% uses cost as the base; discount% uses the marked price."
+  },
+  {
+    "id": "num_194",
+    "question": "What is the simple interest on ₱12,000 at 5% per year for 3 years?",
+    "choices": [
+      "₱1,800",
+      "₱1,980",
+      "₱2,160",
+      "₱1,620"
+    ],
+    "answer": "₱1,800",
+    "explanation": "I = P × r × t = 12,000 × 0.05 × 3 = ₱1,800.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
+  },
+  {
+    "id": "num_195",
+    "question": "The simple interest on ₱6,000 for 3 years is ₱1,260. What is the yearly rate?",
+    "choices": [
+      "9%",
+      "6%",
+      "8%",
+      "7%"
+    ],
+    "answer": "7%",
+    "explanation": "r = I ÷ (P × t) = 1,260 ÷ (6,000 × 3) = 0.07 = 7%.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
+  },
+  {
+    "id": "num_196",
+    "question": "What principal earns ₱900 simple interest in 3 years at 5% per year?",
+    "choices": [
+      "₱7,200",
+      "₱6,000",
+      "₱6,600",
+      "₱5,400"
+    ],
+    "answer": "₱6,000",
+    "explanation": "P = I ÷ (r × t) = 900 ÷ (0.05 × 3) = ₱6,000.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
+  },
+  {
+    "id": "num_197",
+    "question": "What is the compound amount of ₱10,000 at 10% per year, compounded annually, after 2 years?",
+    "choices": [
+      "₱13,310",
+      "₱14,520",
+      "₱12,100",
+      "₱10,890"
+    ],
+    "answer": "₱12,100",
+    "explanation": "A = P(1 + r)ⁿ = 10,000 × 1.1² = 10,000 × 1.21 = ₱12,100.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
+  },
+  {
+    "id": "num_198",
+    "question": "What is the compound interest on ₱5,000 at 20% per year, compounded annually, for 2 years?",
+    "choices": [
+      "₱2,640",
+      "₱2,420",
+      "₱1,980",
+      "₱2,200"
+    ],
+    "answer": "₱2,200",
+    "explanation": "A = 5,000 × 1.2² = 5,000 × 1.44 = ₱7,200, so CI = 7,200 − 5,000 = ₱2,200.",
+    "formula": "Simple interest I = P·r·t. Compound amount A = P(1 + r)ⁿ, CI = A − P. Difference between CI and SI for 2 years = P·r².",
+    "tip": "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years. Subtract successive amounts to find one year's interest."
+  },
+  {
+    "id": "num_199",
+    "question": "A can finish a job in 12 days and B in 24 days. How many days will they need working together?",
+    "choices": [
+      "7 days",
+      "8 days",
+      "10 days",
+      "9 days"
+    ],
+    "answer": "8 days",
+    "explanation": "Combined rate = 1/12 + 1/24 = 3/24 = 1/8 per day, so 8 days.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
+  },
+  {
+    "id": "num_200",
+    "question": "A can finish a job in 15 days. Working with B, they finish it in 6 days. How many days would B need alone?",
+    "choices": [
+      "9 days",
+      "12 days",
+      "11 days",
+      "10 days"
+    ],
+    "answer": "10 days",
+    "explanation": "B's rate = 1/6 − 1/15 = 5/30 − 2/30 = 3/30 = 1/10 per day, so 10 days.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
+  },
+  {
+    "id": "num_201",
+    "question": "A pipe fills a tank in 4 hours, but a leak empties the full tank in 12 hours. How long will it take to fill the tank with the leak open?",
+    "choices": [
+      "7 hours",
+      "5 hours",
+      "6 hours",
+      "8 hours"
+    ],
+    "answer": "6 hours",
+    "explanation": "Net rate = 1/4 − 1/12 = 3/12 − 1/12 = 2/12 = 1/6 per hour, so 6 hours.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
+  },
+  {
+    "id": "num_202",
+    "question": "If 12 workers can finish a road in 18 days, how many days will 9 workers need?",
+    "choices": [
+      "22 days",
+      "24 days",
+      "26 days",
+      "28 days"
+    ],
+    "answer": "24 days",
+    "explanation": "Workers × days is constant: 12 × 18 = 216 = 9 × d, so d = 24 days.",
+    "formula": "Rate = 1 ÷ (time alone). Together: 1/a + 1/b = 1/t, so t = ab/(a + b). Man-days: men × days (× hours/day) is constant for the same job.",
+    "tip": "Add rates, never times. Leaks and drains are negative rates. More men means fewer days (inverse proportion), so cross-multiply the product."
+  },
+  {
+    "id": "num_203",
+    "question": "A 120-meter train travels at 72 km/h. How many seconds does it take to pass a pole?",
+    "choices": [
+      "8 seconds",
+      "5 seconds",
+      "6 seconds",
+      "7 seconds"
+    ],
+    "answer": "6 seconds",
+    "explanation": "72 km/h × 5/18 = 20 m/s. Time = 120 ÷ 20 = 6 seconds.",
+    "formula": "Time to pass an object = (train length + object length) ÷ relative speed. km/h → m/s: multiply by 5/18.",
+    "tip": "Same direction: subtract speeds. Opposite directions: add speeds. A pole or a man counts as length 0, a platform or bridge adds its length."
+  },
+  {
+    "id": "num_204",
+    "question": "A 200-meter train travels at 90 km/h. How many seconds does it take to cross a 300-meter bridge?",
+    "choices": [
+      "24 seconds",
+      "20 seconds",
+      "18 seconds",
+      "22 seconds"
+    ],
+    "answer": "20 seconds",
+    "explanation": "90 km/h × 5/18 = 25 m/s. Distance = 200 + 300 = 500 m. Time = 500 ÷ 25 = 20 seconds.",
+    "formula": "Time to pass an object = (train length + object length) ÷ relative speed. km/h → m/s: multiply by 5/18.",
+    "tip": "Same direction: subtract speeds. Opposite directions: add speeds. A pole or a man counts as length 0, a platform or bridge adds its length."
+  },
+  {
+    "id": "num_205",
+    "question": "Two cities are 300 km apart. Two cars leave at the same time, driving toward each other at 40 km/h and 60 km/h. After how many hours will they meet?",
+    "choices": [
+      "4 hours",
+      "3 hours",
+      "2 hours",
+      "5 hours"
+    ],
+    "answer": "3 hours",
+    "explanation": "Closing speed = 40 + 60 = 100 km/h. Time = 300 ÷ 100 = 3 hours.",
+    "formula": "Distance = Speed × Time, so Speed = D/T and Time = D/S.",
+    "tip": "Keep units consistent (km with hours, m with seconds). In a race, 'A beats B by x m' means B has covered x m less when A finishes."
+  },
+  {
+    "id": "num_206",
+    "question": "A car travels 144 km in 3.2 hours. What is its average speed in km/h?",
+    "choices": [
+      "53 km/h",
+      "49 km/h",
+      "45 km/h",
+      "41 km/h"
+    ],
+    "answer": "45 km/h",
+    "explanation": "Speed = distance ÷ time = 144 ÷ 3.2 = 45 km/h.",
+    "formula": "Distance = Speed × Time, so Speed = D/T and Time = D/S.",
+    "tip": "Keep units consistent (km with hours, m with seconds). In a race, 'A beats B by x m' means B has covered x m less when A finishes."
+  },
+  {
+    "id": "num_207",
+    "question": "A driver goes to a town at 30 km/h and returns by the same route at 60 km/h. What is the average speed for the whole trip?",
+    "choices": [
+      "45 km/h",
+      "44 km/h",
+      "40 km/h",
+      "37 km/h"
+    ],
+    "answer": "40 km/h",
+    "explanation": "For equal distances, average speed = 2ab/(a + b) = 2 × 30 × 60 ÷ 90 = 40 km/h.",
+    "formula": "Total distance ÷ total time. For equal distances at speeds a and b: average speed = 2ab/(a + b).",
+    "tip": "Never average the two speeds directly. The result is always closer to the slower speed because more time is spent at it."
+  },
+  {
+    "id": "num_208",
+    "question": "A driver goes to a town at 40 km/h and returns by the same route at 60 km/h. What is the average speed for the whole trip?",
+    "choices": [
+      "45 km/h",
+      "52 km/h",
+      "50 km/h",
+      "48 km/h"
+    ],
+    "answer": "48 km/h",
+    "explanation": "For equal distances, average speed = 2ab/(a + b) = 2 × 40 × 60 ÷ 100 = 48 km/h.",
+    "formula": "Total distance ÷ total time. For equal distances at speeds a and b: average speed = 2ab/(a + b).",
+    "tip": "Never average the two speeds directly. The result is always closer to the slower speed because more time is spent at it."
+  },
+  {
+    "id": "num_209",
+    "question": "A driver goes to a town at 20 km/h and returns by the same route at 30 km/h. What is the average speed for the whole trip?",
+    "choices": [
+      "24 km/h",
+      "28 km/h",
+      "21 km/h",
+      "25 km/h"
+    ],
+    "answer": "24 km/h",
+    "explanation": "For equal distances, average speed = 2ab/(a + b) = 2 × 20 × 30 ÷ 50 = 24 km/h.",
+    "formula": "Total distance ÷ total time. For equal distances at speeds a and b: average speed = 2ab/(a + b).",
+    "tip": "Never average the two speeds directly. The result is always closer to the slower speed because more time is spent at it."
+  },
+  {
+    "id": "num_210",
+    "question": "A boat's speed in still water is 12 km/h and the river current is 3 km/h. How many hours does it take to go 36 km upstream?",
+    "choices": [
+      "6 hours",
+      "3 hours",
+      "4 hours",
+      "5 hours"
+    ],
+    "answer": "4 hours",
+    "explanation": "Upstream speed = 12 − 3 = 9 km/h. Time = 36 ÷ 9 = 4 hours.",
+    "formula": "Downstream speed D = b + c; upstream speed U = b − c (b = boat speed, c = current). So b = (D + U)/2 and c = (D − U)/2.",
+    "tip": "Write time = distance ÷ speed for each trip. When two trips give two equations, let x = 1/(b + c) and y = 1/(b − c) to make them linear."
+  },
+  {
+    "id": "num_211",
+    "question": "A boat goes downstream at 18 km/h and upstream at 10 km/h. What is the speed of the current?",
+    "choices": [
+      "6 km/h",
+      "4 km/h",
+      "3 km/h",
+      "5 km/h"
+    ],
+    "answer": "4 km/h",
+    "explanation": "Current = (downstream − upstream) ÷ 2 = (18 − 10) ÷ 2 = 4 km/h.",
+    "formula": "Downstream speed D = b + c; upstream speed U = b − c (b = boat speed, c = current). So b = (D + U)/2 and c = (D − U)/2.",
+    "tip": "Write time = distance ÷ speed for each trip. When two trips give two equations, let x = 1/(b + c) and y = 1/(b − c) to make them linear."
+  },
+  {
+    "id": "num_212",
+    "question": "₱4,500 is divided among three people in the ratio 2:3:4. How much does the one with the largest share get?",
+    "choices": [
+      "₱2,400",
+      "₱2,200",
+      "₱2,000",
+      "₱1,800"
+    ],
+    "answer": "₱2,000",
+    "explanation": "Total parts = 2 + 3 + 4 = 9; one part = 4,500 ÷ 9 = 500. Largest share = 4 × 500 = ₱2,000.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
+  },
+  {
+    "id": "num_213",
+    "question": "The ratio of boys to girls in a class is 5:7 and there are 48 students. How many girls are there?",
+    "choices": [
+      "25",
+      "34",
+      "28",
+      "31"
+    ],
+    "answer": "28",
+    "explanation": "Total parts = 12; one part = 48 ÷ 12 = 4. Girls = 7 × 4 = 28.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
+  },
+  {
+    "id": "num_214",
+    "question": "If A:B = 3:4 and B:C = 2:3, what is A:B:C?",
+    "choices": [
+      "3:4:6",
+      "3:4:3",
+      "6:4:3",
+      "3:2:3"
+    ],
+    "answer": "3:4:6",
+    "explanation": "B must be the same in both ratios. Multiply B:C by 2: B:C = 4:6. Then A:B:C = 3:4:6.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
+  },
+  {
+    "id": "num_215",
+    "question": "Two numbers are in the ratio 4:5 and their difference is 12. What is the larger number?",
+    "choices": [
+      "60",
+      "72",
+      "54",
+      "66"
+    ],
+    "answer": "60",
+    "explanation": "One part = 12 ÷ (5 − 4) = 12. Larger number = 5 × 12 = 60.",
+    "formula": "a : b = c : d ⇒ ad = bc. Direct proportion: y/x is constant. One part = total ÷ sum of ratio parts. To chain A:B and B:C, make B equal in both.",
+    "tip": "Find the unit rate first (cost per item, km per liter), then multiply. Subtracting the same number from both terms changes a ratio."
+  },
+  {
+    "id": "num_216",
+    "question": "How many liters of water must be added to 30 liters of a 20% acid solution to make it a 12% solution?",
+    "choices": [
+      "22 liters",
+      "24 liters",
+      "18 liters",
+      "20 liters"
+    ],
+    "answer": "20 liters",
+    "explanation": "Acid = 0.20 × 30 = 6 L (stays the same). New total = 6 ÷ 0.12 = 50 L, so water added = 50 − 30 = 20 L.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
+  },
+  {
+    "id": "num_217",
+    "question": "Tea at ₱200/kg is mixed with tea at ₱300/kg to make a mixture worth ₱240/kg. In what ratio (cheaper : dearer) are they mixed?",
+    "choices": [
+      "3:2",
+      "3:1",
+      "2:3",
+      "1:1"
+    ],
+    "answer": "3:2",
+    "explanation": "Alligation: cheaper : dearer = (300 − 240) : (240 − 200) = 60 : 40 = 3 : 2.",
+    "formula": "Total of the ingredient = Σ(quantity × concentration). Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper).",
+    "tip": "Track the part that does not change (e.g. the milk when only water is added), then solve for the new total."
+  },
+  {
+    "id": "num_218",
+    "question": "A father is 4 times as old as his son. The sum of their ages is 45. How old is the son?",
+    "choices": [
+      "10 years",
+      "9 years",
+      "11 years",
+      "8 years"
+    ],
+    "answer": "9 years",
+    "explanation": "Let the son be x: x + 4x = 45, so x = 9.",
+    "formula": "Let current ages be x and y; each person's age n years ago/hence is (age ∓ n). Translate each statement into one equation, then solve the linear system.",
+    "tip": "Shift ALL ages by the same number of years. The age difference between two people never changes."
+  },
+  {
+    "id": "num_219",
+    "question": "A mother is 30 and her daughter is 6. In how many years will the mother be 3 times as old as her daughter?",
+    "choices": [
+      "7 years",
+      "8 years",
+      "6 years",
+      "5 years"
+    ],
+    "answer": "6 years",
+    "explanation": "30 + x = 3(6 + x) → 30 + x = 18 + 3x → 12 = 2x → x = 6.",
+    "formula": "Let current ages be x and y; each person's age n years ago/hence is (age ∓ n). Translate each statement into one equation, then solve the linear system.",
+    "tip": "Shift ALL ages by the same number of years. The age difference between two people never changes."
+  },
+  {
+    "id": "num_220",
+    "question": "Five years ago, A was twice as old as B. The sum of their present ages is 40. How old is A now?",
+    "choices": [
+      "25 years",
+      "23 years",
+      "29 years",
+      "27 years"
+    ],
+    "answer": "25 years",
+    "explanation": "A − 5 = 2(B − 5) and A + B = 40. Then A = 2B − 5, so 3B − 5 = 40 → B = 15 and A = 25.",
+    "formula": "Let current ages be x and y; each person's age n years ago/hence is (age ∓ n). Translate each statement into one equation, then solve the linear system.",
+    "tip": "Shift ALL ages by the same number of years. The age difference between two people never changes."
+  },
+  {
+    "id": "num_221",
+    "question": "The average of 5 numbers is 24. Four of them are 20, 22, 25 and 28. What is the fifth number?",
+    "choices": [
+      "29",
+      "23",
+      "25",
+      "27"
+    ],
+    "answer": "25",
+    "explanation": "Total = 5 × 24 = 120. Known sum = 20 + 22 + 25 + 28 = 95. Fifth = 120 − 95 = 25.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
+  },
+  {
+    "id": "num_222",
+    "question": "The average of 6 numbers is 15. When a 7th number is added, the average becomes 16. What is the 7th number?",
+    "choices": [
+      "24",
+      "22",
+      "26",
+      "20"
+    ],
+    "answer": "22",
+    "explanation": "New total = 7 × 16 = 112. Old total = 6 × 15 = 90. 7th = 112 − 90 = 22.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
+  },
+  {
+    "id": "num_223",
+    "question": "The average of the first 3 numbers is 10 and the average of the last 2 numbers is 20. What is the average of all 5 numbers?",
+    "choices": [
+      "14",
+      "16",
+      "13",
+      "15"
+    ],
+    "answer": "14",
+    "explanation": "Total = 3 × 10 + 2 × 20 = 70. Average = 70 ÷ 5 = 14.",
+    "formula": "Average = sum ÷ count, so sum = average × count. Combined average = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂). Median = middle value after sorting.",
+    "tip": "Work with totals: missing value = new total − old total. For consecutive numbers the average equals the middle value."
+  },
+  {
+    "id": "num_224",
+    "question": "Find the next number: 4, 9, 16, 25, ?",
+    "choices": [
+      "36",
+      "40",
+      "32",
+      "44"
+    ],
+    "answer": "36",
+    "explanation": "These are consecutive squares: 2², 3², 4², 5², so next is 6² = 36.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
+  },
+  {
+    "id": "num_225",
+    "question": "Find the next number: 3, 6, 12, 24, ?",
+    "choices": [
+      "58",
+      "43",
+      "53",
+      "48"
+    ],
+    "answer": "48",
+    "explanation": "Each term is multiplied by 2: 24 × 2 = 48.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
+  },
+  {
+    "id": "num_226",
+    "question": "Find the next number: 5, 8, 13, 20, ?",
+    "choices": [
+      "26",
+      "32",
+      "35",
+      "29"
+    ],
+    "answer": "29",
+    "explanation": "The gaps are 3, 5, 7, so the next gap is 9: 20 + 9 = 29.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
+  },
+  {
+    "id": "num_227",
+    "question": "Find the next number: 2, 3, 5, 8, 12, ?",
+    "choices": [
+      "21",
+      "17",
+      "15",
+      "19"
+    ],
+    "answer": "17",
+    "explanation": "The gaps are 1, 2, 3, 4, so the next gap is 5: 12 + 5 = 17.",
+    "formula": "Arithmetic: aₙ = a₁ + (n − 1)d and Sₙ = n/2 · (2a₁ + (n − 1)d). Geometric: aₙ = a₁·rⁿ⁻¹.",
+    "tip": "Take differences first; if they are not constant, take differences of differences, then try ratios, squares/cubes, and sum of the previous two terms."
+  },
+  {
+    "id": "num_228",
+    "question": "The perimeter of a rectangle is 46 cm and its length is 15 cm. What is its width?",
+    "choices": [
+      "8 cm",
+      "10 cm",
+      "7 cm",
+      "9 cm"
+    ],
+    "answer": "8 cm",
+    "explanation": "Perimeter = 2(l + w): 23 = 15 + w, so w = 8 cm.",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
+  },
+  {
+    "id": "num_229",
+    "question": "What is the area of a circle with a radius of 14 cm? (Use π = 22/7)",
+    "choices": [
+      "554 cm²",
+      "678 cm²",
+      "616 cm²",
+      "740 cm²"
+    ],
+    "answer": "616 cm²",
+    "explanation": "A = πr² = (22/7) × 14 × 14 = 22 × 2 × 14 = 616 cm².",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
+  },
+  {
+    "id": "num_230",
+    "question": "What is the total surface area of a cube with an edge of 3 cm?",
+    "choices": [
+      "64 cm²",
+      "54 cm²",
+      "59 cm²",
+      "49 cm²"
+    ],
+    "answer": "54 cm²",
+    "explanation": "A cube has 6 faces: 6 × 3² = 54 cm².",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
+  },
+  {
+    "id": "num_231",
+    "question": "What is the area of a triangle with a base of 12 cm and a height of 7 cm?",
+    "choices": [
+      "50 cm²",
+      "42 cm²",
+      "46 cm²",
+      "38 cm²"
+    ],
+    "answer": "42 cm²",
+    "explanation": "A = ½ × base × height = ½ × 12 × 7 = 42 cm².",
+    "formula": "Rectangle: A = lw, P = 2(l + w). Square: A = s², diagonal d = s√2. Circle: A = πr², C = 2πr. Triangle: A = ½bh; right triangle c² = a² + b². Sphere V = (4/3)πr³; cube V = s³.",
+    "tip": "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume. Watch cm vs mm."
+  },
+  {
+    "id": "num_232",
+    "question": "What is the LCM of 15, 20 and 30?",
+    "choices": [
+      "54",
+      "72",
+      "60",
+      "66"
+    ],
+    "answer": "60",
+    "explanation": "15 = 3·5, 20 = 2²·5, 30 = 2·3·5. LCM = 2² · 3 · 5 = 60.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
+  },
+  {
+    "id": "num_233",
+    "question": "What is the GCF of 84 and 126?",
+    "choices": [
+      "38",
+      "46",
+      "42",
+      "50"
+    ],
+    "answer": "42",
+    "explanation": "84 = 2²·3·7 and 126 = 2·3²·7. GCF = 2 · 3 · 7 = 42.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
+  },
+  {
+    "id": "num_234",
+    "question": "Two bells ring every 12 and 18 minutes. If they ring together at 8:00 AM, after how many minutes will they next ring together?",
+    "choices": [
+      "36 minutes",
+      "32 minutes",
+      "40 minutes",
+      "44 minutes"
+    ],
+    "answer": "36 minutes",
+    "explanation": "LCM of 12 and 18 = 36, so they ring together again after 36 minutes.",
+    "formula": "LCM = product of the highest prime powers; GCF = product of the lowest prime powers. Events repeating at intervals meet again at the LCM.",
+    "tip": "Prime-factorize first. 'Same remainder' → GCF of the differences. Last digits of powers repeat in cycles (usually 4), so reduce the exponent mod 4."
+  },
+  {
+    "id": "num_235",
+    "question": "A bag has 5 red, 3 blue and 2 green marbles. What is the probability of drawing a red marble?",
+    "choices": [
+      "1/2",
+      "3/10",
+      "1/5",
+      "2/5"
+    ],
+    "answer": "1/2",
+    "explanation": "P(red) = 5 ÷ (5 + 3 + 2) = 5/10 = 1/2.",
+    "formula": "P(event) = favorable ÷ total outcomes. Independent events: P(A and B) = P(A)·P(B). P(A or B) = P(A) + P(B) − P(A and B). P(not A) = 1 − P(A).",
+    "tip": "Without replacement the total shrinks after every draw. 'At least one' is easiest as 1 − P(none). Two dice have 36 outcomes."
+  },
+  {
+    "id": "num_236",
+    "question": "A bag has 5 red, 3 blue and 2 green marbles. What is the probability that a marble drawn at random is NOT blue?",
+    "choices": [
+      "3/7",
+      "7/10",
+      "3/10",
+      "1/2"
+    ],
+    "answer": "7/10",
+    "explanation": "P(not blue) = 1 − 3/10 = 7/10.",
+    "formula": "P(event) = favorable ÷ total outcomes. Independent events: P(A and B) = P(A)·P(B). P(A or B) = P(A) + P(B) − P(A and B). P(not A) = 1 − P(A).",
+    "tip": "Without replacement the total shrinks after every draw. 'At least one' is easiest as 1 − P(none). Two dice have 36 outcomes."
+  },
+  {
+    "id": "num_237",
+    "question": "A fair die is rolled once. What is the probability of getting an even number or a 5?",
+    "choices": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "answer": "2/3",
+    "explanation": "Favorable outcomes: 2, 4, 6 and 5 = 4 outcomes out of 6, so 4/6 = 2/3.",
+    "formula": "P(event) = favorable ÷ total outcomes. Independent events: P(A and B) = P(A)·P(B). P(A or B) = P(A) + P(B) − P(A and B). P(not A) = 1 − P(A).",
+    "tip": "Without replacement the total shrinks after every draw. 'At least one' is easiest as 1 − P(none). Two dice have 36 outcomes."
+  },
+  {
+    "id": "num_238",
+    "question": "Evaluate: 3/5 + 7/10",
+    "choices": [
+      "13/10",
+      "10/15",
+      "9/10",
+      "1 1/10"
+    ],
+    "answer": "13/10",
+    "explanation": "3/5 = 6/10, so 6/10 + 7/10 = 13/10 (or 1 3/10).",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
+  },
+  {
+    "id": "num_239",
+    "question": "Evaluate: 18 + 6 × 4 ÷ 3 − 5",
+    "choices": [
+      "23",
+      "21",
+      "25",
+      "19"
+    ],
+    "answer": "21",
+    "explanation": "Multiply and divide first, left to right: 6 × 4 = 24, 24 ÷ 3 = 8. Then 18 + 8 − 5 = 21.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
+  },
+  {
+    "id": "num_240",
+    "question": "Evaluate: 0.6 × 0.35",
+    "choices": [
+      "0.021",
+      "2.1",
+      "0.21",
+      "0.26"
+    ],
+    "answer": "0.21",
+    "explanation": "6 × 35 = 210, and there are 3 decimal places in total, so 0.210 = 0.21.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
+  },
+  {
+    "id": "num_241",
+    "question": "Evaluate: 2 1/2 ÷ 5/6",
+    "choices": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": "2 1/2 = 5/2. Then 5/2 × 6/5 = 30/10 = 3.",
+    "formula": "PEMDAS: parentheses, exponents, then × and ÷ left to right, then + and − left to right. a/b ÷ c/d = a/b × d/c. Same-base powers: aᵐ·aⁿ = aᵐ⁺ⁿ.",
+    "tip": "× and ÷ share one rank, so go left to right (do not multiply first). Convert decimals to fractions (0.125 = 1/8) to cancel quickly."
   }
 ]
