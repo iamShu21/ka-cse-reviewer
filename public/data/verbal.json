@@ -1978,5 +1978,746 @@
     ],
     "answer": "Ang sistematikong panlilinlang at pagpapakalat ng fake news.",
     "explanation": "Ang teksto ay nagbababala na ang 'sistematikong panlilinlang' o paglaganap ng fake news ay banta sa demokrasya dahil ninanakaw nito ang karapatan ng botante na pumili batay sa katotohanan."
+  },
+  {
+    "id": "verb_166",
+    "question": "Choose the word that is most nearly the SAME in meaning as 'EPHEMERAL'.",
+    "choices": [
+      "Ordinary",
+      "Eternal",
+      "Short-lived",
+      "Fragile"
+    ],
+    "answer": "Short-lived",
+    "explanation": "Ephemeral (from Greek 'lasting a day') describes something that lasts only a short time.",
+    "tip": "Break the word into prefix/root/suffix or recall it in a sentence. If two choices look alike, the right one usually shares the exact core meaning, not just the same topic."
+  },
+  {
+    "id": "verb_167",
+    "question": "Choose the word that is most nearly the SAME in meaning as 'METICULOUS'.",
+    "choices": [
+      "Careless",
+      "Hasty",
+      "Generous",
+      "Painstaking"
+    ],
+    "answer": "Painstaking",
+    "explanation": "Meticulous means extremely careful about details, i.e. painstaking.",
+    "tip": "Break the word into prefix/root/suffix or recall it in a sentence. If two choices look alike, the right one usually shares the exact core meaning, not just the same topic."
+  },
+  {
+    "id": "verb_168",
+    "question": "Choose the word that is most nearly the SAME in meaning as 'LUCID'.",
+    "choices": [
+      "Confusing",
+      "Clear",
+      "Loud",
+      "Dark"
+    ],
+    "answer": "Clear",
+    "explanation": "Lucid means easy to understand or clear-minded.",
+    "tip": "Break the word into prefix/root/suffix or recall it in a sentence. If two choices look alike, the right one usually shares the exact core meaning, not just the same topic."
+  },
+  {
+    "id": "verb_169",
+    "question": "Choose the word that is most nearly the SAME in meaning as 'BENEVOLENT'.",
+    "choices": [
+      "Indifferent",
+      "Greedy",
+      "Charitable",
+      "Hostile"
+    ],
+    "answer": "Charitable",
+    "explanation": "Benevolent (bene = good, volent = wishing) means kindly and well-meaning, i.e. charitable.",
+    "tip": "Break the word into prefix/root/suffix or recall it in a sentence. If two choices look alike, the right one usually shares the exact core meaning, not just the same topic."
+  },
+  {
+    "id": "verb_170",
+    "question": "Choose the word that is most nearly the SAME in meaning as 'OBSOLETE'.",
+    "choices": [
+      "Valuable",
+      "Outdated",
+      "Modern",
+      "Damaged"
+    ],
+    "answer": "Outdated",
+    "explanation": "Obsolete means no longer in use or out of date.",
+    "tip": "Break the word into prefix/root/suffix or recall it in a sentence. If two choices look alike, the right one usually shares the exact core meaning, not just the same topic."
+  },
+  {
+    "id": "verb_171",
+    "question": "Choose the word that is most nearly the SAME in meaning as 'CANDID'.",
+    "choices": [
+      "Polite",
+      "Biased",
+      "Frank",
+      "Secretive"
+    ],
+    "answer": "Frank",
+    "explanation": "Candid means truthful and straightforward, i.e. frank.",
+    "tip": "Break the word into prefix/root/suffix or recall it in a sentence. If two choices look alike, the right one usually shares the exact core meaning, not just the same topic."
+  },
+  {
+    "id": "verb_172",
+    "question": "Choose the word that is most nearly the SAME in meaning as 'PRUDENT'.",
+    "choices": [
+      "Reckless",
+      "Arrogant",
+      "Generous",
+      "Cautious"
+    ],
+    "answer": "Cautious",
+    "explanation": "Prudent means acting with care and good judgment about the future, i.e. cautious.",
+    "tip": "Break the word into prefix/root/suffix or recall it in a sentence. If two choices look alike, the right one usually shares the exact core meaning, not just the same topic."
+  },
+  {
+    "id": "verb_173",
+    "question": "Choose the word that is most nearly the SAME in meaning as 'TENACIOUS'.",
+    "choices": [
+      "Forgetful",
+      "Persistent",
+      "Flexible",
+      "Weak"
+    ],
+    "answer": "Persistent",
+    "explanation": "Tenacious (from Latin tenere, to hold) means holding on firmly, i.e. persistent.",
+    "tip": "Break the word into prefix/root/suffix or recall it in a sentence. If two choices look alike, the right one usually shares the exact core meaning, not just the same topic."
+  },
+  {
+    "id": "verb_174",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to 'VERBOSE'.",
+    "choices": [
+      "Talkative",
+      "Eloquent",
+      "Concise",
+      "Lengthy"
+    ],
+    "answer": "Concise",
+    "explanation": "Verbose means using more words than needed; its opposite is concise.",
+    "tip": "Find the meaning of the given word first, then look for its exact opposite. Beware of choices that are merely related or the same meaning."
+  },
+  {
+    "id": "verb_175",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to 'FRUGAL'.",
+    "choices": [
+      "Thrifty",
+      "Stingy",
+      "Economical",
+      "Extravagant"
+    ],
+    "answer": "Extravagant",
+    "explanation": "Frugal means careful with money; the opposite is extravagant (spending freely).",
+    "tip": "Find the meaning of the given word first, then look for its exact opposite. Beware of choices that are merely related or the same meaning."
+  },
+  {
+    "id": "verb_176",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to 'ABUNDANT'.",
+    "choices": [
+      "Rich",
+      "Scarce",
+      "Plentiful",
+      "Ample"
+    ],
+    "answer": "Scarce",
+    "explanation": "Abundant means existing in large quantities; the opposite is scarce.",
+    "tip": "Find the meaning of the given word first, then look for its exact opposite. Beware of choices that are merely related or the same meaning."
+  },
+  {
+    "id": "verb_177",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to 'ARDUOUS'.",
+    "choices": [
+      "Lengthy",
+      "Difficult",
+      "Tiring",
+      "Easy"
+    ],
+    "answer": "Easy",
+    "explanation": "Arduous means requiring great effort; the opposite is easy.",
+    "tip": "Find the meaning of the given word first, then look for its exact opposite. Beware of choices that are merely related or the same meaning."
+  },
+  {
+    "id": "verb_178",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to 'HOSTILE'.",
+    "choices": [
+      "Distant",
+      "Aggressive",
+      "Friendly",
+      "Angry"
+    ],
+    "answer": "Friendly",
+    "explanation": "Hostile means unfriendly or antagonistic; the opposite is friendly.",
+    "tip": "Find the meaning of the given word first, then look for its exact opposite. Beware of choices that are merely related or the same meaning."
+  },
+  {
+    "id": "verb_179",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to 'TRANSPARENT'.",
+    "choices": [
+      "Clear",
+      "Visible",
+      "Opaque",
+      "Thin"
+    ],
+    "answer": "Opaque",
+    "explanation": "Transparent means see-through; the opposite is opaque (not allowing light through).",
+    "tip": "Find the meaning of the given word first, then look for its exact opposite. Beware of choices that are merely related or the same meaning."
+  },
+  {
+    "id": "verb_180",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to 'GENUINE'.",
+    "choices": [
+      "Authentic",
+      "Valuable",
+      "Honest",
+      "Counterfeit"
+    ],
+    "answer": "Counterfeit",
+    "explanation": "Genuine means real or authentic; the opposite is counterfeit (fake).",
+    "tip": "Find the meaning of the given word first, then look for its exact opposite. Beware of choices that are merely related or the same meaning."
+  },
+  {
+    "id": "verb_181",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to 'EXPAND'.",
+    "choices": [
+      "Contract",
+      "Grow",
+      "Stretch",
+      "Widen"
+    ],
+    "answer": "Contract",
+    "explanation": "Expand means to become larger; the opposite is contract (become smaller).",
+    "tip": "Find the meaning of the given word first, then look for its exact opposite. Beware of choices that are merely related or the same meaning."
+  },
+  {
+    "id": "verb_182",
+    "question": "Complete the sentence: The new policy was met with ________ from employees who feared losing their benefits.",
+    "choices": [
+      "Resistance",
+      "Enthusiasm",
+      "Applause",
+      "Gratitude"
+    ],
+    "answer": "Resistance",
+    "explanation": "Employees who fear losing benefits would push back, so 'resistance' fits.",
+    "tip": "Read the whole sentence first and look for clue words (although, because, but, so). They tell you whether the blank should agree with or contrast the rest of the sentence."
+  },
+  {
+    "id": "verb_183",
+    "question": "Complete the sentence: Because the evidence was ________, the judge dismissed the case.",
+    "choices": [
+      "Abundant",
+      "Insufficient",
+      "Overwhelming",
+      "Conclusive"
+    ],
+    "answer": "Insufficient",
+    "explanation": "A case is dismissed when evidence is not enough; 'because' signals cause and effect.",
+    "tip": "Read the whole sentence first and look for clue words (although, because, but, so). They tell you whether the blank should agree with or contrast the rest of the sentence."
+  },
+  {
+    "id": "verb_184",
+    "question": "Complete the sentence: Although the speech was long, it was far from ________; every point was relevant.",
+    "choices": [
+      "Persuasive",
+      "Rambling",
+      "Brief",
+      "Focused"
+    ],
+    "answer": "Rambling",
+    "explanation": "'Although' contrasts: long yet every point relevant, so it was not rambling (wandering and unfocused).",
+    "tip": "Read the whole sentence first and look for clue words (although, because, but, so). They tell you whether the blank should agree with or contrast the rest of the sentence."
+  },
+  {
+    "id": "verb_185",
+    "question": "Complete the sentence: The mayor's ________ response to the crisis saved many lives.",
+    "choices": [
+      "Careless",
+      "Delayed",
+      "Hesitant",
+      "Prompt"
+    ],
+    "answer": "Prompt",
+    "explanation": "Only a quick (prompt) response would save lives.",
+    "tip": "Read the whole sentence first and look for clue words (although, because, but, so). They tell you whether the blank should agree with or contrast the rest of the sentence."
+  },
+  {
+    "id": "verb_186",
+    "question": "Complete the sentence: She felt ________ about the results, unsure whether to celebrate or worry.",
+    "choices": [
+      "Ambivalent",
+      "Delighted",
+      "Certain",
+      "Furious"
+    ],
+    "answer": "Ambivalent",
+    "explanation": "Ambivalent means having mixed feelings, matching 'unsure whether to celebrate or worry'.",
+    "tip": "Read the whole sentence first and look for clue words (although, because, but, so). They tell you whether the blank should agree with or contrast the rest of the sentence."
+  },
+  {
+    "id": "verb_187",
+    "question": "Complete the sentence: The scientist's findings were ________ by independent studies, confirming her results.",
+    "choices": [
+      "Refuted",
+      "Corroborated",
+      "Contradicted",
+      "Ignored"
+    ],
+    "answer": "Corroborated",
+    "explanation": "'Confirming her results' shows the studies supported her findings; corroborate means to confirm.",
+    "tip": "Read the whole sentence first and look for clue words (although, because, but, so). They tell you whether the blank should agree with or contrast the rest of the sentence."
+  },
+  {
+    "id": "verb_188",
+    "question": "Choose the correct word: Neither the manager nor the employees ________ aware of the change.",
+    "choices": [
+      "has been",
+      "was",
+      "is",
+      "were"
+    ],
+    "answer": "were",
+    "explanation": "With 'neither…nor' the verb agrees with the nearer subject, 'employees' (plural), so 'were'.",
+    "tip": "Match the verb to its true subject, ignoring phrases in between. With 'neither…nor' / 'either…or', the verb agrees with the nearer subject."
+  },
+  {
+    "id": "verb_189",
+    "question": "Identify the part of the sentence with the error: Each of the applicants (A) have paid (B) the required fee (C) before the deadline (D).",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": "'Each' is singular, so the verb must be 'has paid', not 'have paid'.",
+    "tip": "Match the verb to its true subject, ignoring phrases in between. With 'neither…nor' / 'either…or', the verb agrees with the nearer subject."
+  },
+  {
+    "id": "verb_190",
+    "question": "Which sentence is correct?",
+    "choices": [
+      "Between you and myself, the plan will fail.",
+      "Between you and me, the plan will fail.",
+      "Between I and you, the plan will fail.",
+      "Between you and I, the plan will fail."
+    ],
+    "answer": "Between you and me, the plan will fail.",
+    "explanation": "After a preposition ('between') use the object pronoun 'me'.",
+    "tip": "After prepositions (between, to, for, with) use object pronouns: me, him, her, us, them."
+  },
+  {
+    "id": "verb_191",
+    "question": "Choose the correct word: The new rules will ________ all government employees.",
+    "choices": [
+      "effects",
+      "affect",
+      "effect",
+      "effected"
+    ],
+    "answer": "affect",
+    "explanation": "'Affect' is the verb meaning to influence; 'effect' is usually a noun (a result).",
+    "tip": "Affect = verb (action), effect = noun (result). 'A' for action, 'E' for end result."
+  },
+  {
+    "id": "verb_192",
+    "question": "Choose the correct word: There are ________ errors in this year's report than last year's.",
+    "choices": [
+      "lesser",
+      "less",
+      "little",
+      "fewer"
+    ],
+    "answer": "fewer",
+    "explanation": "'Errors' can be counted, so use 'fewer'; 'less' is for uncountable amounts.",
+    "tip": "Fewer for things you can count (errors, people); less for amounts (water, time, money)."
+  },
+  {
+    "id": "verb_193",
+    "question": "Choose the word that completes the sentence in parallel form: She enjoys swimming, jogging, and ________.",
+    "choices": [
+      "cycling",
+      "to cycle",
+      "she cycles",
+      "cycles"
+    ],
+    "answer": "cycling",
+    "explanation": "Items in a list must have the same grammatical form: swimming, jogging, cycling (all -ing forms).",
+    "tip": "Parallel structure: every item in a list should use the same form (all -ing, all to-verbs, all nouns)."
+  },
+  {
+    "id": "verb_194",
+    "question": "Choose the correct word: If I ________ you, I would apply for the position.",
+    "choices": [
+      "were",
+      "was",
+      "am",
+      "be"
+    ],
+    "answer": "were",
+    "explanation": "For an imaginary or contrary-to-fact condition, English uses the subjunctive 'were' for all subjects.",
+    "tip": "'If I were…' signals a hypothetical situation; use 'were', not 'was'."
+  },
+  {
+    "id": "verb_195",
+    "question": "Choose the correct word: The committee ________ its report yesterday.",
+    "choices": [
+      "will submit",
+      "submits",
+      "have submitted",
+      "submitted"
+    ],
+    "answer": "submitted",
+    "explanation": "'Yesterday' calls for the simple past tense: submitted. 'Committee' acting as one group takes singular agreement.",
+    "tip": "Time words (yesterday, last week) → simple past; (since, already) → present perfect."
+  },
+  {
+    "id": "verb_196",
+    "question": "Choose the correctly spelled word.",
+    "choices": [
+      "Accomodate",
+      "Accommodate",
+      "Acommodate",
+      "Acomodate"
+    ],
+    "answer": "Accommodate",
+    "explanation": "The correct spelling is 'Accommodate'.",
+    "tip": "Visualize the word and watch the doubled letters. Memory aids: aCCoMModate (two c's, two m's), neCessary (one c, two s's)."
+  },
+  {
+    "id": "verb_197",
+    "question": "Choose the correctly spelled word.",
+    "choices": [
+      "Ocurrence",
+      "Occurence",
+      "Occurance",
+      "Occurrence"
+    ],
+    "answer": "Occurrence",
+    "explanation": "The correct spelling is 'Occurrence'.",
+    "tip": "Visualize the word and watch the doubled letters. Memory aids: aCCoMModate (two c's, two m's), neCessary (one c, two s's)."
+  },
+  {
+    "id": "verb_198",
+    "question": "Choose the correctly spelled word.",
+    "choices": [
+      "Necessary",
+      "Necesary",
+      "Neccessary",
+      "Neccesary"
+    ],
+    "answer": "Necessary",
+    "explanation": "The correct spelling is 'Necessary'.",
+    "tip": "Visualize the word and watch the doubled letters. Memory aids: aCCoMModate (two c's, two m's), neCessary (one c, two s's)."
+  },
+  {
+    "id": "verb_199",
+    "question": "Choose the correctly spelled word.",
+    "choices": [
+      "Sepparate",
+      "Seperate",
+      "Separate",
+      "Separete"
+    ],
+    "answer": "Separate",
+    "explanation": "The correct spelling is 'Separate'.",
+    "tip": "Visualize the word and watch the doubled letters. Memory aids: aCCoMModate (two c's, two m's), neCessary (one c, two s's)."
+  },
+  {
+    "id": "verb_200",
+    "question": "Choose the correctly spelled word.",
+    "choices": [
+      "Consciencious",
+      "Conscientous",
+      "Conscientious",
+      "Conscentious"
+    ],
+    "answer": "Conscientious",
+    "explanation": "The correct spelling is 'Conscientious'.",
+    "tip": "Visualize the word and watch the doubled letters. Memory aids: aCCoMModate (two c's, two m's), neCessary (one c, two s's)."
+  },
+  {
+    "id": "verb_201",
+    "question": "What does the idiom 'let the cat out of the bag' mean?",
+    "choices": [
+      "To free a pet",
+      "To make a mistake",
+      "To reveal a secret",
+      "To start a quarrel"
+    ],
+    "answer": "To reveal a secret",
+    "explanation": "It means to reveal something that was meant to be kept secret.",
+    "tip": "Do not read idioms literally; think of the situation where people use the phrase."
+  },
+  {
+    "id": "verb_202",
+    "question": "What does the idiom 'beat around the bush' mean?",
+    "choices": [
+      "To hunt for animals",
+      "To speak very loudly",
+      "To avoid getting to the main point",
+      "To clean a garden"
+    ],
+    "answer": "To avoid getting to the main point",
+    "explanation": "It means to talk about unimportant things instead of the main issue.",
+    "tip": "Do not read idioms literally; think of the situation where people use the phrase."
+  },
+  {
+    "id": "verb_203",
+    "question": "What does the idiom 'once in a blue moon' mean?",
+    "choices": [
+      "Very rarely",
+      "At midnight",
+      "Every night",
+      "Suddenly"
+    ],
+    "answer": "Very rarely",
+    "explanation": "A blue moon is rare, so the phrase means something that happens very rarely.",
+    "tip": "Do not read idioms literally; think of the situation where people use the phrase."
+  },
+  {
+    "id": "verb_204",
+    "question": "What does the idiom 'burn the midnight oil' mean?",
+    "choices": [
+      "To start a fire",
+      "To waste fuel",
+      "To wake up early",
+      "To work late into the night"
+    ],
+    "answer": "To work late into the night",
+    "explanation": "It originally referred to oil lamps used to work or study late at night.",
+    "tip": "Do not read idioms literally; think of the situation where people use the phrase."
+  },
+  {
+    "id": "verb_205",
+    "question": "Read the passage below and answer the question that follows.\n\nFlooding in many Philippine cities is often blamed on heavy rainfall alone. However, engineers point out that clogged drainage, waste dumped in waterways, and the loss of open green spaces that once absorbed rainwater make the problem far worse. Without addressing these human factors, even the most expensive flood walls will offer only temporary relief.\n\nQuestion: What is the main idea of the passage?",
+    "choices": [
+      "Flooding is worsened by human factors, not rainfall alone.",
+      "Rainfall is the only cause of flooding.",
+      "Flood walls permanently solve flooding.",
+      "Green spaces cause drainage problems."
+    ],
+    "answer": "Flooding is worsened by human factors, not rainfall alone.",
+    "explanation": "The passage says rainfall is not the only cause; clogged drainage, waste and lost green spaces also worsen floods.",
+    "tip": "Read the question first, then the passage; main idea = what the whole passage is about, inference = what must be true based on the text, not extra facts."
+  },
+  {
+    "id": "verb_206",
+    "question": "Read the passage below and answer the question that follows.\n\nFlooding in many Philippine cities is often blamed on heavy rainfall alone. However, engineers point out that clogged drainage, waste dumped in waterways, and the loss of open green spaces that once absorbed rainwater make the problem far worse. Without addressing these human factors, even the most expensive flood walls will offer only temporary relief.\n\nQuestion: Which statement can be inferred from the passage?",
+    "choices": [
+      "Flood walls alone will not fix the flooding problem.",
+      "Open green spaces increase flooding.",
+      "Dumping of waste in waterways has stopped.",
+      "Heavy rainfall no longer occurs."
+    ],
+    "answer": "Flood walls alone will not fix the flooding problem.",
+    "explanation": "'Even the most expensive flood walls will offer only temporary relief' implies walls alone are not enough.",
+    "tip": "Read the question first, then the passage; main idea = what the whole passage is about, inference = what must be true based on the text, not extra facts."
+  },
+  {
+    "id": "verb_207",
+    "question": "Read the passage below and answer the question that follows.\n\nStudies on reading habits show that people who read for twenty minutes before sleeping tend to fall asleep faster than those who scroll through their phones. Researchers suggest that bright screens suppress the hormone that signals the body it is time to rest, while a printed book does not.\n\nQuestion: According to the passage, why do phone users tend to fall asleep later?",
+    "choices": [
+      "Screen light suppresses the hormone that signals rest.",
+      "Reading is boring.",
+      "Phones are heavier than books.",
+      "Printed books are brighter than screens."
+    ],
+    "answer": "Screen light suppresses the hormone that signals rest.",
+    "explanation": "The passage states bright screens suppress the hormone that tells the body it is time to rest.",
+    "tip": "Read the question first, then the passage; main idea = what the whole passage is about, inference = what must be true based on the text, not extra facts."
+  },
+  {
+    "id": "verb_208",
+    "question": "Read the passage below and answer the question that follows.\n\nStudies on reading habits show that people who read for twenty minutes before sleeping tend to fall asleep faster than those who scroll through their phones. Researchers suggest that bright screens suppress the hormone that signals the body it is time to rest, while a printed book does not.\n\nQuestion: What is the author's main purpose in the passage?",
+    "choices": [
+      "To entertain with a short story",
+      "To criticize researchers",
+      "To inform readers how bedtime habits can affect sleep",
+      "To advertise printed books"
+    ],
+    "answer": "To inform readers how bedtime habits can affect sleep",
+    "explanation": "The passage reports study findings about bedtime habits and sleep, i.e. it informs.",
+    "tip": "Read the question first, then the passage; main idea = what the whole passage is about, inference = what must be true based on the text, not extra facts."
+  },
+  {
+    "id": "verb_209",
+    "question": "Read the passage below and answer the question that follows.\n\nA public servant's duty does not end with following rules. Honesty, responsiveness, and a willingness to put the public interest above personal gain are what earn citizens' trust. Rules can be memorized in a week, but trust can take years to build and only one scandal to destroy.\n\nQuestion: As used in the passage, 'responsiveness' most nearly means",
+    "choices": [
+      "seeking personal gain",
+      "avoiding responsibility",
+      "reacting promptly to the needs of the public",
+      "strict obedience to rules"
+    ],
+    "answer": "reacting promptly to the needs of the public",
+    "explanation": "In the passage it is listed with honesty and public interest, qualities that earn trust; responsiveness means attending to people's needs.",
+    "tip": "Read the question first, then the passage; main idea = what the whole passage is about, inference = what must be true based on the text, not extra facts."
+  },
+  {
+    "id": "verb_210",
+    "question": "Read the passage below and answer the question that follows.\n\nA public servant's duty does not end with following rules. Honesty, responsiveness, and a willingness to put the public interest above personal gain are what earn citizens' trust. Rules can be memorized in a week, but trust can take years to build and only one scandal to destroy.\n\nQuestion: Which best summarizes the passage?",
+    "choices": [
+      "Trust is easy to rebuild after a scandal.",
+      "Scandals rarely affect public trust.",
+      "Public servants need integrity and a service mindset beyond just following rules.",
+      "Rules are unimportant for public servants."
+    ],
+    "answer": "Public servants need integrity and a service mindset beyond just following rules.",
+    "explanation": "The passage says duty goes beyond rules to honesty and putting the public first, and that trust is easily lost.",
+    "tip": "Read the question first, then the passage; main idea = what the whole passage is about, inference = what must be true based on the text, not extra facts."
+  },
+  {
+    "id": "verb_211",
+    "question": "Arrange the sentences in the correct order.\n(1) Finally, serve the dish hot.\n(2) First, wash and cut the vegetables.\n(3) Then sauté them in oil with garlic.\n(4) Next, add the sauce and let it simmer.",
+    "choices": [
+      "2-3-4-1",
+      "3-2-4-1",
+      "1-2-3-4",
+      "2-4-3-1"
+    ],
+    "answer": "2-3-4-1",
+    "explanation": "'First' starts the process (2), 'Then' (3), 'Next' (4), 'Finally' ends it (1).",
+    "tip": "Find the opening sentence (introduces the topic), then follow signal words: first, then, next, as a result, therefore, finally."
+  },
+  {
+    "id": "verb_212",
+    "question": "Arrange the sentences in the correct order.\n(1) As a result, many farmers lost their harvest.\n(2) A strong typhoon hit the province last week.\n(3) Rice fields were flooded for days.\n(4) The government has promised financial aid.",
+    "choices": [
+      "3-2-1-4",
+      "2-1-3-4",
+      "4-2-3-1",
+      "2-3-1-4"
+    ],
+    "answer": "2-3-1-4",
+    "explanation": "Cause first (typhoon, 2), then effect (flooding, 3), 'As a result' consequence (1), then the response (4).",
+    "tip": "Find the opening sentence (introduces the topic), then follow signal words: first, then, next, as a result, therefore, finally."
+  },
+  {
+    "id": "verb_213",
+    "question": "Arrange the sentences in the correct order.\n(1) Therefore, it is wise to check every detail before submitting.\n(2) Incomplete forms are often rejected.\n(3) Many applicants fail to attach all the required documents.\n(4) Rejected applications must be filed again.",
+    "choices": [
+      "3-2-4-1",
+      "2-3-1-4",
+      "1-3-2-4",
+      "3-4-2-1"
+    ],
+    "answer": "3-2-4-1",
+    "explanation": "Problem (3), consequence (2), further consequence (4), then the 'Therefore' conclusion (1).",
+    "tip": "Find the opening sentence (introduces the topic), then follow signal words: first, then, next, as a result, therefore, finally."
+  },
+  {
+    "id": "verb_214",
+    "question": "Tukuyin ang kasalungat ng salitang 'MATAPANG'.",
+    "choices": [
+      "Mahusay",
+      "Duwag",
+      "Malakas",
+      "Mabagsik"
+    ],
+    "answer": "Duwag",
+    "explanation": "Ang matapang ay walang takot; ang kasalungat nito ay duwag.",
+    "tip": "Isulat sa isip ang kahulugan ng salita at hanapin ang katapat nito; sa kasalungat, iwasan ang mga sagot na magkaugnay lamang pero hindi magkasalungat."
+  },
+  {
+    "id": "verb_215",
+    "question": "Tukuyin ang kasalungat ng salitang 'MASIPAG'.",
+    "choices": [
+      "Tamad",
+      "Matiyaga",
+      "Mahusay",
+      "Magalang"
+    ],
+    "answer": "Tamad",
+    "explanation": "Ang masipag ay maagap at nagtatrabaho nang mabuti; ang kasalungat nito ay tamad.",
+    "tip": "Isulat sa isip ang kahulugan ng salita at hanapin ang katapat nito; sa kasalungat, iwasan ang mga sagot na magkaugnay lamang pero hindi magkasalungat."
+  },
+  {
+    "id": "verb_216",
+    "question": "Tukuyin ang kasingkahulugan ng salitang 'MAPAGKUMBABA'.",
+    "choices": [
+      "Mababang-loob",
+      "Palaban",
+      "Mapagmataas",
+      "Masinop"
+    ],
+    "answer": "Mababang-loob",
+    "explanation": "Ang mapagkumbaba ay hindi mayabang; kasingkahulugan nito ang mababang-loob.",
+    "tip": "Isulat sa isip ang kahulugan ng salita at hanapin ang katapat nito; sa kasalungat, iwasan ang mga sagot na magkaugnay lamang pero hindi magkasalungat."
+  },
+  {
+    "id": "verb_217",
+    "question": "Piliin ang tamang salita: Siya ay umalis ______ walang paalam.",
+    "choices": [
+      "nan",
+      "na",
+      "ng",
+      "nang"
+    ],
+    "answer": "nang",
+    "explanation": "Ginagamit ang 'nang' bilang pang-abay na nagsasabi ng paraan o kung paano (nang walang paalam).",
+    "tip": "Ang 'ng' ay ginagamit bago ang pangngalan (bumili ng tinapay); ang 'nang' ay para sa paraan, oras o dahilan."
+  },
+  {
+    "id": "verb_218",
+    "question": "Piliin ang tamang salita: Ang bata ay bumili ______ tinapay.",
+    "choices": [
+      "nang",
+      "na",
+      "nung",
+      "ng"
+    ],
+    "answer": "ng",
+    "explanation": "Ang 'ng' ay ginagamit bago ang pangngalang layon (tinapay).",
+    "tip": "Ang 'ng' ay ginagamit bago ang pangngalan (bumili ng tinapay); ang 'nang' ay para sa paraan, oras o dahilan."
+  },
+  {
+    "id": "verb_219",
+    "question": "Piliin ang tamang pang-ugnay: Hindi siya pumasok ______ masama ang kanyang pakiramdam.",
+    "choices": [
+      "ngunit",
+      "dahil",
+      "upang",
+      "kaya"
+    ],
+    "answer": "dahil",
+    "explanation": "Ang 'dahil' ay nagbibigay ng dahilan: ang masamang pakiramdam ang dahilan ng hindi pagpasok.",
+    "tip": "Dahil = sanhi (dahilan); kaya = bunga (resulta)."
+  },
+  {
+    "id": "verb_220",
+    "question": "Tukuyin ang tayutay sa pangungusap: 'Siya ay isang matigas na bato sa kanyang paninindigan.'",
+    "choices": [
+      "Personipikasyon",
+      "Pagmamalabis",
+      "Pagtutulad",
+      "Metapora"
+    ],
+    "answer": "Metapora",
+    "explanation": "Tuwirang inihahambing ang tao sa bato nang walang 'parang' o 'tulad ng', kaya metapora.",
+    "tip": "Pagtutulad (simile) ay may 'parang, tulad ng, gaya ng'; metapora ay tuwirang paghahambing."
+  },
+  {
+    "id": "verb_221",
+    "question": "Ano ang kahulugan ng idyomang 'kapit-tuko'?",
+    "choices": [
+      "Madaldal",
+      "Mapagbigay",
+      "Matakaw",
+      "Mahigpit ang pagkakahawak"
+    ],
+    "answer": "Mahigpit ang pagkakahawak",
+    "explanation": "Ang tuko ay mahigpit kumapit, kaya ang kapit-tuko ay mahigpit ang pagkakahawak o kapit.",
+    "tip": "Alamin ang katangian ng hayop o bagay na binabanggit sa idyoma."
+  },
+  {
+    "id": "verb_222",
+    "question": "Ano ang kahulugan ng 'ilaw ng tahanan'?",
+    "choices": [
+      "Kapatid",
+      "Lolo",
+      "Ama",
+      "Ina"
+    ],
+    "answer": "Ina",
+    "explanation": "Ang ilaw ng tahanan ay tumutukoy sa ina na nagbibigay-liwanag at gabay sa pamilya.",
+    "tip": "Alamin ang katangian ng hayop o bagay na binabanggit sa idyoma."
   }
 ]
