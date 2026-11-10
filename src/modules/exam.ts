@@ -353,7 +353,6 @@ async function loadExam(): Promise<void> {
     ...shuffleArray(categorized.Numerical).slice(0, LIMITS.EXAM_NUMERICAL),
     ...shuffleArray(categorized.Verbal).slice(0, LIMITS.EXAM_VERBAL),
     ...shuffleArray(categorized.Analytical).slice(0, LIMITS.EXAM_ANALYTICAL),
-    ...shuffleArray(categorized.Clerical).slice(0, LIMITS.EXAM_CLERICAL),
     ...shuffleArray(categorized['General Information']).slice(0, LIMITS.EXAM_GEN_INFO),
   ];
 
