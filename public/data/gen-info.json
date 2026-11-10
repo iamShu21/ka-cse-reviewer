@@ -958,5 +958,434 @@
     ],
     "answer": "Plastic packaging waste",
     "explanation": "RA 11898 requires large enterprises to be responsible for the proper and effective recovery, treatment, recycling, or disposal of their plastic packaging waste."
+  },
+  {
+    "id": "gen_81",
+    "question": "How many justices compose the Supreme Court of the Philippines under the 1987 Constitution?",
+    "choices": [
+      "15 (a Chief Justice and 14 Associate Justices)",
+      "9 (a Chief Justice and 8 Associate Justices)",
+      "11 (a Chief Justice and 10 Associate Justices)",
+      "21 (a Chief Justice and 20 Associate Justices)"
+    ],
+    "answer": "15 (a Chief Justice and 14 Associate Justices)",
+    "explanation": "Article VIII, Section 4 provides that the Supreme Court is composed of a Chief Justice and fourteen Associate Justices.",
+    "tip": "Memorize numbers and terms in pairs (office → term, office → age) and rehearse the ones that look alike."
+  },
+  {
+    "id": "gen_82",
+    "question": "How many senators are there in the Philippine Senate, and how long is each term?",
+    "choices": [
+      "24 senators; 3 years",
+      "24 senators; 6 years",
+      "12 senators; 6 years",
+      "21 senators; 4 years"
+    ],
+    "answer": "24 senators; 6 years",
+    "explanation": "Article VI provides for 24 Senators with a term of six years, with no more than two consecutive terms.",
+    "tip": "Memorize numbers and terms in pairs (office → term, office → age) and rehearse the ones that look alike."
+  },
+  {
+    "id": "gen_83",
+    "question": "How long is the term of a member of the House of Representatives, and how many consecutive terms may they serve?",
+    "choices": [
+      "3 years; up to 3 consecutive terms",
+      "4 years; up to 2 consecutive terms",
+      "3 years; unlimited terms",
+      "6 years; up to 2 consecutive terms"
+    ],
+    "answer": "3 years; up to 3 consecutive terms",
+    "explanation": "Representatives serve three-year terms and may not serve more than three consecutive terms (Art. VI, Sec. 7).",
+    "tip": "Memorize numbers and terms in pairs (office → term, office → age) and rehearse the ones that look alike."
+  },
+  {
+    "id": "gen_84",
+    "question": "What is the minimum age to qualify as President of the Philippines?",
+    "choices": [
+      "30 years old",
+      "45 years old",
+      "40 years old on the day of the election",
+      "35 years old"
+    ],
+    "answer": "40 years old on the day of the election",
+    "explanation": "A President must be a natural-born citizen, a registered voter, able to read and write, at least 40 years old on election day, and a resident for at least 10 years (Art. VII, Sec. 2).",
+    "tip": "Remember 40 for President, 35 for Senator, 25 for Representative."
+  },
+  {
+    "id": "gen_85",
+    "question": "What is the minimum age to qualify as a Senator?",
+    "choices": [
+      "25 years old",
+      "40 years old",
+      "35 years old on the day of the election",
+      "30 years old"
+    ],
+    "answer": "35 years old on the day of the election",
+    "explanation": "Art. VI, Sec. 3 requires a Senator to be at least 35 years old on election day.",
+    "tip": "Remember 40 for President, 35 for Senator, 25 for Representative."
+  },
+  {
+    "id": "gen_86",
+    "question": "Which of the following is NOT a Constitutional Commission under the 1987 Constitution?",
+    "choices": [
+      "Commission on Audit",
+      "Civil Service Commission",
+      "Commission on Elections",
+      "Presidential Commission on Good Government"
+    ],
+    "answer": "Presidential Commission on Good Government",
+    "explanation": "The three independent Constitutional Commissions are the Civil Service Commission, the Commission on Elections and the Commission on Audit. The PCGG was created by executive order.",
+    "tip": "CSC, COMELEC, COA = the three independent Constitutional Commissions."
+  },
+  {
+    "id": "gen_87",
+    "question": "Which Article of the 1987 Constitution contains the Bill of Rights?",
+    "choices": [
+      "Article I",
+      "Article III",
+      "Article II",
+      "Article IV"
+    ],
+    "answer": "Article III",
+    "explanation": "Article III is the Bill of Rights. Article II is the Declaration of Principles and State Policies.",
+    "tip": "Article I = National Territory, II = Declaration of Principles, III = Bill of Rights, IV = Citizenship, V = Suffrage."
+  },
+  {
+    "id": "gen_88",
+    "question": "Which Article of the 1987 Constitution is the Declaration of Principles and State Policies?",
+    "choices": [
+      "Article I",
+      "Article V",
+      "Article III",
+      "Article II"
+    ],
+    "answer": "Article II",
+    "explanation": "Article II sets out the principles and policies of the State.",
+    "tip": "Article I = National Territory, II = Declaration of Principles, III = Bill of Rights, IV = Citizenship, V = Suffrage."
+  },
+  {
+    "id": "gen_89",
+    "question": "How long may martial law last when declared by the President, unless extended by Congress?",
+    "choices": [
+      "Not more than 30 days",
+      "Not more than 90 days",
+      "Not more than 1 year",
+      "Not more than 60 days"
+    ],
+    "answer": "Not more than 60 days",
+    "explanation": "Art. VII, Sec. 18 limits the proclamation of martial law (and suspension of the privilege of the writ of habeas corpus) to a period not exceeding 60 days.",
+    "tip": "Memorize numbers and terms in pairs (office → term, office → age) and rehearse the ones that look alike."
+  },
+  {
+    "id": "gen_90",
+    "question": "What is the term of office of the Chairperson and Commissioners of the Constitutional Commissions?",
+    "choices": [
+      "4 years, without reappointment",
+      "7 years, without reappointment",
+      "5 years, with reappointment",
+      "6 years, with reappointment"
+    ],
+    "answer": "7 years, without reappointment",
+    "explanation": "Art. IX-A, Sec. 1 and 3: members serve seven years without reappointment, and appointments are staggered.",
+    "tip": "Memorize numbers and terms in pairs (office → term, office → age) and rehearse the ones that look alike."
+  },
+  {
+    "id": "gen_91",
+    "question": "What is the minimum age and residency required for a Filipino to vote?",
+    "choices": [
+      "At least 18 years old; resident of the Philippines for at least 1 year and of the place of voting for at least 6 months",
+      "At least 18 years old; resident for 5 years",
+      "At least 21 years old; resident for 2 years",
+      "At least 16 years old; resident for 6 months"
+    ],
+    "answer": "At least 18 years old; resident of the Philippines for at least 1 year and of the place of voting for at least 6 months",
+    "explanation": "Art. V, Sec. 1 gives the right of suffrage to citizens at least 18 years old who have resided in the Philippines for at least 1 year and in the place of voting for at least 6 months.",
+    "tip": "Memorize numbers and terms in pairs (office → term, office → age) and rehearse the ones that look alike."
+  },
+  {
+    "id": "gen_92",
+    "question": "How many votes are needed in the Senate to convict an impeached official?",
+    "choices": [
+      "Two-thirds of the members present",
+      "At least two-thirds of all its members",
+      "Three-fourths of all its members",
+      "A simple majority of all its members"
+    ],
+    "answer": "At least two-thirds of all its members",
+    "explanation": "Art. XI, Sec. 3(6): no person may be convicted without the concurrence of at least two-thirds of all the Members of the Senate.",
+    "tip": "Impeachment: the House initiates, the Senate tries, and conviction needs two-thirds of ALL senators."
+  },
+  {
+    "id": "gen_93",
+    "question": "Under the Constitution, which body has the exclusive power to initiate all cases of impeachment?",
+    "choices": [
+      "Office of the Ombudsman",
+      "House of Representatives",
+      "Senate",
+      "Supreme Court"
+    ],
+    "answer": "House of Representatives",
+    "explanation": "The House has the exclusive power to initiate impeachment; the Senate has the sole power to try and decide.",
+    "tip": "Impeachment: the House initiates, the Senate tries, and conviction needs two-thirds of ALL senators."
+  },
+  {
+    "id": "gen_94",
+    "question": "Which of the following is NOT one of the norms of conduct under R.A. 6713?",
+    "choices": [
+      "Simple living",
+      "Political neutrality",
+      "Professionalism",
+      "Profit maximization"
+    ],
+    "answer": "Profit maximization",
+    "explanation": "The norms under RA 6713 are commitment to public interest, professionalism, justness and sincerity, political neutrality, responsiveness to the public, nationalism and patriotism, commitment to democracy and simple living. Profit maximization is not one of them.",
+    "tip": "RA 6713 = Code of Conduct and Ethical Standards for Public Officials and Employees. Recall the 8 norms: commitment to public interest, professionalism, justness and sincerity, political neutrality, responsiveness, nationalism and patriotism, commitment to democracy, simple living."
+  },
+  {
+    "id": "gen_95",
+    "question": "Under R.A. 6713, public officials must file their Statement of Assets, Liabilities and Net Worth (SALN) on or before what date every year?",
+    "choices": [
+      "January 31",
+      "April 30",
+      "June 30",
+      "December 31"
+    ],
+    "answer": "April 30",
+    "explanation": "Section 8 requires the SALN to be filed within thirty days after assuming office and on or before April 30 of every year thereafter.",
+    "tip": "SALN is due on or before April 30 each year."
+  },
+  {
+    "id": "gen_96",
+    "question": "The Universal Declaration of Human Rights was adopted by the United Nations General Assembly in which year?",
+    "choices": [
+      "1975",
+      "1948",
+      "1945",
+      "1966"
+    ],
+    "answer": "1948",
+    "explanation": "The UN General Assembly adopted the UDHR on December 10, 1948.",
+    "tip": "Human Rights Day is December 10, the anniversary of the UDHR."
+  },
+  {
+    "id": "gen_97",
+    "question": "Human Rights Day is celebrated every year on which date?",
+    "choices": [
+      "October 24",
+      "January 1",
+      "December 10",
+      "June 12"
+    ],
+    "answer": "December 10",
+    "explanation": "It marks the adoption of the Universal Declaration of Human Rights on December 10, 1948.",
+    "tip": "Human Rights Day is December 10, the anniversary of the UDHR."
+  },
+  {
+    "id": "gen_98",
+    "question": "Which Republic Act is the 'Anti-Violence Against Women and Their Children Act of 2004'?",
+    "choices": [
+      "R.A. 9710",
+      "R.A. 8353",
+      "R.A. 7610",
+      "R.A. 9262"
+    ],
+    "answer": "R.A. 9262",
+    "explanation": "RA 9262 is the Anti-VAWC Act of 2004.",
+    "tip": "Learn Republic Act numbers with their short names: 9262 (VAWC), 7610 (child protection), 9745 (anti-torture), 9851 (IHL crimes), 11313 (Safe Spaces)."
+  },
+  {
+    "id": "gen_99",
+    "question": "Which Republic Act is the 'Special Protection of Children Against Abuse, Exploitation and Discrimination Act'?",
+    "choices": [
+      "R.A. 8049",
+      "R.A. 7610",
+      "R.A. 9262",
+      "R.A. 9208"
+    ],
+    "answer": "R.A. 7610",
+    "explanation": "RA 7610 provides special protection to children against abuse, exploitation and discrimination.",
+    "tip": "Learn Republic Act numbers with their short names: 9262 (VAWC), 7610 (child protection), 9745 (anti-torture), 9851 (IHL crimes), 11313 (Safe Spaces)."
+  },
+  {
+    "id": "gen_100",
+    "question": "Which Republic Act is the 'Anti-Torture Act of 2009'?",
+    "choices": [
+      "R.A. 9851",
+      "R.A. 7438",
+      "R.A. 9344",
+      "R.A. 9745"
+    ],
+    "answer": "R.A. 9745",
+    "explanation": "RA 9745 penalizes torture and other cruel, inhuman and degrading treatment.",
+    "tip": "Learn Republic Act numbers with their short names: 9262 (VAWC), 7610 (child protection), 9745 (anti-torture), 9851 (IHL crimes), 11313 (Safe Spaces)."
+  },
+  {
+    "id": "gen_101",
+    "question": "Which Republic Act is the 'Safe Spaces Act' (Bawal Bastos Law)?",
+    "choices": [
+      "R.A. 11166",
+      "R.A. 9262",
+      "R.A. 11313",
+      "R.A. 7877"
+    ],
+    "answer": "R.A. 11313",
+    "explanation": "RA 11313 (2019) penalizes gender-based sexual harassment in streets, public spaces, online, workplaces and schools.",
+    "tip": "Learn Republic Act numbers with their short names: 9262 (VAWC), 7610 (child protection), 9745 (anti-torture), 9851 (IHL crimes), 11313 (Safe Spaces)."
+  },
+  {
+    "id": "gen_102",
+    "question": "Which Republic Act is the 'Philippine Clean Air Act of 1999'?",
+    "choices": [
+      "R.A. 8749",
+      "R.A. 9003",
+      "R.A. 9275",
+      "R.A. 6969"
+    ],
+    "answer": "R.A. 8749",
+    "explanation": "RA 8749 is the Clean Air Act.",
+    "tip": "Match the RA number with the topic: 8749 air, 9275 water, 9003 solid waste, 9147 wildlife, 7586 protected areas, 9729 climate change."
+  },
+  {
+    "id": "gen_103",
+    "question": "Which Republic Act is the 'Philippine Clean Water Act of 2004'?",
+    "choices": [
+      "R.A. 8749",
+      "R.A. 9003",
+      "R.A. 9275",
+      "R.A. 9147"
+    ],
+    "answer": "R.A. 9275",
+    "explanation": "RA 9275 is the Clean Water Act.",
+    "tip": "Match the RA number with the topic: 8749 air, 9275 water, 9003 solid waste, 9147 wildlife, 7586 protected areas, 9729 climate change."
+  },
+  {
+    "id": "gen_104",
+    "question": "Which Republic Act is the 'Wildlife Resources Conservation and Protection Act'?",
+    "choices": [
+      "R.A. 9729",
+      "R.A. 9147",
+      "R.A. 7586",
+      "R.A. 9003"
+    ],
+    "answer": "R.A. 9147",
+    "explanation": "RA 9147 protects wildlife resources and their habitats.",
+    "tip": "Match the RA number with the topic: 8749 air, 9275 water, 9003 solid waste, 9147 wildlife, 7586 protected areas, 9729 climate change."
+  },
+  {
+    "id": "gen_105",
+    "question": "Which Republic Act established the National Integrated Protected Areas System (NIPAS)?",
+    "choices": [
+      "R.A. 9729",
+      "R.A. 7586",
+      "R.A. 9147",
+      "R.A. 8749"
+    ],
+    "answer": "R.A. 7586",
+    "explanation": "RA 7586 (NIPAS Act of 1992) covers the establishment and management of protected areas.",
+    "tip": "Match the RA number with the topic: 8749 air, 9275 water, 9003 solid waste, 9147 wildlife, 7586 protected areas, 9729 climate change."
+  },
+  {
+    "id": "gen_106",
+    "question": "Which Republic Act is the 'Climate Change Act of 2009'?",
+    "choices": [
+      "R.A. 9003",
+      "R.A. 8749",
+      "R.A. 9729",
+      "R.A. 7586"
+    ],
+    "answer": "R.A. 9729",
+    "explanation": "RA 9729 created the Climate Change Commission.",
+    "tip": "Match the RA number with the topic: 8749 air, 9275 water, 9003 solid waste, 9147 wildlife, 7586 protected areas, 9729 climate change."
+  },
+  {
+    "id": "gen_107",
+    "question": "Which international agreement was designed to phase out substances that deplete the ozone layer?",
+    "choices": [
+      "Basel Convention",
+      "Montreal Protocol",
+      "Paris Agreement",
+      "Kyoto Protocol"
+    ],
+    "answer": "Montreal Protocol",
+    "explanation": "The Montreal Protocol (1987) phases out ozone-depleting substances. The Kyoto Protocol and Paris Agreement address greenhouse gases.",
+    "tip": "Montreal = ozone; Kyoto/Paris = greenhouse gases/climate; Basel = hazardous waste."
+  },
+  {
+    "id": "gen_108",
+    "question": "World Environment Day is celebrated every year on which date?",
+    "choices": [
+      "March 22",
+      "April 22",
+      "September 16",
+      "June 5"
+    ],
+    "answer": "June 5",
+    "explanation": "World Environment Day is June 5. Earth Day is April 22; World Water Day is March 22.",
+    "tip": "June 5 = World Environment Day; April 22 = Earth Day."
+  },
+  {
+    "id": "gen_109",
+    "question": "Executive Order No. 292 is also known as the",
+    "choices": [
+      "Labor Code of the Philippines",
+      "Local Government Code of 1991",
+      "Administrative Code of 1987",
+      "Revised Penal Code"
+    ],
+    "answer": "Administrative Code of 1987",
+    "explanation": "EO 292 is the Administrative Code of 1987 and contains the rules for the Civil Service.",
+    "tip": "Memorize numbers and terms in pairs (office → term, office → age) and rehearse the ones that look alike."
+  },
+  {
+    "id": "gen_110",
+    "question": "What is the passing rate of the Civil Service Examination?",
+    "choices": [
+      "60%",
+      "80%",
+      "70%",
+      "75%"
+    ],
+    "answer": "80%",
+    "explanation": "The Civil Service Commission requires a general rating of at least 80% to pass.",
+    "tip": "Memorize numbers and terms in pairs (office → term, office → age) and rehearse the ones that look alike."
+  },
+  {
+    "id": "gen_111",
+    "question": "Which is the highest peak in the Philippines?",
+    "choices": [
+      "Mount Apo",
+      "Mayon Volcano",
+      "Mount Banahaw",
+      "Mount Pulag"
+    ],
+    "answer": "Mount Apo",
+    "explanation": "Mount Apo in Mindanao (2,954 m) is the highest mountain in the Philippines.",
+    "tip": "Highest = Mount Apo; longest river = Cagayan; largest lake = Laguna de Bay."
+  },
+  {
+    "id": "gen_112",
+    "question": "Which is the longest river in the Philippines?",
+    "choices": [
+      "Pampanga River",
+      "Pasig River",
+      "Agno River",
+      "Cagayan River"
+    ],
+    "answer": "Cagayan River",
+    "explanation": "The Cagayan River in Luzon is the longest river in the country.",
+    "tip": "Highest = Mount Apo; longest river = Cagayan; largest lake = Laguna de Bay."
+  },
+  {
+    "id": "gen_113",
+    "question": "Which is the largest lake in the Philippines?",
+    "choices": [
+      "Lake Lanao",
+      "Lake Sebu",
+      "Laguna de Bay",
+      "Lake Taal"
+    ],
+    "answer": "Laguna de Bay",
+    "explanation": "Laguna de Bay is the largest lake in the Philippines.",
+    "tip": "Highest = Mount Apo; longest river = Cagayan; largest lake = Laguna de Bay."
   }
 ]
