@@ -36,9 +36,9 @@ export type Category =
  * Maps Category to its display label.
  */
 export const CATEGORY_DISPLAY_NAMES: Record<Category, string> = {
-  Numerical: 'Numerical Reasoning',
-  Verbal: 'Verbal Reasoning',
-  Analytical: 'Analytical Reasoning',
+  Numerical: 'Numerical Ability',
+  Verbal: 'Verbal Ability',
+  Analytical: 'Analytical Ability',
   Clerical: 'Clerical Ability',
   'General Information': 'General Information',
 };

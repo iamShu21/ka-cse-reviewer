@@ -1,4 +1,4 @@
-import { formatExplanation } from '../utils/explanation';
+import { renderExplanationHTML } from '../utils/explanation';
 import type { QuizQuestion, Category } from '../types/question';
 import type { QuizProgress } from '../types/storage';
 import { CATEGORY_DISPLAY_NAMES } from '../types/question';
@@ -192,17 +192,17 @@ function renderCheckedQuestion(): void {
   }
 
   // Show explanation
-  const expText = formatExplanation(question);
+  const expHTML = renderExplanationHTML(question);
   const expBox = getElement('explanation-box');
   const expTextEl = getElement('explanation-text');
   if (expBox && expTextEl) {
-    expTextEl.textContent = expText;
+    expTextEl.innerHTML = expHTML;
     expBox.classList.remove('hidden');
   }
   const expBoxDesktop = getElement('explanation-box-desktop');
   const expTextDesktop = getElement('explanation-text-desktop');
   if (expBoxDesktop && expTextDesktop) {
-    expTextDesktop.textContent = expText;
+    expTextDesktop.innerHTML = expHTML;
     expBoxDesktop.classList.remove('hidden');
   }
 
@@ -289,13 +289,13 @@ function checkAnswer(): void {
   const expBox = getElement('explanation-box');
   const expTextEl = getElement('explanation-text');
   if (expBox && expTextEl) {
-    expTextEl.textContent = formatExplanation(question);
+    expTextEl.innerHTML = renderExplanationHTML(question);
     expBox.classList.remove('hidden');
   }
   const expBoxDesktop = getElement('explanation-box-desktop');
   const expTextDesktop = getElement('explanation-text-desktop');
   if (expBoxDesktop && expTextDesktop) {
-    expTextDesktop.textContent = formatExplanation(question);
+    expTextDesktop.innerHTML = renderExplanationHTML(question);
     expBoxDesktop.classList.remove('hidden');
   }
 

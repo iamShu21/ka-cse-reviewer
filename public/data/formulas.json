@@ -1,0 +1,591 @@
+[
+  {
+    "id": "percent",
+    "title": "Percent & Percentage",
+    "items": [
+      {
+        "n": "Percent of a number",
+        "f": "x% of y = (x ÷ 100) × y",
+        "e": "15% of 240 = 0.15 × 240 = 36"
+      },
+      {
+        "n": "Percentage",
+        "f": "Percentage = (part ÷ whole) × 100",
+        "e": "36 out of 45 = 36 ÷ 45 × 100 = 80%"
+      },
+      {
+        "n": "Percent change",
+        "f": "% change = (new − old) ÷ old × 100",
+        "e": "₱80 to ₱100: 20 ÷ 80 × 100 = 25% increase"
+      },
+      {
+        "n": "Successive changes",
+        "f": "Net % = a + b + (a × b) ÷ 100",
+        "e": "+20% then −20%: 20 − 20 − 4 = −4%"
+      },
+      {
+        "n": "Reversing a % change",
+        "f": "To undo +x%, change by −x ÷ (100 + x)",
+        "e": "Undo +25% → −25 ÷ 125 = −20%"
+      },
+      {
+        "n": "Original from % of it",
+        "f": "original = given amount ÷ (percent ÷ 100)",
+        "e": "30% of a number is 54 → 54 ÷ 0.30 = 180"
+      }
+    ],
+    "tips": [
+      "10% is a one-place decimal shift; build 15% = 10% + 5%.",
+      "The base of a % change is always the OLD value.",
+      "x% of y = y% of x, so pick the easier one (8% of 50 = 50% of 8 = 4)."
+    ]
+  },
+  {
+    "id": "fractions",
+    "title": "Fractions, Decimals & Operations",
+    "items": [
+      {
+        "n": "Order of operations (PEMDAS)",
+        "f": "Parentheses → Exponents → × and ÷ (left to right) → + and − (left to right)",
+        "e": "18 + 6 × 4 ÷ 3 − 5 = 18 + 8 − 5 = 21"
+      },
+      {
+        "n": "Add / subtract fractions",
+        "f": "a/b + c/d = (ad + bc) ÷ bd",
+        "e": "3/5 + 7/10 = 6/10 + 7/10 = 13/10"
+      },
+      {
+        "n": "Multiply fractions",
+        "f": "a/b × c/d = ac ÷ bd"
+      },
+      {
+        "n": "Divide fractions",
+        "f": "a/b ÷ c/d = a/b × d/c (multiply by the reciprocal)",
+        "e": "2 1/2 ÷ 5/6 = 5/2 × 6/5 = 3"
+      },
+      {
+        "n": "Mixed number to improper",
+        "f": "a b/c = (a × c + b) ÷ c",
+        "e": "3 1/4 = 13/4"
+      },
+      {
+        "n": "Repeating decimal to fraction",
+        "f": "0.ab… (repeating) = ab ÷ 99",
+        "e": "0.3636… = 36/99 = 4/11"
+      }
+    ],
+    "tips": [
+      "× and ÷ share one rank, so go left to right; do not multiply first.",
+      "Cancel common factors before multiplying fractions.",
+      "Learn the table: 1/2 = 50%, 1/3 ≈ 33.3%, 1/4 = 25%, 1/5 = 20%, 1/6 ≈ 16.7%, 1/8 = 12.5%, 1/10 = 10%, 1/12 ≈ 8.3%."
+    ]
+  },
+  {
+    "id": "ratio",
+    "title": "Ratio, Proportion & Sharing",
+    "items": [
+      {
+        "n": "Proportion",
+        "f": "a : b = c : d ⇒ a × d = b × c"
+      },
+      {
+        "n": "Share a total in a ratio",
+        "f": "One part = total ÷ (sum of ratio parts); each share = parts × one part",
+        "e": "₱4,500 in 2:3:4 → 4,500 ÷ 9 = 500 per part"
+      },
+      {
+        "n": "Joining two ratios",
+        "f": "A:B = m:n and B:C = p:q ⇒ A:B:C = mp : np : nq",
+        "e": "3:4 and 2:3 → 6:8:12 = 3:4:6"
+      },
+      {
+        "n": "Direct proportion",
+        "f": "y ÷ x is constant (more → more)",
+        "e": "5 apples ₱60 → 12 apples = 12 × 12 = ₱144"
+      },
+      {
+        "n": "Inverse proportion",
+        "f": "x × y is constant (more → less)",
+        "e": "12 workers × 18 days = 9 workers × 24 days"
+      }
+    ],
+    "tips": [
+      "Find the unit rate first (cost per item, km per liter), then multiply.",
+      "Subtracting the same number from both terms changes the ratio."
+    ]
+  },
+  {
+    "id": "profit",
+    "title": "Profit, Loss & Discount",
+    "items": [
+      {
+        "n": "Profit / loss",
+        "f": "Profit = SP − CP; Loss = CP − SP"
+      },
+      {
+        "n": "Profit % / loss %",
+        "f": "Profit % = profit ÷ CP × 100 (the base is COST)",
+        "e": "CP ₱800, SP ₱1,000 → 200 ÷ 800 × 100 = 25%"
+      },
+      {
+        "n": "Selling price",
+        "f": "SP = CP × (1 + profit%)  or  CP × (1 − loss%)",
+        "e": "1,250 × (1 − 0.12) = ₱1,100"
+      },
+      {
+        "n": "Cost price",
+        "f": "CP = SP ÷ (1 + profit%)  or  SP ÷ (1 − loss%)",
+        "e": "1,680 ÷ 1.20 = ₱1,400"
+      },
+      {
+        "n": "Discount",
+        "f": "Sale price = marked price × (1 − discount%) (the base is MARKED PRICE)",
+        "e": "₱2,500 at 20% off = ₱2,000"
+      },
+      {
+        "n": "Successive discounts",
+        "f": "Final price = price × (1 − d₁) × (1 − d₂)",
+        "e": "5,000 × 0.80 × 0.90 = ₱3,600"
+      },
+      {
+        "n": "Same SP, +x% and −x% on two items",
+        "f": "Always a net loss of (x² ÷ 100)%",
+        "e": "Two items sold at ₱990, +10% and −10% → 1% loss overall"
+      }
+    ],
+    "tips": [
+      "Markups and discounts multiply; they never add (+40% then −25% = ×1.40 × 0.75 = ×1.05).",
+      "Profit % uses cost as the base; discount % uses the marked price."
+    ]
+  },
+  {
+    "id": "interest",
+    "title": "Simple & Compound Interest",
+    "items": [
+      {
+        "n": "Simple interest",
+        "f": "I = P × r × t  (r as a decimal, t in years)",
+        "e": "12,000 × 0.05 × 3 = ₱1,800"
+      },
+      {
+        "n": "Amount (simple)",
+        "f": "A = P + I = P(1 + rt)"
+      },
+      {
+        "n": "Compound amount",
+        "f": "A = P(1 + r)ⁿ; CI = A − P",
+        "e": "10,000 at 10% for 2 yrs = 10,000 × 1.21 = ₱12,100"
+      },
+      {
+        "n": "CI − SI for 2 years",
+        "f": "Difference = P × r²",
+        "e": "On ₱10,000 at 10%: 10,000 × 0.01 = ₱100"
+      },
+      {
+        "n": "Growth/decay by a fixed %",
+        "f": "Final = start × (1 ± r)ⁿ",
+        "e": "5% annual growth for 2 years → × 1.1025"
+      }
+    ],
+    "tips": [
+      "'Doubles in 4 years' means ×8 takes 3 × 4 = 12 years.",
+      "Subtract two successive amounts to get one year's interest."
+    ]
+  },
+  {
+    "id": "average",
+    "title": "Average, Mean & Median",
+    "items": [
+      {
+        "n": "Average",
+        "f": "Average = sum ÷ count; Sum = average × count"
+      },
+      {
+        "n": "Combined average",
+        "f": "(n₁a₁ + n₂a₂) ÷ (n₁ + n₂)",
+        "e": "20 boys at 75 and 30 girls at 80 → (1,500 + 2,400) ÷ 50 = 78"
+      },
+      {
+        "n": "Average of consecutive numbers",
+        "f": "The average equals the middle number (odd count) or the mean of the two middle ones",
+        "e": "Average of 3 consecutive evens is 24 → 22, 24, 26"
+      },
+      {
+        "n": "Median",
+        "f": "Sort the values; the middle one (or the mean of the middle two)",
+        "e": "14, 21, 9, 30, 18, 25 → 9, 14, 18, 21, 25, 30 → (18 + 21) ÷ 2 = 19.5"
+      },
+      {
+        "n": "Change in average when a value is added",
+        "f": "New value = new total − old total",
+        "e": "6 numbers avg 15; 7 numbers avg 16 → 112 − 90 = 22"
+      }
+    ],
+    "tips": [
+      "Work with totals, not averages.",
+      "The average of an arithmetic sequence = (first + last) ÷ 2."
+    ]
+  },
+  {
+    "id": "sdt",
+    "title": "Speed, Distance & Time",
+    "items": [
+      {
+        "n": "Basic relation",
+        "f": "Distance = Speed × Time",
+        "e": "60 km/h for 4 h = 240 km"
+      },
+      {
+        "n": "Unit conversion",
+        "f": "km/h → m/s: × 5/18;  m/s → km/h: × 18/5",
+        "e": "72 km/h = 20 m/s"
+      },
+      {
+        "n": "Average speed (equal distances)",
+        "f": "2ab ÷ (a + b)",
+        "e": "30 and 60 km/h → 2 × 30 × 60 ÷ 90 = 40 km/h"
+      },
+      {
+        "n": "Average speed (general)",
+        "f": "Total distance ÷ total time"
+      },
+      {
+        "n": "Relative speed",
+        "f": "Opposite directions: a + b;  same direction: a − b",
+        "e": "300 km apart, 40 and 60 km/h toward each other → 3 h"
+      },
+      {
+        "n": "Train passing a pole / man",
+        "f": "Time = train length ÷ speed"
+      },
+      {
+        "n": "Train passing a platform / bridge",
+        "f": "Time = (train length + platform length) ÷ speed",
+        "e": "200 m train, 300 m bridge, 25 m/s → 20 s"
+      },
+      {
+        "n": "Boats and streams",
+        "f": "Downstream D = b + c; upstream U = b − c;  b = (D + U) ÷ 2;  c = (D − U) ÷ 2",
+        "e": "D = 18, U = 10 → c = 4 km/h"
+      }
+    ],
+    "tips": [
+      "Never average two speeds directly; the true average is closer to the slower one.",
+      "Keep units consistent: km with hours, m with seconds."
+    ]
+  },
+  {
+    "id": "work",
+    "title": "Work, Pipes & Man-days",
+    "items": [
+      {
+        "n": "Rate of work",
+        "f": "Rate = 1 ÷ (days alone)"
+      },
+      {
+        "n": "Working together",
+        "f": "1/a + 1/b = 1/t ⇒ t = ab ÷ (a + b)",
+        "e": "12 and 24 days → 288 ÷ 36 = 8 days"
+      },
+      {
+        "n": "Finding the partner's time",
+        "f": "1/b = 1/t − 1/a",
+        "e": "a = 15, t = 6 → 1/b = 1/10 → b = 10 days"
+      },
+      {
+        "n": "Pipes and leaks",
+        "f": "Net rate = fill rate − drain rate",
+        "e": "1/4 − 1/12 = 1/6 → 6 hours"
+      },
+      {
+        "n": "Man-days",
+        "f": "men × days × hours/day = constant for the same job",
+        "e": "12 workers × 18 days = 9 workers × 24 days"
+      }
+    ],
+    "tips": [
+      "Add rates, never times.",
+      "More workers means fewer days (inverse proportion)."
+    ]
+  },
+  {
+    "id": "mixture",
+    "title": "Mixtures & Alligation",
+    "items": [
+      {
+        "n": "Quantity of an ingredient",
+        "f": "Quantity = total × concentration"
+      },
+      {
+        "n": "Mean price of a mixture",
+        "f": "(q₁p₁ + q₂p₂) ÷ (q₁ + q₂)",
+        "e": "80 kg at ₱13.50 + 120 kg at ₱16 → ₱15"
+      },
+      {
+        "n": "Alligation",
+        "f": "cheaper : dearer = (dearer − mean) : (mean − cheaper)",
+        "e": "₱200 and ₱300 mixed to ₱240 → 60 : 40 = 3 : 2"
+      },
+      {
+        "n": "Diluting",
+        "f": "Amount of pure ingredient stays the same; new total = pure ÷ new concentration",
+        "e": "6 L acid, 12% → total 50 L"
+      }
+    ],
+    "tips": [
+      "Track the part that does not change (e.g. milk when adding water)."
+    ]
+  },
+  {
+    "id": "age",
+    "title": "Age Problems",
+    "items": [
+      {
+        "n": "Setting up",
+        "f": "Let the present ages be x and y; n years ago/hence is (age − n) / (age + n)"
+      },
+      {
+        "n": "Ratio with years",
+        "f": "If the ratio is a : b now, ages are ax and bx; then apply the time shift to each",
+        "e": "Father 4 × son, total 45 → son 9"
+      },
+      {
+        "n": "Age difference",
+        "f": "The difference between two ages never changes"
+      }
+    ],
+    "tips": [
+      "Shift ALL ages by the same number of years.",
+      "Write one equation per sentence, then solve."
+    ]
+  },
+  {
+    "id": "geometry",
+    "title": "Geometry & Mensuration",
+    "items": [
+      {
+        "n": "Rectangle",
+        "f": "Area = l × w;  Perimeter = 2(l + w);  diagonal = √(l² + w²)"
+      },
+      {
+        "n": "Square",
+        "f": "Area = s²;  Perimeter = 4s;  diagonal = s√2"
+      },
+      {
+        "n": "Triangle",
+        "f": "Area = ½ × b × h;  angles add to 180°"
+      },
+      {
+        "n": "Right triangle",
+        "f": "c² = a² + b²  (3-4-5, 5-12-13, 8-15-17, 7-24-25)"
+      },
+      {
+        "n": "Parallelogram / trapezoid",
+        "f": "Parallelogram = b × h;  Trapezoid = ½(a + b) × h"
+      },
+      {
+        "n": "Rhombus",
+        "f": "Area = ½ × d₁ × d₂"
+      },
+      {
+        "n": "Circle",
+        "f": "Area = πr²;  Circumference = 2πr  (π ≈ 22/7 or 3.14)",
+        "e": "r = 14 → 22/7 × 196 = 616"
+      },
+      {
+        "n": "Cube",
+        "f": "Volume = s³;  Surface area = 6s²"
+      },
+      {
+        "n": "Box",
+        "f": "Volume = l × w × h;  Surface area = 2(lw + lh + wh)"
+      },
+      {
+        "n": "Cylinder",
+        "f": "Volume = πr²h;  Lateral area = 2πrh"
+      },
+      {
+        "n": "Cone",
+        "f": "Volume = ⅓πr²h"
+      },
+      {
+        "n": "Sphere",
+        "f": "Volume = (4/3)πr³;  Surface area = 4πr²"
+      },
+      {
+        "n": "Polygon angles",
+        "f": "Sum of interior angles = (n − 2) × 180°"
+      }
+    ],
+    "tips": [
+      "Melting and recasting keeps volume constant: number of small solids = big volume ÷ small volume.",
+      "If a length changes by x%, area changes by the product of both length factors."
+    ]
+  },
+  {
+    "id": "series",
+    "title": "Number Series & Sequences",
+    "items": [
+      {
+        "n": "Arithmetic",
+        "f": "aₙ = a₁ + (n − 1)d;  Sₙ = n ÷ 2 × (2a₁ + (n − 1)d)",
+        "e": "3, 7, 11… sum of first 20 = 10 × (6 + 76) = 820"
+      },
+      {
+        "n": "Geometric",
+        "f": "aₙ = a₁ × rⁿ⁻¹",
+        "e": "2, 6, 18… 10th term = 2 × 3⁹"
+      },
+      {
+        "n": "Sum of 1 to n",
+        "f": "n(n + 1) ÷ 2"
+      },
+      {
+        "n": "Squares",
+        "f": "1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225"
+      },
+      {
+        "n": "Cubes",
+        "f": "1, 8, 27, 64, 125, 216, 343, 512, 729, 1000"
+      },
+      {
+        "n": "Fibonacci-type",
+        "f": "each term = sum of the previous two",
+        "e": "3, 4, 7, 11, 18, 29"
+      }
+    ],
+    "tips": [
+      "Look at differences first, then differences of differences, then ratios.",
+      "Also test: squares/cubes, ×2 + c, alternating patterns."
+    ]
+  },
+  {
+    "id": "numbertheory",
+    "title": "LCM, GCF & Divisibility",
+    "items": [
+      {
+        "n": "LCM",
+        "f": "Product of the highest power of every prime in the numbers",
+        "e": "LCM(12, 18) = 2² × 3² = 36"
+      },
+      {
+        "n": "GCF",
+        "f": "Product of the lowest power of the common primes",
+        "e": "GCF(84, 126) = 2 × 3 × 7 = 42"
+      },
+      {
+        "n": "LCM × GCF",
+        "f": "For two numbers: LCM × GCF = a × b"
+      },
+      {
+        "n": "Events repeating",
+        "f": "They coincide again after the LCM of the intervals"
+      },
+      {
+        "n": "Divisible by 2, 5, 10",
+        "f": "Last digit even; last digit 0 or 5; last digit 0"
+      },
+      {
+        "n": "Divisible by 3 / 9",
+        "f": "Digit sum divisible by 3 / 9"
+      },
+      {
+        "n": "Divisible by 4 / 8",
+        "f": "Last two digits divisible by 4 / last three by 8"
+      },
+      {
+        "n": "Divisible by 11",
+        "f": "(sum of odd-place digits) − (sum of even-place digits) is 0 or a multiple of 11"
+      },
+      {
+        "n": "Last digit of a power",
+        "f": "Last digits repeat in cycles (usually 4): reduce the exponent mod 4",
+        "e": "7¹, 7², 7³, 7⁴ → 7, 9, 3, 1"
+      }
+    ],
+    "tips": [
+      "'Same remainder' problems → GCF of the differences.",
+      "Prime-factorize first."
+    ]
+  },
+  {
+    "id": "probability",
+    "title": "Probability & Counting",
+    "items": [
+      {
+        "n": "Probability",
+        "f": "P(event) = favorable outcomes ÷ total outcomes"
+      },
+      {
+        "n": "Complement",
+        "f": "P(not A) = 1 − P(A)"
+      },
+      {
+        "n": "Independent events",
+        "f": "P(A and B) = P(A) × P(B)"
+      },
+      {
+        "n": "Either event",
+        "f": "P(A or B) = P(A) + P(B) − P(A and B)"
+      },
+      {
+        "n": "Permutations",
+        "f": "P(n, r) = n! ÷ (n − r)!  (order matters)"
+      },
+      {
+        "n": "Combinations",
+        "f": "C(n, r) = n! ÷ (r! × (n − r)!)  (order does not matter)",
+        "e": "C(5, 2) = 10"
+      },
+      {
+        "n": "Arrangements in a row",
+        "f": "n! ways for n different items;  repeated letters: n! ÷ (a! × b! …)"
+      }
+    ],
+    "tips": [
+      "Without replacement the total shrinks after every draw.",
+      "'At least one' is usually easier as 1 − P(none).",
+      "Two dice have 36 outcomes; a coin toss has 2."
+    ]
+  },
+  {
+    "id": "algebra",
+    "title": "Algebra & Exponents",
+    "items": [
+      {
+        "n": "Square of a sum / difference",
+        "f": "(a + b)² = a² + 2ab + b²;  (a − b)² = a² − 2ab + b²"
+      },
+      {
+        "n": "Difference of squares",
+        "f": "a² − b² = (a + b)(a − b)"
+      },
+      {
+        "n": "Useful identity",
+        "f": "a² + b² = (a + b)² − 2ab = (a − b)² + 2ab"
+      },
+      {
+        "n": "Exponent rules",
+        "f": "aᵐ × aⁿ = aᵐ⁺ⁿ;  aᵐ ÷ aⁿ = aᵐ⁻ⁿ;  (aᵐ)ⁿ = aᵐⁿ;  a⁰ = 1;  a⁻ⁿ = 1 ÷ aⁿ"
+      },
+      {
+        "n": "Linear equation",
+        "f": "Do the same operation to both sides to isolate x",
+        "e": "4y + 7 = 35 → y = 7"
+      },
+      {
+        "n": "Consecutive numbers",
+        "f": "n, n + 1, n + 2…  (odd/even: n, n + 2, n + 4…)"
+      },
+      {
+        "n": "Heads and feet",
+        "f": "With h heads and f feet (2 vs 4 legs): animals with 4 legs = (f − 2h) ÷ 2",
+        "e": "48 heads, 140 feet → 22 cows, 26 hens"
+      }
+    ],
+    "tips": [
+      "Let the smallest unknown be x and express the rest in terms of it.",
+      "Plug an answer choice back in to check."
+    ]
+  }
+]
