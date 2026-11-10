@@ -3,6 +3,7 @@ import { load } from '../services/storage';
 import { STORAGE_KEYS } from '../types/storage';
 import type { ExamResult } from '../types/storage';
 import { getElement } from '../utils/dom';
+import { CATEGORY_DISPLAY_NAMES } from '../types/question';
 
 document.addEventListener('DOMContentLoaded', () => {
   renderNavbar();
@@ -50,14 +51,14 @@ document.addEventListener('DOMContentLoaded', () => {
   let categoryHTML = '';
   for (const [cat, stats] of Object.entries(lastResult.categoryStats)) {
     const catPercent = Math.round((stats.correct / stats.total) * 100) || 0;
-    let color = 'bg-blue-500';
+    let color = 'bg-teal-500';
     if (catPercent >= 80) color = 'bg-emerald-500';
     else if (catPercent < 50) color = 'bg-rose-500';
 
     categoryHTML += `
       <div class="mb-4 last:mb-0">
           <div class="flex justify-between text-sm mb-1.5 font-semibold">
-              <span class="text-slate-700">${cat}</span>
+              <span class="text-slate-700">${CATEGORY_DISPLAY_NAMES[cat as keyof typeof CATEGORY_DISPLAY_NAMES] ?? cat}</span>
               <span class="text-slate-500">${stats.correct}/${stats.total} <span class="text-slate-300 mx-1">|</span> <span class="${color.replace('bg-', 'text-')}">${catPercent}%</span></span>
           </div>
           <div class="w-full bg-slate-100 rounded-full h-2 overflow-hidden">
@@ -93,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="p-5 border-b border-slate-100 last:border-0 hover:bg-slate-50 transition-colors">
           <div class="flex items-center space-x-2 mb-2">
               <span class="text-xs font-bold uppercase tracking-wider text-rose-500 bg-rose-50 px-2 py-0.5 rounded border border-rose-100">Incorrect</span>
-              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-100">${m.category}</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-100">${CATEGORY_DISPLAY_NAMES[m.category as keyof typeof CATEGORY_DISPLAY_NAMES] ?? m.category}</span>
           </div>
           <p class="text-slate-800 font-semibold mb-3 leading-relaxed">${idx + 1}. ${m.question}</p>
           <div class="pl-2 border-l-2 border-slate-200 mb-4">
@@ -135,6 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   </div>
                   <p class="text-slate-500 font-medium mb-6">${lastResult.score} out of ${lastResult.total} correct</p>
                   ${passBadge}
+                  <a href="exam.html" class="mt-6 block w-full py-3 rounded-xl bg-slate-900 text-white text-sm font-bold hover:bg-slate-800 transition-colors">Take another mock exam</a>
                   
                   <div class="mt-8 pt-6 border-t border-slate-100 text-left">
                       <div class="flex justify-between items-center mb-3">

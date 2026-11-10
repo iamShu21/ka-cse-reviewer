@@ -68,7 +68,7 @@ function updateHomeUI(): void {
       highScoreBar.style.width = '0%';
     }
     if (highScoreBadge) {
-      highScoreBadge.textContent = 'No Exam Yet';
+      highScoreBadge.textContent = 'Not taken';
       highScoreBadge.className = 'px-2 py-0.5 text-[10px] font-bold rounded-full bg-slate-100 text-slate-500';
     }
   }
