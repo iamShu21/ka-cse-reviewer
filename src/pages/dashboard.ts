@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                   <span>Explanation</span>
               </div>
-              <p class="text-emerald-700 text-sm leading-relaxed">${m.explanation}</p>
+              <p class="text-emerald-700 text-sm leading-relaxed whitespace-pre-line">${m.explanation}</p>
           </div>
       </div>
     `;

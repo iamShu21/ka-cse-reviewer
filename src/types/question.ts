@@ -8,6 +8,10 @@ export interface QuizQuestion {
   choices: [string, string, string, string];
   answer: string;
   explanation: string;
+  /** Optional formula to remember (numerical items) */
+  formula?: string;
+  /** Optional shortcut / tip for solving faster (numerical items) */
+  tip?: string;
 }
 
 /**

@@ -1,3 +1,4 @@
+import { formatExplanation } from '../utils/explanation';
 import type { ExamQuestion, Category } from '../types/question';
 import type { ExamProgress, ExamResult, ExamQuestionLog, ExamHistoryEntry } from '../types/storage';
 import { LIMITS } from '../config';
@@ -489,7 +490,7 @@ function submitExam(autoSubmit = false): void {
       choices: [...q.choices],
       correctAnswer: q.answer,
       userAnswer,
-      explanation: q.explanation,
+      explanation: formatExplanation(q),
       isCorrect,
     });
   });

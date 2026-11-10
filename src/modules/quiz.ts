@@ -1,3 +1,4 @@
+import { formatExplanation } from '../utils/explanation';
 import type { QuizQuestion, Category } from '../types/question';
 import type { QuizProgress } from '../types/storage';
 import { CATEGORY_DISPLAY_NAMES } from '../types/question';
@@ -191,7 +192,7 @@ function renderCheckedQuestion(): void {
   }
 
   // Show explanation
-  const expText = question.explanation;
+  const expText = formatExplanation(question);
   const expBox = getElement('explanation-box');
   const expTextEl = getElement('explanation-text');
   if (expBox && expTextEl) {
@@ -288,13 +289,13 @@ function checkAnswer(): void {
   const expBox = getElement('explanation-box');
   const expTextEl = getElement('explanation-text');
   if (expBox && expTextEl) {
-    expTextEl.textContent = question.explanation;
+    expTextEl.textContent = formatExplanation(question);
     expBox.classList.remove('hidden');
   }
   const expBoxDesktop = getElement('explanation-box-desktop');
   const expTextDesktop = getElement('explanation-text-desktop');
   if (expBoxDesktop && expTextDesktop) {
-    expTextDesktop.textContent = question.explanation;
+    expTextDesktop.textContent = formatExplanation(question);
     expBoxDesktop.classList.remove('hidden');
   }
 
